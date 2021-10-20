@@ -22,7 +22,7 @@ minimal_mistakes_skin: default
 search: true
 search_full_content: true
 
-# Build settings
+# Build settings 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
