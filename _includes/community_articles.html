@@ -1,0 +1,7 @@
+<ul>
+   {% for article in page.articles %}
+      <li>
+         <a href="{{ article.url }}" target="_blank">{{ article.title }}</a> by {{ article.author }}
+      </li>
+   {% endfor %}
+</ul>

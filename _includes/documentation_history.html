@@ -1,0 +1,13 @@
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+
+<ul>
+   {% assign versions = site.collections | sort:"publish_date" | reverse %}
+   {% for version in versions %}
+      {% if version.type == "documentation" %}
+         {% assign date = version.publish_date %}
+         <li>
+            <a href="{{ site.url }}{{ site.baseurl }}/{{ version.label }}/{{ version.home_page }}">{{ version.display_name }}</a> - Last Update on {{ date | date: date_format }}
+         </li> 
+      {% endif %}
+   {% endfor %}
+</ul>

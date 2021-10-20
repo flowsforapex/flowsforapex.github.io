@@ -1,0 +1,11 @@
+Niels:
+  name        : "Niels de Bruijn"
+  bio         : "Business Unit Manager@MT AG, Director Development Community@DOAG e.V., Oracle ACE Director"
+  avatar      : "/assets/images/nielsdebrujin.jpeg"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://nielsdebr.blogspot.com/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/nielsdb"
