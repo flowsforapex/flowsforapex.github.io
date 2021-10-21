@@ -18,7 +18,8 @@ members:
          url: "http://nielsdebr.blogspot.com/"
    - Richard:
      name: "Richard Allen"
-     bio: "Richard has been working with Oracle database technology since 1985. I learnt with Oracle V4.1.4 on MS-DOS -- when the whole stack installed on 5MB of disk! I've been an Oracle consultant working on public sector application development projects in the UK, a Product Manager responsible for Database Security in Oracle 7 and Trusted Oracle7 in Redwood Shores, and a Marketing Director for Oracle in Asia. And I had a spell at Siebel! After leaving Oracle in 1997, I have maintained my Oracle skills and watched APEX grow -- solving business problems in several large business startups that just needed a database. After returning to the UK in 2018, I have reawakened my passion for the Oracle application development world and have been a leading contributor to the Flows for APEX project."
+     bio: >
+      Richard has been working with Oracle database technology since learning Oracle V4.1.4 in 1985. Starting as a consultant in  Oracle UK, and then as the Product Manager responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia.<br>Now back in the UK, Richard has been a leading contributor to the Flows for APEX project, including developing most of the workflow engine.
      image: "/assets/images/richardallen.jpg"
      links:
        - label: "Twitter"
