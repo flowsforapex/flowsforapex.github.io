@@ -10,7 +10,10 @@ header:
       url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapex"
       target: "_blank"
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      url: "https://github.com/mt-ag/apex-flowsforapex/releases/download/v21.1/FLOWSFORAPEX_APEX201_984339_UTF8.sql"
+      url: "https://github.com/mt-ag/apex-flowsforapex/releases/download/v21.1/FlowsforAPEX_v21.1.zip"
+    - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
+      url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
+      target: "_blank"
     - label: "Learn more"
       url: "/latest/getting-started/"
 excerpt: >
@@ -26,7 +29,7 @@ row2:
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      - url: "https://github.com/mt-ag/apex-flowsforapex/releases/download/v21.1/FLOWSFORAPEX_SAMPLE_APP_EN_APEX201_984342_UTF8.sql"
+      - url: "https://github.com/mt-ag/apex-flowsforapex/releases/download/v21.1/FlowsforAPEX_v21.1.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
 row3:
