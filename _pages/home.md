@@ -66,6 +66,19 @@ row5:
         class: "btn--info"
         label: 'Learn More'
 row6:
+  - title: "Flows for APEX integration tutorial"
+    excerpt: >
+      This tutorial provides an introduction to the usage and integration of Flows for APEX into a process-driven APEX application.
+      We also provide a light version of this tutorial in the documentation, accessible by clicking on Learn More.
+    image_path: "/assets/images/Tutorial.png"
+    actions:
+      - url: "/assets/files/Tutorial_Flows_for_APEX_v21.1.zip"
+        class: "btn--info"
+        label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
+      - url: "/latest/getting-started/"
+        class: "btn--info"
+        label: 'Learn More'
+row7:
   - title: "100% Open Source"
     excerpt: "Flows for APEX is open source. You can share and/or modify it, always under the adherence of the MIT-license."
     actions:
@@ -79,4 +92,5 @@ row6:
 {% include feature_row id="row3" type="left"%}
 {% include feature_row id="row4" type="left"%}
 {% include feature_row id="row5" type="left"%}
-{% include feature_row id="row6" type="center"%}
+{% include feature_row id="row6" type="left"%}
+{% include feature_row id="row7" type="center"%}
