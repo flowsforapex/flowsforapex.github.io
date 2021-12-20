@@ -13,6 +13,7 @@ videos:
   - url: "https://www.youtube.com/embed/7LUAtu4b_Ig"
   - url: "https://www.youtube.com/embed/faFXzGWlwps"
   - url: "https://www.youtube.com/embed/t9VfJBn-_YY"
+  - url: "https://www.youtube.com/embed/4Yvi9W94rcA"
 articles:
   - title: "Oracle APEX: Workflow Manager con Flows for APEX"
     author: "Daniele Trasarti"
