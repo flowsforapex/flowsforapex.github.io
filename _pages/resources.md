@@ -21,6 +21,9 @@ articles:
   - title: "Flows for APEXを使ってみる"
     author: "Yuji N."
     url: "http://apexugj.blogspot.com/2021/04/flows-for-APEX-sample-instruction.html"
+  - title: "6 reasons you should use Flows for APEX"
+    author: "Michelle Skamene (Insum)"
+    url: "https://www.insum.ca/6-reasons-you-should-use-flows-for-apex/"
 ---
 ### Videos
 {% include videos.html %}
