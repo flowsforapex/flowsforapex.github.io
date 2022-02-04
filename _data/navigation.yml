@@ -89,7 +89,7 @@ latest:
   - title: Installation
     url: /latest/installation/
     children:
-      - title: "Migration"
+      - title: "Migration 🆕"
         url: /latest/migration/
       - title: "Application Step Key Migration 🆕"
         url: /latest/application-step-key-migration/
