@@ -25,20 +25,24 @@ development:
     children:
       - title: "Migration"
         url: /development/migration/
+      - title: "Application Step Key Migration 🆕"
+        url: /development/application-step-key-migration/
       - title: "Deinstallation"
         url: /development/deinstallation/
   - title: BPMN
     url: /development/bpmn/
     children: 
-      - title: "Tasks"
+      - title: "Tasks 🆕"
         url: /development/tasks/
       - title: "Gateways"
         url: /development/gateways/
       - title: "Start and Stop Events"
         url: /development/start-and-stop-events/
-      - title: "Timer Events"
+      - title: "Timer Events 🆕"
         url: /development/timer-events/
-      - title: "Boundary Events"
+      - title: "Timer Syntax 🆕"
+        url: /development/timer-syntax/
+      - title: "Boundary Events 🆕"
         url: /development/boundary-events/
       - title: "Link Events"
         url: /development/link-events/
@@ -52,21 +56,21 @@ development:
         url: /development/task-reservation/
       - title: "Process Variable"
         url: /development/process-variable/
-      - title: "Variable Expression 🆕"
+      - title: "Variable Expression"
         url: /development/variable-expression/
-      - title: "Event Logging and Auditing 🆕"
+      - title: "Event Logging and Auditing"
         url: /development/event-logging-and-auditing/
       - title: "Configuration Parameter 🆕"
         url: /development/configuration/
-      - title: "About Subflows"
+      - title: "About Subflows 🆕"
         url: /development/about-subflows/
-      - title: "Model Versioning 🆕"
+      - title: "Model Versioning"
         url: /development/model-versioning/
-      - title: "Timestamps and Timezones 🆕"
+      - title: "Timestamps and Timezones"
         url: /development/timestamps-and-timezones/
-      - title: "Transaction Model 🆕"
+      - title: "Transaction Model"
         url: /development/transaction-model/
-  - title: "PL/SQL API"
+  - title: "PL/SQL API 🆕"
     url: /development/api/
   - title: "Oracle APEX plug-ins"
     url: /development/plugins/
