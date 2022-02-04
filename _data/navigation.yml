@@ -10,7 +10,7 @@ main:
   - title: "Team"
     url: /team/
   - title: '<i class="fab fa-github" aria-hidden"true" style="padding-right: 5px;"></i>Github'
-    url: "https://github.com/mt-ag/apex-flowsforapex"
+    url: "https://github.com/flowsforapex/apex-flowsforapex"
     target: "_blank"
 
 # development documentation links
