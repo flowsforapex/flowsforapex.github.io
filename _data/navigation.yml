@@ -91,6 +91,72 @@ latest:
     children:
       - title: "Migration"
         url: /latest/migration/
+      - title: "Application Step Key Migration 🆕"
+        url: /latest/application-step-key-migration/
+      - title: "Deinstallation"
+        url: /latest/deinstallation/
+  - title: BPMN
+    url: /latest/bpmn/
+    children: 
+      - title: "Tasks 🆕"
+        url: /latest/tasks/
+      - title: "Gateways"
+        url: /latest/gateways/
+      - title: "Start and Stop Events"
+        url: /latest/start-and-stop-events/
+      - title: "Timer Events 🆕"
+        url: /latest/timer-events/
+      - title: "Timer Syntax 🆕"
+        url: /latest/timer-syntax/
+      - title: "Boundary Events 🆕"
+        url: /latest/boundary-events/
+      - title: "Link Events"
+        url: /latest/link-events/
+      - title: "Sub Processes"
+        url: /latest/subprocesses/
+      - title: "Pool and Lanes"
+        url: /latest/pool-and-lanes/
+  - title: Flows for APEX Concepts
+    children:
+      - title: "Task Reservation"
+        url: /latest/task-reservation/
+      - title: "Process Variable"
+        url: /latest/process-variable/
+      - title: "Variable Expression"
+        url: /latest/variable-expression/
+      - title: "Event Logging and Auditing"
+        url: /latest/event-logging-and-auditing/
+      - title: "Configuration Parameter 🆕"
+        url: /latest/configuration/
+      - title: "About Subflows 🆕"
+        url: /latest/about-subflows/
+      - title: "Model Versioning"
+        url: /latest/model-versioning/
+      - title: "Timestamps and Timezones"
+        url: /latest/timestamps-and-timezones/
+      - title: "Transaction Model"
+        url: /latest/transaction-model/
+  - title: "PL/SQL API 🆕"
+    url: /latest/api/
+  - title: "Oracle APEX plug-ins"
+    url: /latest/plugins/
+  - title: FAQ
+    url: /latest/faq/
+  - title: Other Versions
+    url: /documentation/
+
+# v21.1 documentation links
+v21.1:
+  - title: Getting started
+    url: /latest/getting-started/
+    children:
+      - title: Tutorials
+        url: /latest/tutorials/
+  - title: Installation
+    url: /latest/installation/
+    children:
+      - title: "Migration"
+        url: /latest/migration/
       - title: "Deinstallation"
         url: /latest/deinstallation/
   - title: BPMN
