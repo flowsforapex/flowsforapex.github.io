@@ -21,6 +21,14 @@ excerpt: >
 row1:
   - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
 row2:
+  - title: "What's new"
+    excerpt: "We have just launched our YouTube channel. Don't forget to subscribe to make sure you don't miss any new videos."
+    actions:
+      - url: "https://www.youtube.com/channel/UChd-g2L7eFcuCS5P1pfNvLg"
+        target: "_blank"
+        class: "btn--danger"
+        label: '<i class="fab fa-youtube" aria-hidden="true" style="padding-right: 5px;"></i>Watch'
+row3:
   - title: "Expense Claims Sample App"
     excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.'
     image_path: "/assets/images/demo-app.png"
@@ -32,7 +40,7 @@ row2:
       - url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.1/FlowsforAPEX_v22.1.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-row3:
+row4:
   - title: "Graphical Workflow Editor"
     excerpt: 'Model your business processes by adding activities and gateways in a graphical way.'
     image_path: "/assets/images/modeler.gif"
@@ -41,7 +49,7 @@ row3:
         class: "btn--info"
         label: 'Learn More'
     
-row4:
+row5:
   - title: "Integration in your APEX application"
     excerpt: >
       3 process plug-ins are part of the distribution to make the integration easier:
@@ -53,7 +61,7 @@ row4:
       - url: "/latest/plugins/"
         class: "btn--info"
         label: 'Learn More'
-row5:
+row6:
   - title: "Monitor your running instances"
     excerpt: >
       The engine app can be use:
@@ -65,7 +73,7 @@ row5:
       - url: "/latest/getting-started"
         class: "btn--info"
         label: 'Learn More'
-row6:
+row7:
   - title: "Flows for APEX integration tutorial"
     excerpt: >
       This tutorial provides an introduction to the usage and integration of Flows for APEX into a process-driven APEX application.
@@ -78,7 +86,7 @@ row6:
       - url: "/latest/getting-started/"
         class: "btn--info"
         label: 'Learn More'
-row7:
+row8:
   - title: "100% Open Source"
     excerpt: "Flows for APEX is open source. You can share and/or modify it, always under the adherence of the MIT-license."
     actions:
@@ -88,9 +96,10 @@ row7:
         label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Browse code'
 ---
 {% include feature_row id="row1" type="center"%}
-{% include feature_row id="row2" type="left"%}
+{% include feature_row id="row2" type="center"%}
 {% include feature_row id="row3" type="left"%}
 {% include feature_row id="row4" type="left"%}
 {% include feature_row id="row5" type="left"%}
 {% include feature_row id="row6" type="left"%}
-{% include feature_row id="row7" type="center"%}
+{% include feature_row id="row7" type="left"%}
+{% include feature_row id="row8" type="center"%}

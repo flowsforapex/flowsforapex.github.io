@@ -9,6 +9,9 @@ main:
     url: /resources
   - title: "Team"
     url: /team/
+  - title: '<i class="fab fa-youtube" aria-hidden"true" style="padding-right: 5px;"></i>Youtube'
+    url: "https://www.youtube.com/channel/UChd-g2L7eFcuCS5P1pfNvLg"
+    target: "_blank"
   - title: '<i class="fab fa-github" aria-hidden"true" style="padding-right: 5px;"></i>Github'
     url: "https://github.com/flowsforapex/apex-flowsforapex"
     target: "_blank"
