@@ -10,6 +10,9 @@ members:
       Niels is an Oracle ACE Director and Director of the development community at the German Oracle User Group (<a href="https://www.doag.org" target="_blank">www.doag.org</a>).
      image: "/assets/images/nielsdebrujin2.jpg"
      links:
+       - label: "Email"
+         icon: "fas fa-envelope"
+         url: "mailto:niels.de.bruijn@mt-ag.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/nielsdb"
@@ -22,6 +25,9 @@ members:
       Richard has been working with Oracle database technology since learning Oracle V4.1.4 in 1985. Starting as a consultant in  Oracle UK, and then as the Product Manager responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia.<br>Now back in the UK, Richard has been a leading contributor to the Flows for APEX project, including developing most of the workflow engine.
      image: "/assets/images/richardallen.jpg"
      links:
+       - label: "Email"
+         icon: "fas fa-envelope"
+         url: "mailto:richard.allen@oracle.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/FlowquestR"
@@ -34,6 +40,9 @@ members:
       Dennis joined the team after he got his bachelor degree on media informatics in 2021. With his knowledge about JavaScript and other web technologies, and his experience from 1 year with APEX, he is mainly responsible for the BPMN plug-ins and participates on the front-end development of the engine app.
      image: "/assets/images/dennisamthor.jpg"
      links:
+       - label: "Email"
+         icon: "fas fa-envelope"
+         url: "mailto:dennis.amthor@mt-ag.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/dennisamthor"
@@ -48,6 +57,9 @@ members:
       Nowadays he's also adding JavaScript and DevOps to the mix.
      image: "/assets/images/moritzklein.jpg"
      links:
+       - label: "Email"
+         icon: "fas fa-envelope"
+         url: "mailto:moritz.klein@mt-ag.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/commi235"
@@ -60,6 +72,9 @@ members:
          Louis started working on this project after integrating Camunda into an APEX application and discovering the power of BPMN workflow engines. With his 4 years of experience with Oracle APEX and 8 years with Oracle Database development, he focuses mainly on the front-end of the engine application and on the process plug-ins.
      image: "/assets/images/louismoreaux.jpg"
      links: 
+       - label: "Email"
+         icon: "fas fa-envelope"
+         url: "mailto:lmoreaux@insum.ca"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/moreaux_louis"

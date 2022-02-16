@@ -94,6 +94,10 @@ row8:
         target: "_blank"
         class: "btn--info"
         label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Browse code'
+      - url: "https://github.com/flowsforapex/apex-flowsforapex/issues/new/choose"
+        target: "_blank"
+        class: "btn--info"
+        label: "Open an issue"
 ---
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="row2" type="center"%}
