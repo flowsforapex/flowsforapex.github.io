@@ -24,6 +24,9 @@ articles:
   - title: "6 reasons you should use Flows for APEX"
     author: "Michelle Skamene (Insum)"
     url: "https://www.insum.ca/6-reasons-you-should-use-flows-for-apex/"
+  - title: "Go With The Flow"
+    author: "Paul Guerin"
+    url: "https://blogs.oracle.com/developers/post/go-with-the-flow-apex"
 ---
 ### Videos
 {% include videos.html %}
