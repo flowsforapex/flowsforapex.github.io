@@ -24,7 +24,7 @@ row2:
   - title: "What's new"
     excerpt: "We have just launched our YouTube channel. Don't forget to subscribe to make sure you don't miss any new videos."
     actions:
-      - url: "https://www.youtube.com/channel/UChd-g2L7eFcuCS5P1pfNvLg"
+      - url: "https://www.youtube.com/flowsforapex"
         target: "_blank"
         class: "btn--danger"
         label: '<i class="fab fa-youtube" aria-hidden="true" style="padding-right: 5px;"></i>Watch'
