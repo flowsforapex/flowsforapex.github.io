@@ -22,12 +22,12 @@ row1:
   - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
 row2:
   - title: "What's new"
-    excerpt: "We have just launched our YouTube channel. Don't forget to subscribe to make sure you don't miss any new videos."
+    excerpt: "Become a sponsor to Flows for APEX: if you like Flows for APEX, please consider sponsoring our work. This enables us to work on it more during working hours, thereby delivering our high-quality software faster."
     actions:
-      - url: "https://www.youtube.com/flowsforapex"
+      - url: "https://github.com/sponsors/flowsforapex"
         target: "_blank"
-        class: "btn--danger"
-        label: '<i class="fab fa-youtube" aria-hidden="true" style="padding-right: 5px;"></i>Watch'
+        class: "btn--success"
+        label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Watch'
 row3:
   - title: "Expense Claims Sample App"
     excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.'
