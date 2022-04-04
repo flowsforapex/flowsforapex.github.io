@@ -15,6 +15,9 @@ main:
   - title: '<i class="fab fa-github" aria-hidden"true" style="padding-right: 5px;"></i>Github'
     url: "https://github.com/flowsforapex/apex-flowsforapex"
     target: "_blank"
+  - title: '<i class="fab fa-github" aria-hidden"true" style="padding-right: 5px;"></i>Become a sponsor'
+    url: "https://github.com/sponsors/flowsforapex"
+    target: "_blank"
 
 # development documentation links
 development:
