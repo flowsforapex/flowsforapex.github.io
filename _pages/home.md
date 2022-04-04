@@ -27,7 +27,7 @@ row2:
       - url: "https://github.com/sponsors/flowsforapex"
         target: "_blank"
         class: "btn--success"
-        label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Watch'
+        label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Become a sponsor'
 row3:
   - title: "Expense Claims Sample App"
     excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.'
