@@ -27,6 +27,9 @@ articles:
   - title: "Go With The Flow"
     author: "Paul Guerin"
     url: "https://blogs.oracle.com/developers/post/go-with-the-flow-apex"
+  - title: "LET YOUR PROCESS FLOW,WITH FLOWS FOR APEX"
+    author: "Niels de Bruijn"
+    url: "https://www.nloug.nl/wp-content/uploads/2022/06/nlOUG_VISIE_mei_2022-def-spreads.pdf"
 ---
 ### Videos
 {% include videos.html %}
