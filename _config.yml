@@ -63,8 +63,8 @@ collections:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
-    display_name: "Development"
-    publish_date: 2022-02-04T00:00:00+00:00
+    display_name: "Development v22.2(beta) - incomplete"
+    publish_date: 2022-09-04T00:00:00+00:00
     home_page: getting-started/
   latest:
     output: true

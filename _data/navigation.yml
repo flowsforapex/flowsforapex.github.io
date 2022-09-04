@@ -62,7 +62,7 @@ development:
     children:
       - title: "Task Reservation"
         url: /development/task-reservation/
-      - title: "Process Variable"
+      - title: "Process Variables"
         url: /development/process-variable/
       - title: "Variable Expression"
         url: /development/variable-expression/
@@ -78,8 +78,12 @@ development:
         url: /development/timestamps-and-timezones/
       - title: "Transaction Model"
         url: /development/transaction-model/
-  - title: "PL/SQL API 🆕"
-    url: /development/api/
+  - title: PL/SQL API 
+    children:
+      - title: Workflow Engine API
+        url: /development/api/
+      - title: Process Variable System API
+        url: /development/procvar-api/
   - title: "Oracle APEX plug-ins"
     url: /development/plugins/
   - title: FAQ
