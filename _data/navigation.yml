@@ -25,13 +25,13 @@ development:
     url: /development/getting-started/
     children:
       - title: Tutorials
-        url: /development/tutorials/
+        url: /development/tutorials  🆕"/
   - title: Installation
     url: /development/installation/
     children:
       - title: "Migration"
         url: /development/migration/
-      - title: "Application Step Key Migration 🆕"
+      - title: "Application Step Key Migration"
         url: /development/application-step-key-migration/
       - title: "Deinstallation"
         url: /development/deinstallation/
@@ -40,15 +40,15 @@ development:
     children: 
       - title: "Tasks 🆕"
         url: /development/tasks/
-      - title: "Gateways"
+      - title: "Gateways  🆕""
         url: /development/gateways/
       - title: "Start and Stop Events"
         url: /development/start-and-stop-events/
-      - title: "Timer Events 🆕"
+      - title: "Timer Events"
         url: /development/timer-events/
-      - title: "Timer Syntax 🆕"
+      - title: "Timer Syntax"
         url: /development/timer-syntax/
-      - title: "Boundary Events 🆕"
+      - title: "Boundary Events"
         url: /development/boundary-events/
       - title: "Link Events"
         url: /development/link-events/
@@ -58,6 +58,8 @@ development:
         url: /development/callActivities/
       - title: "Pool and Lanes"
         url: /development/pool-and-lanes/
+      - title: "Supported BPMN"
+        url: /development/supported-bpmn/
   - title: Flows for APEX Concepts
     children:
       - title: "Task Reservation"
