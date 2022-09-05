@@ -40,7 +40,7 @@ development:
     children: 
       - title: "Tasks 🆕"
         url: /development/tasks/
-      - title: "Gateways  🆕""
+      - title: "Gateways  🆕"
         url: /development/gateways/
       - title: "Start and Stop Events"
         url: /development/start-and-stop-events/
