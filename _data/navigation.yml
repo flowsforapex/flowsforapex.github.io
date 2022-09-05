@@ -68,6 +68,8 @@ development:
         url: /development/process-variable/
       - title: "Variable Expression"
         url: /development/variable-expression/
+      - title: "Process Variable Scoping   🆕"
+        url: /development/variable-scoping/
       - title: "Event Logging and Auditing"
         url: /development/event-logging-and-auditing/
       - title: "Configuration Parameter 🆕"
