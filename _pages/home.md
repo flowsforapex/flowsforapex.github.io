@@ -50,14 +50,6 @@ row3:
       - url: "https://asktom.oracle.com/pls/apex/f?p=100:551:::NO:551:P551_CLASS_ID:744:"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign Up Now'
-row4:
-  - title: "What's new"
-    excerpt: "Become a sponsor to Flows for APEX: if you like Flows for APEX, please consider sponsoring our work. This enables us to work on it more during working hours, thereby delivering our high-quality software faster."
-    actions:
-      - url: "https://github.com/sponsors/flowsforapex"
-        target: "_blank"
-        class: "btn--success"
-        label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Become a sponsor'
 row5:
   - title: "Expense Claims Sample App"
     excerpt: 'Test Flows for APEX (v22.1) with the sample app "Expense Claims", which is also included in the software.'
@@ -132,7 +124,6 @@ row10:
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="row2" type="left"%}
 {% include feature_row id="row3" type="left"%}
-{% include feature_row id="row4" type="left"%}
 {% include feature_row id="row5" type="left"%}
 {% include feature_row id="row6" type="left"%}
 {% include feature_row id="row7" type="left"%}
