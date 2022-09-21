@@ -29,7 +29,7 @@ row2:
         - simpler and more intuitive definition of gateway routing with Gateway Routing Expressions
         - additional language support for Japanese (ja), Brazillian-Portuguese (pt-br), and German (de)
         - under the covers, we've added extensive regression testing, bug fixes, and more.
-    image path: "assets/images/callActivityGenExample.png"
+    image path: "/assets/images/callActivityGenExample.png"
     actions:
       - url: "/development/getting-started/"
         class: "btn--info"
@@ -122,7 +122,7 @@ row8:
         label: "Open an issue"
 ---
 {% include feature_row id="row1" type="center"%}
-{% include feature_row id="row2" type="center"%}
+{% include feature_row id="row2" type="left"%}
 {% include feature_row id="row3" type="left"%}
 {% include feature_row id="row4" type="left"%}
 {% include feature_row id="row5" type="left"%}
