@@ -29,7 +29,7 @@ row2:
         - simpler and more intuitive definition of gateway routing with Gateway Routing Expressions
         - additional language support for Japanese (ja), Brazillian-Portuguese (pt-br), and German (de)
         - under the covers, we've added extensive regression testing, bug fixes, and more.
-    image path: "/assets/images/callActivityGenExample.png"
+    image_path: "/assets/images/callActivityGenExample.png"
     actions:
       - url: "/development/getting-started/"
         class: "btn--info"
@@ -43,6 +43,14 @@ row2:
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>demo App - Try now'
 row3:
+  - title: "Sign up for What's New in Flows for APEX v22.2 on APEX Office Hours - 29 September 2022"
+    excerpt: The Flows for APEX team will be presenting What's New in Flows for APEX v22.2 on Thursday September 29th, 2022.  14:00 - 15:00 UTC.  Reserve your place now...'
+    image_path: "/assets/images/gatewayRoutingExpressionInclusive.png"
+    actions: 
+      - url: "https://asktom.oracle.com/pls/apex/f?p=100:551:::NO:551:P551_CLASS_ID:744:"
+        class: "btn-info"
+        label: 'Sign Up Now'
+row4:
   - title: "What's new"
     excerpt: "Become a sponsor to Flows for APEX: if you like Flows for APEX, please consider sponsoring our work. This enables us to work on it more during working hours, thereby delivering our high-quality software faster."
     actions:
@@ -50,7 +58,7 @@ row3:
         target: "_blank"
         class: "btn--success"
         label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Become a sponsor'
-row4:
+row5:
   - title: "Expense Claims Sample App"
     excerpt: 'Test Flows for APEX (v22.1) with the sample app "Expense Claims", which is also included in the software.'
     image_path: "/assets/images/demo-app.png"
@@ -62,7 +70,7 @@ row4:
       - url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.1/FlowsforAPEX_v22.1.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-row5:
+row6:
   - title: "Graphical Workflow Editor"
     excerpt: 'Model your business processes by adding activities and gateways in a graphical way.'
     image_path: "/assets/images/modeler.gif"
@@ -71,7 +79,7 @@ row5:
         class: "btn--info"
         label: 'Learn More'
     
-row6:
+row7:
   - title: "Integration in your APEX application"
     excerpt: >
       3 process plug-ins are part of the distribution to make the integration easier:
@@ -83,7 +91,7 @@ row6:
       - url: "/latest/plugins/"
         class: "btn--info"
         label: 'Learn More'
-row7:
+row8:
   - title: "Monitor your running instances"
     excerpt: >
       The engine app can be use:
@@ -95,7 +103,7 @@ row7:
       - url: "/latest/getting-started"
         class: "btn--info"
         label: 'Learn More'
-row8:
+row9:
   - title: "Flows for APEX integration tutorial"
     excerpt: >
       This tutorial provides an introduction to the usage and integration of Flows for APEX into a process-driven APEX application.
@@ -108,7 +116,7 @@ row8:
       - url: "/latest/getting-started/"
         class: "btn--info"
         label: 'Learn More'
-row8:
+row10:
   - title: "100% Open Source"
     excerpt: "Flows for APEX is open source. You can share and/or modify it, always under the adherence of the MIT-license."
     actions:
@@ -128,4 +136,6 @@ row8:
 {% include feature_row id="row5" type="left"%}
 {% include feature_row id="row6" type="left"%}
 {% include feature_row id="row7" type="left"%}
-{% include feature_row id="row8" type="center"%}
+{% include feature_row id="row8" type="left"%}
+{% include feature_row id="row9" type="left"%}
+{% include feature_row id="row10" type="center"%}
