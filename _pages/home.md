@@ -21,6 +21,28 @@ excerpt: >
 row1:
   - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
 row2:
+  - title: 'Flows for APEX v22.2 is coming soon!  Get a Sneak Peak...'
+    excerpt: >
+      The next release of Flows for APEX, v22.2, adds several exciting features to make workflows more powerful and easier to run:
+        - re-use process components with Call Activities, allowing one process diagram to call another diagram
+        - integrate Oracle APEX v22.1+ Approval Tasks into your BPMN workflow process
+        - simpler and more intuitive definition of gateway routing with Gateway Routing Expressions
+        - additional language support for Japanese (ja), Brazillian-Portuguese (pt-br), and German (de)
+        - under the covers, we've added extensive regression testing, bug fixes, and more.
+    image path: "assets/images/callActivityGenExample.png"
+    actions:
+      - url: "/development/getting-started/"
+        class: "btn--info"
+        label: 'Beta Doc'
+      - url: "https://apex.oracle.com/pls/apex/r/f4a_222/flows4apex"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Tutorials - Try now'
+      - url: "https://apex.oracle.com/pls/apex/r/f4a_222/expense-claims"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>demo App - Try now'
+row3:
   - title: "What's new"
     excerpt: "Become a sponsor to Flows for APEX: if you like Flows for APEX, please consider sponsoring our work. This enables us to work on it more during working hours, thereby delivering our high-quality software faster."
     actions:
@@ -28,9 +50,9 @@ row2:
         target: "_blank"
         class: "btn--success"
         label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Become a sponsor'
-row3:
+row4:
   - title: "Expense Claims Sample App"
-    excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.'
+    excerpt: 'Test Flows for APEX (v22.1) with the sample app "Expense Claims", which is also included in the software.'
     image_path: "/assets/images/demo-app.png"
     actions:
       - url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapexdemo"
@@ -40,7 +62,7 @@ row3:
       - url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.1/FlowsforAPEX_v22.1.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-row4:
+row5:
   - title: "Graphical Workflow Editor"
     excerpt: 'Model your business processes by adding activities and gateways in a graphical way.'
     image_path: "/assets/images/modeler.gif"
@@ -49,7 +71,7 @@ row4:
         class: "btn--info"
         label: 'Learn More'
     
-row5:
+row6:
   - title: "Integration in your APEX application"
     excerpt: >
       3 process plug-ins are part of the distribution to make the integration easier:
@@ -61,7 +83,7 @@ row5:
       - url: "/latest/plugins/"
         class: "btn--info"
         label: 'Learn More'
-row6:
+row7:
   - title: "Monitor your running instances"
     excerpt: >
       The engine app can be use:
@@ -73,7 +95,7 @@ row6:
       - url: "/latest/getting-started"
         class: "btn--info"
         label: 'Learn More'
-row7:
+row8:
   - title: "Flows for APEX integration tutorial"
     excerpt: >
       This tutorial provides an introduction to the usage and integration of Flows for APEX into a process-driven APEX application.
