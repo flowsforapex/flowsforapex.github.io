@@ -48,7 +48,7 @@ row3:
     image_path: "/assets/images/gatewayRoutingExpressionInclusive.png"
     actions: 
       - url: "https://asktom.oracle.com/pls/apex/f?p=100:551:::NO:551:P551_CLASS_ID:744:"
-        class: "btn-info"
+        class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign Up Now'
 row4:
   - title: "What's new"
