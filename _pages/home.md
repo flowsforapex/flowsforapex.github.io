@@ -43,8 +43,8 @@ row2:
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>demo App - Try now'
 row3:
-  - title: "What's New in Flows for APEX v22.2 on APEX Office Hours - 29 September 2022"
-    excerpt: The Flows for APEX team will be presenting What's New in Flows for APEX v22.2 on Thursday September 29th, 2022.  14:00 - 15:00 UTC.  Reserve your place now...'
+  - title: "Flows for APEX v22.2 on APEX Office Hours - 29 September 2022"
+    excerpt: The Flows for APEX team will be presenting 'What's New in Flows for APEX v22.2' in the next APEX Office Hours call on Thursday September 29th, 2022.  14:00 - 15:00 UTC.  Reserve your place now...
     image_path: "/assets/images/gatewayRoutingExpressionInclusive.png"
     actions: 
       - url: "https://asktom.oracle.com/pls/apex/f?p=100:551:::NO:551:P551_CLASS_ID:744:"
