@@ -44,7 +44,7 @@ row2:
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>demo App - Try now'
 row3:
   - title: "Flows for APEX v22.2 on APEX Office Hours - 29 September 2022"
-    excerpt: The Flows for APEX team will be presenting 'What's New in Flows for APEX v22.2' in the next APEX Office Hours call on Thursday September 29th, 2022.  14:00 - 15:00 UTC.  Replay coming soon.
+    excerpt: The Flows for APEX team presented 'What's New in Flows for APEX v22.2' in the nelastxt APEX Office Hours call on Thursday September 29th, 2022.  14:00 - 15:00 UTC.  A link to Replay it will be available from here soon...
     image_path: "/assets/images/AOHSep22.png"
 
 row5:
