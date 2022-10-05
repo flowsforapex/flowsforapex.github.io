@@ -44,19 +44,17 @@ row2:
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>demo App - Try now'
 row3:
   - title: "Watch 'What's New in Flows for APEX v22.2' on APEX Office Hours"
-    excerpt: The Flows for APEX team presented 'What's New in Flows for APEX v22.2' in the last APEX Office Hours call on September 29th, 2022.  This included a detailed demo of Flows for APEX v22.2 new features, including:
-      -  Call Activities
-      -  Improved Gateway Routing Expressions
-      -  Integration with APEX Approval Tasks
-      -  Integration into the APEX Unified Task Inbox
-    Watch the replay now!
+    excerpt: >
+      The Flows for APEX team presented 'What's New in Flows for APEX v22.2' in the last APEX Office Hours call on September 29th, 2022.  This included a detailed demo of Flows for APEX v22.2 new features, including:
+        -  Call Activities
+        -  Improved Gateway Routing Expressions
+        -  Integration with APEX Approval Tasks and the Unified Task Inbox
     image_path: "/assets/images/AOHSep22.png"
     actions:
       - url: "https://asktom.oracle.com/pls/apex/f?p=100:551::::551:P551_CLASS_ID,P551_INVITED:18506,N&cs=1461622C90E5945B28E6001AE2A9D7031"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
-
 row5:
   - title: "Expense Claims Sample App"
     excerpt: 'Test Flows for APEX (v22.1) with the sample app "Expense Claims", which is also included in the software.'
