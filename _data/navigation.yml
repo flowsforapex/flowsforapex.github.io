@@ -25,13 +25,13 @@ development:
     url: /development/getting-started/
     children:
       - title: Tutorials
-        url: /development/tutorials/
+        url: /development/tutorials  🆕"/
   - title: Installation
     url: /development/installation/
     children:
       - title: "Migration"
         url: /development/migration/
-      - title: "Application Step Key Migration 🆕"
+      - title: "Application Step Key Migration"
         url: /development/application-step-key-migration/
       - title: "Deinstallation"
         url: /development/deinstallation/
@@ -40,30 +40,36 @@ development:
     children: 
       - title: "Tasks 🆕"
         url: /development/tasks/
-      - title: "Gateways"
+      - title: "Gateways  🆕"
         url: /development/gateways/
       - title: "Start and Stop Events"
         url: /development/start-and-stop-events/
-      - title: "Timer Events 🆕"
+      - title: "Timer Events"
         url: /development/timer-events/
-      - title: "Timer Syntax 🆕"
+      - title: "Timer Syntax"
         url: /development/timer-syntax/
-      - title: "Boundary Events 🆕"
+      - title: "Boundary Events"
         url: /development/boundary-events/
       - title: "Link Events"
         url: /development/link-events/
       - title: "Sub Processes"
         url: /development/subprocesses/
+      - title: "Call Activities  🆕"
+        url: /development/callActivities/
       - title: "Pool and Lanes"
         url: /development/pool-and-lanes/
+      - title: "Supported BPMN"
+        url: /development/supported-bpmn/
   - title: Flows for APEX Concepts
     children:
       - title: "Task Reservation"
         url: /development/task-reservation/
-      - title: "Process Variable"
+      - title: "Process Variables"
         url: /development/process-variable/
       - title: "Variable Expression"
         url: /development/variable-expression/
+      - title: "Process Variable Scoping   🆕"
+        url: /development/variable-scoping/
       - title: "Event Logging and Auditing"
         url: /development/event-logging-and-auditing/
       - title: "Configuration Parameter 🆕"
@@ -76,8 +82,12 @@ development:
         url: /development/timestamps-and-timezones/
       - title: "Transaction Model"
         url: /development/transaction-model/
-  - title: "PL/SQL API 🆕"
-    url: /development/api/
+  - title: PL/SQL API 
+    children:
+      - title: Workflow Engine API
+        url: /development/api/
+      - title: Process Variable System API
+        url: /development/procvar-api/
   - title: "Oracle APEX plug-ins"
     url: /development/plugins/
   - title: FAQ
