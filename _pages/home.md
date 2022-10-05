@@ -44,7 +44,7 @@ row2:
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>demo App - Try now'
 row3:
   - title: "Flows for APEX v22.2 on APEX Office Hours - 29 September 2022"
-    excerpt: The Flows for APEX team presented 'What's New in Flows for APEX v22.2' in the nelastxt APEX Office Hours call on Thursday September 29th, 2022.  14:00 - 15:00 UTC.  A link to Replay it will be available from here soon...
+    excerpt: The Flows for APEX team presented 'What's New in Flows for APEX v22.2' in the nelastxt APEX Office Hours call on Thursday September 29th, 2022.  14:00 - 15:00 UTC.  This included a detailed demo of Flows for APEX v22.2 new features, including Call Activities, new syntax for Gateway Routing Expressions, integration with the APEX Approval Task and integration into the Unified Task Inbox.  Watch the replay now.
     image_path: "/assets/images/AOHSep22.png"
     actions:
       - url: "https://asktom.oracle.com/pls/apex/f?p=100:551::::551:P551_CLASS_ID,P551_INVITED:18506,N&cs=1461622C90E5945B28E6001AE2A9D7031"
