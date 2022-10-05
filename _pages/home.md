@@ -27,7 +27,7 @@ row2:
         - re-use process components with Call Activities, allowing one process diagram to call another diagram
         - integrate Oracle APEX v22.1+ Approval Tasks into your BPMN workflow process
         - simpler and more intuitive definition of gateway routing with Gateway Routing Expressions
-        - additional language support for Japanese (ja), Brazillian-Portuguese (pt-br), and German (de)
+        - additional language support for Japanese (ja), Brazillian-Portuguese (pt-br), Spanish (es), and German (de)
         - under the covers, we've added extensive regression testing, bug fixes, and more.
     image_path: "/assets/images/callActivityGenExample.png"
     actions:
