@@ -94,9 +94,85 @@ development:
     url: /development/faq/
   - title: Other Versions
     url: /documentation/
-
+    
 # latest documentation links
 latest:
+  - title: Getting started
+    url: /development/getting-started/
+    children:
+      - title: Tutorials
+        url: /development/tutorials  🆕"/
+  - title: Installation
+    url: /development/installation/
+    children:
+      - title: "Migration"
+        url: /development/migration/
+      - title: "Application Step Key Migration"
+        url: /development/application-step-key-migration/
+      - title: "Deinstallation"
+        url: /development/deinstallation/
+  - title: BPMN
+    url: /development/bpmn/
+    children: 
+      - title: "Tasks 🆕"
+        url: /development/tasks/
+      - title: "Gateways  🆕"
+        url: /development/gateways/
+      - title: "Start and Stop Events"
+        url: /development/start-and-stop-events/
+      - title: "Timer Events"
+        url: /development/timer-events/
+      - title: "Timer Syntax"
+        url: /development/timer-syntax/
+      - title: "Boundary Events"
+        url: /development/boundary-events/
+      - title: "Link Events"
+        url: /development/link-events/
+      - title: "Sub Processes"
+        url: /development/subprocesses/
+      - title: "Call Activities  🆕"
+        url: /development/callActivities/
+      - title: "Pool and Lanes"
+        url: /development/pool-and-lanes/
+      - title: "Supported BPMN"
+        url: /development/supported-bpmn/
+  - title: Flows for APEX Concepts
+    children:
+      - title: "Task Reservation"
+        url: /development/task-reservation/
+      - title: "Process Variables"
+        url: /development/process-variable/
+      - title: "Variable Expression"
+        url: /development/variable-expression/
+      - title: "Process Variable Scoping   🆕"
+        url: /development/variable-scoping/
+      - title: "Event Logging and Auditing"
+        url: /development/event-logging-and-auditing/
+      - title: "Configuration Parameter 🆕"
+        url: /development/configuration/
+      - title: "About Subflows 🆕"
+        url: /development/about-subflows/
+      - title: "Model Versioning"
+        url: /development/model-versioning/
+      - title: "Timestamps and Timezones"
+        url: /development/timestamps-and-timezones/
+      - title: "Transaction Model"
+        url: /development/transaction-model/
+  - title: PL/SQL API 
+    children:
+      - title: Workflow Engine API
+        url: /development/api/
+      - title: Process Variable System API
+        url: /development/procvar-api/
+  - title: "Oracle APEX plug-ins"
+    url: /development/plugins/
+  - title: FAQ
+    url: /development/faq/
+  - title: Other Versions
+    url: /documentation/
+
+# v22.1 documentation links
+v22.1:
   - title: Getting started
     url: /latest/getting-started/
     children:

@@ -10,7 +10,7 @@ header:
       url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapex"
       target: "_blank"
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.1/FlowsforAPEX_v22.1.zip"
+      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.2/FlowsforAPEX_v22.2.zip"
     - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
       url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
       target: "_blank"
@@ -21,9 +21,9 @@ excerpt: >
 row1:
   - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
 row2:
-  - title: 'Flows for APEX v22.2 is coming soon!  Get a Sneak Peak...'
+  - title: 'Flows for APEX v22.2 is out now!'
     excerpt: >
-      The next release of Flows for APEX, v22.2, adds several exciting features to make workflows more powerful and easier to run:
+      The latest release of Flows for APEX, v22.2, adds several exciting features to make workflows more powerful and easier to run:
         - re-use process components with Call Activities, allowing one process diagram to call another diagram
         - integrate Oracle APEX v22.1+ Approval Tasks into your BPMN workflow process
         - simpler and more intuitive definition of gateway routing with Gateway Routing Expressions
@@ -31,17 +31,17 @@ row2:
         - under the covers, we've added extensive regression testing, bug fixes, and more.
     image_path: "/assets/images/callActivityGenExample.png"
     actions:
-      - url: "/development/getting-started/"
+      - url: "/latest/getting-started/"
         class: "btn--info"
-        label: 'Beta Doc'
-      - url: "https://apex.oracle.com/pls/apex/r/f4a_222/flows4apex"
+        label: 'Documentation'
+      - url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapex"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Tutorials - Try now'
-      - url: "https://apex.oracle.com/pls/apex/r/f4a_222/expense-claims"
+      - url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapexdemo"
         target: "_blank"
         class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>demo App - Try now'
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Demo App - Try now'
 row3:
   - title: "Watch 'What's New in Flows for APEX v22.2' on APEX Office Hours"
     excerpt: >
@@ -57,14 +57,14 @@ row3:
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row5:
   - title: "Expense Claims Sample App"
-    excerpt: 'Test Flows for APEX (v22.1) with the sample app "Expense Claims", which is also included in the software.'
+    excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.'
     image_path: "/assets/images/demo-app.png"
     actions:
       - url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapexdemo"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      - url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.1/FlowsforAPEX_v22.1.zip"
+      - url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.2/FlowsforAPEX_v22.2.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
 row6:
@@ -107,7 +107,7 @@ row9:
       We also provide a light version of this tutorial in the documentation, accessible by clicking on Learn More.
     image_path: "/assets/images/Tutorial.png"
     actions:
-      - url: "/assets/files/Tutorial_Flows_for_APEX_v22.1.zip"
+      - url: "/assets/files/Tutorial_Flows_for_APEX_v22.2.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
       - url: "/latest/getting-started/"

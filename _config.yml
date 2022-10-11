@@ -63,14 +63,21 @@ collections:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
-    display_name: "Development v22.2(beta) - incomplete"
-    publish_date: 2022-09-04T00:00:00+00:00
+    display_name: "Development"
+    publish_date: 2022-10-11T00:00:00+00:00
     home_page: getting-started/
   latest:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
-    display_name: "Latest v22.1"
+    display_name: "Latest v22.2"
+    publish_date: 2022-10-11T00:00:00+00:00
+    home_page: getting-started/
+  v22.1:
+    output: true
+    permalink: /:collection/:path/
+    type: "documentation"
+    display_name: "v22.1"
     publish_date: 2022-02-04T00:00:00+00:00
     home_page: getting-started/
   v21.1:
@@ -113,6 +120,18 @@ defaults:
       comments: false
       sidebar:
         nav: "latest"
+  # _v22.1
+  - scope:
+      type: v22.1
+    values:
+      classes: wide
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "v22.1"
   # _v21.1
   - scope:
       type: v21.1
