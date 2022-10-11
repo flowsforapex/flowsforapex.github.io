@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/RunningFlows.gif
   actions:
     - label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapex"
+      url: "https://apex.oracle.com/pls/apex/r/mtflows/flows4apex"
       target: "_blank"
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
       url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.2/FlowsforAPEX_v22.2.zip"
@@ -34,11 +34,11 @@ row2:
       - url: "/latest/getting-started/"
         class: "btn--info"
         label: 'Documentation'
-      - url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapex"
+      - url: "https://apex.oracle.com/pls/apex/r/mtflows/flows4apex"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Tutorials - Try now'
-      - url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapexdemo"
+      - url: "https://apex.oracle.com/pls/apex/r/mtflows/expense-claims"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Demo App - Try now'
@@ -60,7 +60,7 @@ row5:
     excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.'
     image_path: "/assets/images/demo-app.png"
     actions:
-      - url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapexdemo"
+      - url: "https://apex.oracle.com/pls/apex/r/mtflows/expense-claims"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
