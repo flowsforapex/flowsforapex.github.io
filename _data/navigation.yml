@@ -24,8 +24,8 @@ development:
   - title: Getting started
     url: /development/getting-started/
     children:
-      - title: Tutorials
-        url: /development/tutorials  🆕"/
+      - title: Tutorials 🆕
+        url: /development/tutorials/
   - title: Installation
     url: /development/installation/
     children:
@@ -100,8 +100,8 @@ latest:
   - title: Getting started
     url: /latest/getting-started/
     children:
-      - title: Tutorials
-        url: /latest/tutorials  🆕"/
+      - title: Tutorials 🆕
+        url: /latest/tutorials/
   - title: Installation
     url: /latest/installation/
     children:
