@@ -9,7 +9,7 @@ When we release a new version of Flows for APEX we have to publish the developme
 For example, if we release 21.2, then:
    - the actual latest version should be published under 21.1
    - the actual development version should be published under latest
-   - the new development version should be keep as it
+   - the new development version should be keep as it 
 
 ### Publish the previous latest under its version number
 1. Rename the _latest folder to the version number eg. _21.1
