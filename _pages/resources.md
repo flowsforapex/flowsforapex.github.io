@@ -33,6 +33,9 @@ articles:
   - title: "LET YOUR PROCESS FLOW, WITH FLOWS FOR APEX"
     author: "Niels de Bruijn"
     url: "https://www.nloug.nl/wp-content/uploads/2022/06/nlOUG_VISIE_mei_2022-def-spreads.pdf"
+  - title: "Flows for APEX #JoelKallmanDay"
+    author: "Alastair Steele (DSP-Explorer)"
+    url: "https://content.dsp.co.uk/apex/flows-for-apex-joelkallmanday"
 ---
 ### Videos
 {% include videos.html %}
