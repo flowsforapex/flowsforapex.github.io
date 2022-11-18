@@ -22,7 +22,7 @@ members:
    - Richard:
      name: "Richard Allen"
      bio: >
-      Richard has been working with Oracle database technology since learning Oracle V4.1.4 in 1985. Starting as a consultant in  Oracle UK, and then as the Product Manager responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia.<br>Now back in the UK, Richard has been a leading contributor to the Flows for APEX project, including developing most of the workflow engine.
+      Richard has been working with Oracle database technology since Oracle V4. Starting as a consultant in  Oracle UK, and then as the Product Manager responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia.<br>Richard has been a leading contributor to the Flows for APEX project, including developing most of the workflow engine.  Richard is a member of the Oracle APEX Development team.
      image: "/assets/images/richardallen.jpg"
      links:
        - label: "Email"
@@ -82,7 +82,8 @@ members:
          icon: "fas fa-fw fa-link"
          url: "https://lmoreaux.hashnode.dev/"  
 ---
-### Team
+### Core Team
 Meet our active contributors who maintain and improve Flows for APEX.
 
 {% include team.html %}
+
