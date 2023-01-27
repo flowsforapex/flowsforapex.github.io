@@ -11,8 +11,6 @@ videos:
   - url: "https://www.youtube.com/embed/lMDMVXPy0Jk"
   - url: "https://www.youtube.com/embed/HyRrG_SDw58"
   - url: "https://www.youtube.com/embed/uYAqO9vkGb8"
-  - url: "https://www.youtube.com/embed/7LUAtu4b_Ig"
-  - url: "https://www.youtube.com/embed/faFXzGWlwps"
   - url: "https://www.youtube.com/embed/Ymq3FxhqT2s"
   - url: "https://www.youtube.com/embed/lv1C6AEU6WY"
   - url: "https://www.youtube.com/embed/t9VfJBn-_YY"
