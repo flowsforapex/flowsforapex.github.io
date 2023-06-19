@@ -84,7 +84,7 @@ members:
    - Jorg:
      name: "Jörg Doppelreiter"
      bio: >
-         Jörg began his APEX journey with version 3.1. After working on customer projects only, he starts to contribute actively in the community in the last years. At APEX Connect 2022 he stumbled upon a Flows for APEX presentation. 
+         Jörg began his APEX journey with version 3.1. After working on customer projects only, he starts to contribute actively in the community in the last years. At APEX Connect 2022 he stumbled upon a Flows for APEX presentation.<br>
          As this has been a topic in many projects in the daily business at solicon IT he starts to use, support and also contributing to Flows for APEX.
      image: "/assets/images/jorgdoppelreiter.png"
      links: 
