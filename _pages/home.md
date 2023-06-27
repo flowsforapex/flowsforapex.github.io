@@ -30,7 +30,7 @@ row2:
         - User Task Assignment
         - Experimental Message Support
         - New languages: Italian, Korean, traditional Chinese and simplified Chinese
-    image_path: "/assets/images/231_preview.png"
+    image_path: "/assets/images/231_preview.PNG"
     actions:
       - url: "https://flowsforapex.com/preview/engine"
         target: "_blank"
