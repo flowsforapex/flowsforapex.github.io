@@ -94,6 +94,9 @@ members:
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/JrgDoppelreiter"  
+       - label: "Website"
+         icon: "fas fa-fw fa-link"
+         url: "https://www.solicon-it.com/"  
 ---
 ### Core Team
 Meet our active contributors who maintain and improve Flows for APEX.
