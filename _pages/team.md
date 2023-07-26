@@ -6,13 +6,13 @@ members:
    - name: "Niels de Bruijn"
      bio: >
       Niels has been working with Oracle APEX since its initial public release back in 2004. Together with a team of APEX specialists, Niels is responsible for delivering high-quality APEX projects.<br>
-      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.mt-ag.com/" target="_blank">apex.mt-ag.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
+      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.mt-itsolutions.com/" target="_blank">apex.mt-itsolutions.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
       Niels is an Oracle ACE Director and Director of the development community at the German Oracle User Group (<a href="https://www.doag.org" target="_blank">www.doag.org</a>).
-     image: "/assets/images/nielsdebrujin2.jpg"
+     image: "/assets/images/nielsdebruijn2.jpg"
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:niels.de.bruijn@mt-ag.com"
+         url: "mailto:niels.debruijn@mt-itsolutions.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/nielsdb"
@@ -42,7 +42,7 @@ members:
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:dennis.amthor@mt-ag.com"
+         url: "mailto:dennis.amthor@mt-itsolutions.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/dennisamthor"
@@ -52,14 +52,14 @@ members:
       Moritz Klein has been working with Oracle technology since early 2001.
       He started using Oracle Application Express with it's first public release which was called HTMLDB in 2004.<br>
       Moritz shares his knowledge through his blog, on Twitter and by speaking at national and international conferences like the DOAG Annual Conference, APEX Connect, APEX World and Kscope.<br>
-      After 6 years working for Ericsson as Data Warehouse Specialist, he's now with MT AG as Principal Consultant for APEX.<br>
+      After 6 years working for Ericsson as Data Warehouse Specialist, he's now with MT as Senior Principal Consultant for APEX.<br>
       His main areas are Data Modeling, PL/SQL and Oracle APEX.
       Nowadays he's also adding JavaScript and DevOps to the mix.
      image: "/assets/images/moritzklein.jpg"
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:moritz.klein@mt-ag.com"
+         url: "mailto:moritz.klein@mt-itsolutions.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/commi235"
@@ -81,6 +81,22 @@ members:
        - label: "Website"
          icon: "fas fa-fw fa-link"
          url: "https://lmoreaux.hashnode.dev/"  
+   - Jorg:
+     name: "Jörg Doppelreiter"
+     bio: >
+         Jörg began his APEX journey with version 3.1. After working on customer projects only, he starts to contribute actively in the community in the last years. At APEX Connect 2022 he stumbled upon a Flows for APEX presentation.<br>
+         As this has been a topic in many projects in the daily business at solicon IT he starts to use, support and also contributing to Flows for APEX.
+     image: "/assets/images/jorgdoppelreiter.png"
+     links: 
+       - label: "Email"
+         icon: "fas fa-envelope"
+         url: "mailto:joerg.doppelreiter@solicon-it.com"
+       - label: "Twitter"
+         icon: "fab fa-fw fa-twitter-square"
+         url: "https://twitter.com/JrgDoppelreiter"  
+       - label: "Website"
+         icon: "fas fa-fw fa-link"
+         url: "https://www.solicon-it.com/"  
 ---
 ### Core Team
 Meet our active contributors who maintain and improve Flows for APEX.

@@ -21,24 +21,22 @@ excerpt: >
 row1:
   - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
 row2:
-  - title: 'Flows for APEX v22.2 is out now!'
+  - title: 'Try Flows for APEX v23.1 now!'
     excerpt: >
-      The latest release of Flows for APEX, v22.2, adds several exciting features to make workflows more powerful and easier to run:
-        - re-use process components with Call Activities, allowing one process diagram to call another diagram
-        - integrate Oracle APEX v22.1+ Approval Tasks into your BPMN workflow process
-        - simpler and more intuitive definition of gateway routing with Gateway Routing Expressions
-        - additional language support for Japanese (ja), Brazillian-Portuguese (pt-br), Spanish (es), and German (de)
-        - under the covers, we've added extensive regression testing, bug fixes, and more.
-    image_path: "/assets/images/callActivityGenExample.png"
+      The latest release of Flows for APEX, v23.1, is available on preview and adds several exciting features:
+        - REST API
+        - Modernized Modeler
+        - Map Lanes to Roles
+        - User Task Assignment
+        - Experimental Message Support
+        - New languages: Italian, Korean, traditional Chinese and simplified Chinese
+    image_path: "/assets/images/231_preview.PNG"
     actions:
-      - url: "/latest/getting-started/"
-        class: "btn--info"
-        label: 'Documentation'
-      - url: "https://apex.oracle.com/pls/apex/r/mtflows/flows4apex"
+      - url: "https://flowsforapex.com/preview/engine"
         target: "_blank"
         class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Tutorials - Try now'
-      - url: "https://apex.oracle.com/pls/apex/r/mtflows/expense-claims"
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Engine App - Try now'
+      - url: "https://flowsforapex.com/preview/demo"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Demo App - Try now'
