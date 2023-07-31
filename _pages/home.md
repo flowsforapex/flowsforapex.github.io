@@ -24,7 +24,7 @@ row2:
   - title: "Watch 'What's New in Flows for APEX v23.1' on APEX Office Hours"
     excerpt: >
       Please join us on August 3rd, for the next Oracle APEX Office Hours session: What's New in Flows for APEX v 23.1!
-    image-path: "/assets/images/F4A-OOH-03Aug23.jpeg"
+    image-path: "/assets/images/F4A-OOH-03Aug23.png"
     actions: 
       - url: "https://asktom.oracle.com/pls/apex/f?p=100:551:::NO:551:P551_CLASS_ID:744:"
         target: "_blank"
