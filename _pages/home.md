@@ -22,13 +22,14 @@ row1:
   - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
 row2:
   - title: "Watch 'What's New in Flows for APEX v23.1' on APEX Office Hours"
-  - excerpt: >
+    excerpt: >
       Please join us on August 3rd, for the next Oracle APEX Office Hours session: What's New in Flows for APEX v 23.1!
     image-path: "/assets/images/F4A-OOH-03Aug23.jpeg"
-    actions: "https://asktom.oracle.com/pls/apex/f?p=100:551:::NO:551:P551_CLASS_ID:744:"
-    target: "_blank"
-    class: "btn--info"
-    label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign Up'
+    actions: 
+      - url: "https://asktom.oracle.com/pls/apex/f?p=100:551:::NO:551:P551_CLASS_ID:744:"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign Up'
 row3:
   - title: 'Try Flows for APEX v23.1 now!'
     excerpt: >
