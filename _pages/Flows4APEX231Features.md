@@ -33,7 +33,7 @@ row2:
     image_path: "/assets/images/F4A-OOH-03Aug23.png"
 row3:
   - title: 'Major Upgrade to BPMN Modeler and Viewer'
-    excerpt: >
+  - excerpt: >
     Major revision and modernization of the BPMN Modeler and Viewer tools:
       - Modern properties panel and easier to use controls
       - Supports drill down into collapsed SubProcesses for cleaner process models
@@ -111,7 +111,7 @@ row9:
         class: "btn--info"
         label: 'Learn More'
 row10:
-  - title: "100% Open Source"
+  - title: "Still 100% Open Source"
     excerpt: "Flows for APEX is open source. You can share and/or modify it, always under the adherence of the MIT-license."
     actions:
       - url: "https://github.com/flowsforapex/apex-flowsforapex"
@@ -125,11 +125,5 @@ row10:
 ---
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="row2" type="left"%}
-{% include feature_row id="row3" type="left"%}
-{% include feature_row id="row4" type="left"%}
-{% include feature_row id="row5" type="left"%}
-{% include feature_row id="row6" type="left"%}
-{% include feature_row id="row7" type="left"%}
-{% include feature_row id="row8" type="left"%}
-{% include feature_row id="row9" type="left"%}
+{% include feature_row id="row3" type="right"%}
 {% include feature_row id="row10" type="center"%}
