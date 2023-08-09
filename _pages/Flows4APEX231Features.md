@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /Flows4APEX231Features/
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
@@ -19,7 +19,7 @@ header:
 excerpt: >
   Oracle APEX extension for BPMN based workflows
 row1:
-  - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
+  - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Version 23.1 adds powerful new features, speeds application development, and eases adminstration."
 row2:
   - title: 'Introducing BPMN Message Flow'
     excerpt: >
