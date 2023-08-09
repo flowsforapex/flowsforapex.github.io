@@ -88,9 +88,9 @@ development:
         url: /development/timestamps-and-timezones/
       - title: "Transaction Model"
         url: /development/transaction-model/
-      - title: "REST API"
+      - title: "REST API 🆕"
         url: /development/rest-api/
-  - title: PL/SQL API 
+  - title: PL/SQL APIs 
     children:
       - title: Workflow Engine API
         url: /development/api/
@@ -104,6 +104,7 @@ development:
     url: /documentation/
     
 # latest documentation links
+latest:
   - title: Getting started
     url: /latest/getting-started/
     children:
