@@ -58,7 +58,7 @@ development:
         url: /development/subprocesses/
       - title: "Call Activities  "
         url: /development/callActivities/
-      - title: "Pool and Lanes 🆕"
+      - title: "Task Assignment 🆕"
         url: /development/pool-and-lanes/
       - title: "Supported BPMN"
         url: /development/supported-bpmn/
