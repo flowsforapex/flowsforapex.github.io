@@ -40,7 +40,7 @@ development:
     children: 
       - title: "Tasks 🆕"
         url: /development/tasks/
-      - title: "UserTask Settings"
+      - title: "UserTask Settings 🆕"
         url: /development/usertask-settings/
       - title: "Gateways  🆕"
         url: /development/gateways/
@@ -70,7 +70,7 @@ development:
         url: /development/process-variable/
       - title: "Variable Expression 🆕"
         url: /development/variable-expression/
-      - title: "Process Variable Scoping   🆕"
+      - title: "Process Variable Scoping  🆕"
         url: /development/variable-scoping/
       - title: "MessageFlow Concepts  🆕"
         url: /development/about-messageflow/        
