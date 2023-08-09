@@ -124,5 +124,5 @@ row10:
 ---
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="row2" type="left"%}
-{% include feature_row id="row3" type="right"%}
+{% include feature_row id="row3" type="left"%}
 {% include feature_row id="row10" type="center"%}
