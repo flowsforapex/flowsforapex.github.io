@@ -33,11 +33,11 @@ row2:
     image_path: "/assets/images/F4A-OOH-03Aug23.png"
 row3:
   - title: 'Major Upgrade to BPMN Modeler and Viewer'
-  - excerpt: >
-    Major revision and modernization of the BPMN Modeler and Viewer tools:
-      - Modern properties panel and easier to use controls
-      - Supports drill down into collapsed SubProcesses for cleaner process models
-      - Process Viewer allows drilldown into Subprocess and Call Activity status
+    excerpt: >
+       Major revision and modernization of the BPMN Modeler and Viewer tools:
+         - Modern properties panel and easier to use controls
+         - Supports drill down into collapsed SubProcesses for cleaner process models
+         - Process Viewer allows drilldown into Subprocess and Call Activity status
     image_path: "/assets/images/231_preview.PNG"
 row4:
   - title: "Watch 'What's New in Flows for APEX v22.2' on APEX Office Hours"
