@@ -40,6 +40,9 @@ development:
     children: 
       - title: "Tasks 🆕"
         url: /development/tasks/
+        children:
+          - title: "UserTask Settings"
+            url: /development/usertask-settings/
       - title: "Gateways  🆕"
         url: /development/gateways/
       - title: "Start and Stop Events"
