@@ -40,6 +40,9 @@ development:
     children: 
       - title: "Tasks 🆕"
         url: /development/tasks/
+        children:
+          - title: "UserTask Settings"
+            url: /development/usertask-settings/
       - title: "Gateways  🆕"
         url: /development/gateways/
       - title: "Start and Stop Events"
@@ -70,6 +73,8 @@ development:
         url: /development/variable-expression/
       - title: "Process Variable Scoping   🆕"
         url: /development/variable-scoping/
+      - title: "MessageFlow Concepts  🆕"
+        url: /development/about-messageflow/        
       - title: "Event Logging and Auditing 🆕"
         url: /development/event-logging-and-auditing/
       - title: "Configuration Parameter"
