@@ -1,6 +1,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "V23.1 New Features"
+    url: /Flows4APEX231Features
   - title: "Documentation"
     url: /latest/getting-started
   - title: "Blog"
