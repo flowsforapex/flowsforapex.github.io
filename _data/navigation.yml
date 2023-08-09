@@ -104,7 +104,6 @@ development:
     url: /documentation/
     
 # latest documentation links
-latest:/:collection/rest-api/
   - title: Getting started
     url: /latest/getting-started/
     children:
