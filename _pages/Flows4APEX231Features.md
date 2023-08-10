@@ -65,11 +65,12 @@ row5:
 row6:
   - title: "Developer Experience Enhancements"
     excerpt: >
-      - New Timestamp with Time Zone Process Variable type
-      - Process Variable binding into SQL, PL/SQL, and scripts everywhere
-      - Improved Binding and Substitution of non varchar2-typed process variables
-      -  Better APEX Approval Task and Task List integration
-      - New Plugin for Starting Process Instances from an APEX Automation
+      Many new features to enhance the Develop Experience
+        - New Timestamp with Time Zone Process Variable type
+        - Process Variable binding into SQL, PL/SQL, and scripts everywhere
+        - Improved Binding and Substitution of non varchar2-typed process variables
+        - Better APEX Approval Task and Task List integration
+        - New Plugin for Starting Process Instances from an APEX Automation
     image_path: "/assets/images/modeler.gif"
 row7:
   - title: "Logging, Archiving, and Process Statistics improvements"
@@ -121,7 +122,8 @@ row10:
 {% include feature_row id="row5" type="left"%}
 {% include feature_row id="row2" type="left"%}
 {% include feature_row id="row3" type="left"%}
-{% include feature_row id="row10" type="left"%}
+{% include feature_row id="row9" type="left"%}
 {% include feature_row id="row6" type="left"%}
 {% include feature_row id="row7" type="left"%}
+{% include feature_row id="row8" type="left"%}
 {% include feature_row id="row10" type="center"%}
