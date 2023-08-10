@@ -10,7 +10,7 @@ header:
       url: "https://apex.oracle.com/pls/apex/r/mtflows/flows4apex"
       target: "_blank"
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.2/FlowsforAPEX_v22.2.zip"
+      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v23.1/FlowsforAPEX_v23.1.zip"
     - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
       url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
       target: "_blank"
