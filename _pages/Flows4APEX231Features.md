@@ -61,7 +61,7 @@ row5:
         - Task- and Process- Level Management of Due Dates and Priority
         - Implement dynamic assignment and scheduling policies through runtime database access
         - Integrated to the APEX Unified Task List
-    image_path: "/assets/images/integratedTaskList.png"
+    image_path: "/assets/images/IntegratedTaskList.png"
 row6:
   - title: "Developer Experience Enhancements"
     excerpt: >
