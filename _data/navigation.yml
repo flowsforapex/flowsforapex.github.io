@@ -172,6 +172,8 @@ latest:
         url: /latest/model-versioning/
       - title: "Timestamps and Timezones 🆕"
         url: /latest/timestamps-and-timezones/
+      - title: "Adding a Task List"
+        url: /latest/tasklists/
       - title: "Transaction Model"
         url: /latest/transaction-model/
       - title: "REST API 🆕"
