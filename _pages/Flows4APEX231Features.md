@@ -30,7 +30,7 @@ row2:
         - Adds BPMN Message Catch and Throw Events
         - Process can wait for Message and Payload from Outside
         - Inbound messaging REST enabled
-    image_path: "/assets/images/F4A-OOH-03Aug23.png"
+    image_path: "/assets/images/messageflow-231.png"
 row3:
   - title: 'Major Upgrade to Graphical Workflow Modeler and Viewer'
     excerpt: >
@@ -61,7 +61,7 @@ row5:
         - Task- and Process- Level Management of Due Dates and Priority
         - Implement dynamic assignment and scheduling policies through runtime database access
         - Integrated to the APEX Unified Task List
-    image_path: "/assets/images/demo-app.png"
+    image_path: "/assets/images/IntegratedTaskList.png"
 row6:
   - title: "Developer Experience Enhancements"
     excerpt: >
@@ -71,9 +71,9 @@ row6:
         - Improved Binding and Substitution of non varchar2-typed process variables
         - Better APEX Approval Task and Task List integration
         - New Plugin for Starting Process Instances from an APEX Automation
-    image_path: "/assets/images/modeler.gif"
+    image_path: "/assets/images/modeler-tstz-bind.png"
 row7:
-  - title: "Logging, Archiving, and Process Statistics improvements"
+  - title: "Logging, Archiving, and Process Statistics Improvements"
     excerpt: >
       Major enhancement of the event logging system for System Administrators
         - Now includes logging of Process Diagram changes to Capture Process Changes
@@ -81,7 +81,7 @@ row7:
         - Automated creation of Instance Summary Archive documents
         - Automated purging of old log entries
         - Generation of Process and Task Statistics, including processing and waiting times
-    image_path: "/assets/images/process-plugins.png"
+    image_path: "/assets/images/instance-timeline-231.png"
 row8:
   - title: "More Languages Supported"
     excerpt: >
@@ -96,7 +96,7 @@ row8:
         - Korean
         - Simplified Chinese
         - Traditional Chinese
-    image_path: "/assets/images/dashboard.png"
+    image_path: "/assets/images/nls-231-korean-chinese.png"
 row9:
   - title: "REST Enablement"
     excerpt: >
@@ -104,7 +104,7 @@ row9:
         - Allows easy integration of 3rd Party Systems with Flows
         - Enables Message Flow from Remote Systems
         - Eases Management as an Adminstrator
-    image_path: "/assets/images/Tutorial.png"
+    image_path: "/assets/images/ords.png"
 row10:
   - title: "Still 100% Open Source"
     excerpt: "Flows for APEX is open source. You can share and/or modify it, always under the adherence of the MIT-license."
@@ -120,10 +120,10 @@ row10:
 ---
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="row5" type="left"%}
-{% include feature_row id="row2" type="left"%}
+{% include feature_row id="row2" type="right"%}
 {% include feature_row id="row3" type="left"%}
-{% include feature_row id="row9" type="left"%}
+{% include feature_row id="row9" type="right"%}
 {% include feature_row id="row6" type="left"%}
-{% include feature_row id="row7" type="left"%}
+{% include feature_row id="row7" type="right"%}
 {% include feature_row id="row8" type="left"%}
 {% include feature_row id="row10" type="center"%}
