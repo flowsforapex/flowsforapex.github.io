@@ -106,7 +106,7 @@ row9:
         - Eases Management as an Adminstrator
     image_path: "/assets/images/231_blog_rest.png"
 row10:
-  - title: "Still 100% Open Source"
+  - title: "100% Open Source"
     excerpt: "Flows for APEX is open source. You can share and/or modify it, always under the adherence of the MIT-license."
     actions:
       - url: "https://github.com/flowsforapex/apex-flowsforapex"
