@@ -32,12 +32,13 @@ row2:
         - Inbound messaging REST enabled
     image_path: "/assets/images/F4A-OOH-03Aug23.png"
 row3:
-  - title: 'Major Upgrade to BPMN Modeler and Viewer'
+  - title: 'Major Upgrade to Graphical Workflow Modeler and Viewer'
     excerpt: >
       Major revision and modernization of the BPMN Modeler and Viewer tools:
         - Modern properties panel and easier to use controls
         - Supports drill down into collapsed SubProcesses for cleaner process models
         - Process Viewer allows drilldown into Subprocess and Call Activity status
+        - New support for BPMN Groups, Child Lanesets and Annotations
     image_path: "/assets/images/231_preview.PNG"
 row4:
   - title: "Watch 'What's New in Flows for APEX v22.2' on APEX Office Hours"
@@ -53,62 +54,56 @@ row4:
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row5:
-  - title: "Expense Claims Sample App"
-    excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.'
+  - title: "Task Assignment, Due Dates and Priorities"
+    excerpt: >
+      Highly flexible, model driven rules control task assignment, process and task priority, and due dates.
+        - Task Assignment by BPMN lane or explicit assignment to potential users and potential groups
+        - Task- and Process- Level Management of Due Dates and Priority
+        - Implement dynamic assignment and scheduling policies through runtime database access
+        - Integrated to the APEX Unified Task List
     image_path: "/assets/images/demo-app.png"
-    actions:
-      - url: "https://apex.oracle.com/pls/apex/r/mtflows/expense-claims"
-        target: "_blank"
-        class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      - url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.2/FlowsforAPEX_v22.2.zip"
-        class: "btn--info"
-        label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
 row6:
-  - title: "Graphical Workflow Editor"
-    excerpt: 'Model your business processes by adding activities and gateways in a graphical way.'
+  - title: "Developer Experience Enhancements"
+    excerpt: >
+      - New Timestamp with Time Zone Process Variable type
+      - Process Variable binding into SQL, PL/SQL, and scripts everywhere
+      - Improved Binding and Substitution of non varchar2-typed process variables
+      -  Better APEX Approval Task and Task List integration
+      - New Plugin for Starting Process Instances from an APEX Automation
     image_path: "/assets/images/modeler.gif"
-    actions:
-      - url: "/latest/getting-started/"
-        class: "btn--info"
-        label: 'Learn More'
 row7:
-  - title: "Integration in your APEX application"
+  - title: "Logging, Archiving, and Process Statistics improvements"
     excerpt: >
-      3 process plug-ins are part of the distribution to make the integration easier:
-        - Manage Flow Instance: start, stop, terminate, reset and delete the entire flow instance
-        - Manage Flow Instance Step: start, reserve, release and complete a single step
-        - Manage Flow Instance Variables: set and get process variables
+      Major enhancement of the event logging system for System Administrators
+        - Now includes logging of Process Diagram changes to Capture Process Changes
+        - New Process Timeline view in Flow Monitor
+        - Automated creation of Instance Summary Archive documents
+        - Automated purging of old log entries
+        - Generation of Process and Task Statistics, including processing and waiting times
     image_path: "/assets/images/process-plugins.png"
-    actions:
-      - url: "/latest/plugins/"
-        class: "btn--info"
-        label: 'Learn More'
 row8:
-  - title: "Monitor your running instances"
+  - title: "More Languages Supported"
     excerpt: >
-      The engine app can be use:
-        - to monitor the running instances
-        - to identify errors by viewing the events logs 
-        - to restart steps in error after fixing the issue
+      Flows for APEX now supports all 10 of the APEX development languages with new Korean, Chinese and Italian translations
+        - English
+        - French
+        - German
+        - Spanish
+        - Portuguese (br-pt)
+        - Italian
+        - Japanese
+        - Korean
+        - Simplified Chinese
+        - Traditional Chinese
     image_path: "/assets/images/dashboard.png"
-    actions:
-      - url: "/latest/getting-started"
-        class: "btn--info"
-        label: 'Learn More'
 row9:
-  - title: "Flows for APEX integration tutorial"
+  - title: "REST Enablement"
     excerpt: >
-      This tutorial provides an introduction to the usage and integration of Flows for APEX into a process-driven APEX application.
-      We also provide a light version of this tutorial in the documentation, accessible by clicking on Learn More.
+      The Flows for APEX PL/SQL API is now REST-enabled, allowing remote execution of all API calls.
+        - Allows easy integration of 3rd Party Systems with Flows
+        - Enables Message Flow from Remote Systems
+        - Eases Management as an Adminstrator
     image_path: "/assets/images/Tutorial.png"
-    actions:
-      - url: "/assets/files/Tutorial_Flows_for_APEX_v22.2.zip"
-        class: "btn--info"
-        label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      - url: "/latest/getting-started/"
-        class: "btn--info"
-        label: 'Learn More'
 row10:
   - title: "Still 100% Open Source"
     excerpt: "Flows for APEX is open source. You can share and/or modify it, always under the adherence of the MIT-license."
@@ -123,6 +118,10 @@ row10:
         label: "Open an issue"
 ---
 {% include feature_row id="row1" type="center"%}
+{% include feature_row id="row5" type="left"%}
 {% include feature_row id="row2" type="left"%}
 {% include feature_row id="row3" type="left"%}
+{% include feature_row id="row10" type="left"%}
+{% include feature_row id="row6" type="left"%}
+{% include feature_row id="row7" type="left"%}
 {% include feature_row id="row10" type="center"%}
