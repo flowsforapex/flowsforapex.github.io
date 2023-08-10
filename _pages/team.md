@@ -7,7 +7,7 @@ members:
      bio: >
       Niels has been working with Oracle APEX since its initial public release back in 2004. Together with a team of APEX specialists, Niels is responsible for delivering high-quality APEX projects.<br>
       His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.mt-itsolutions.com/" target="_blank">apex.mt-itsolutions.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
-      Niels is an Oracle ACE Director and Director of the development community at the German Oracle User Group (<a href="https://www.doag.org" target="_blank">www.doag.org</a>).
+      Niels is an Oracle ACE Director and program manager of the developer conference APEX Connect.
      image: "/assets/images/nielsdebruijn2.jpg"
      links:
        - label: "Email"
