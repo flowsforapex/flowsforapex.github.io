@@ -104,7 +104,7 @@ development:
     url: /development/faq/
   - title: Other Versions
     url: /documentation/
-    
+
 # latest documentation links
 latest:
   - title: Getting started
@@ -126,6 +126,8 @@ latest:
     children: 
       - title: "Tasks 🆕"
         url: /latest/tasks/
+      - title: "UserTask Settings 🆕"
+        url: /latest/usertask-settings/
       - title: "Gateways  🆕"
         url: /latest/gateways/
       - title: "Start and Stop Events"
@@ -140,35 +142,41 @@ latest:
         url: /latest/link-events/
       - title: "Sub Processes"
         url: /latest/subprocesses/
-      - title: "Call Activities  🆕"
+      - title: "Call Activities  "
         url: /latest/callActivities/
-      - title: "Pool and Lanes"
+      - title: "Task Assignment 🆕"
         url: /latest/pool-and-lanes/
       - title: "Supported BPMN"
         url: /latest/supported-bpmn/
   - title: Flows for APEX Concepts
     children:
-      - title: "Task Reservation"
+      - title: "Task Reservation 🆕"
         url: /latest/task-reservation/
-      - title: "Process Variables"
+      - title: "Process Variables 🆕"
         url: /latest/process-variable/
-      - title: "Variable Expression"
+      - title: "Variable Expression 🆕"
         url: /latest/variable-expression/
-      - title: "Process Variable Scoping   🆕"
+      - title: "Process Variable Scoping  🆕"
         url: /latest/variable-scoping/
-      - title: "Event Logging and Auditing"
+      - title: "MessageFlow Concepts  🆕"
+        url: /latest/about-messageflow/        
+      - title: "Event Logging and Auditing 🆕"
         url: /latest/event-logging-and-auditing/
-      - title: "Configuration Parameter 🆕"
+      - title: "Configuration Parameter"
         url: /latest/configuration/
-      - title: "About Subflows 🆕"
+      - title: "About Timers and Scheduling 🆕"
+        url: /latest/about-timer-execution/
+      - title: "About Subflows "
         url: /latest/about-subflows/
       - title: "Model Versioning"
         url: /latest/model-versioning/
-      - title: "Timestamps and Timezones"
+      - title: "Timestamps and Timezones 🆕"
         url: /latest/timestamps-and-timezones/
       - title: "Transaction Model"
         url: /latest/transaction-model/
-  - title: PL/SQL API 
+      - title: "REST API 🆕"
+        url: /latest/rest-api/
+  - title: PL/SQL APIs 
     children:
       - title: Workflow Engine API
         url: /latest/api/
@@ -178,6 +186,82 @@ latest:
     url: /latest/plugins/
   - title: FAQ
     url: /latest/faq/
+  - title: Other Versions
+    url: /documentation/
+    
+# v22.2 documentation links
+v22.2:
+  - title: Getting started
+    url: /v22.2/getting-started/
+    children:
+      - title: Tutorials 🆕
+        url: /v22.2/tutorials/
+  - title: Installation
+    url: /v22.2/installation/
+    children:
+      - title: "Migration"
+        url: /v22.2/migration/
+      - title: "Application Step Key Migration"
+        url: /v22.2/application-step-key-migration/
+      - title: "Deinstallation"
+        url: /v22.2/deinstallation/
+  - title: BPMN
+    url: /v22.2/bpmn/
+    children: 
+      - title: "Tasks 🆕"
+        url: /v22.2/tasks/
+      - title: "Gateways  🆕"
+        url: /v22.2/gateways/
+      - title: "Start and Stop Events"
+        url: /v22.2/start-and-stop-events/
+      - title: "Timer Events"
+        url: /v22.2/timer-events/
+      - title: "Timer Syntax"
+        url: /v22.2/timer-syntax/
+      - title: "Boundary Events"
+        url: /v22.2/boundary-events/
+      - title: "Link Events"
+        url: /v22.2/link-events/
+      - title: "Sub Processes"
+        url: /v22.2/subprocesses/
+      - title: "Call Activities  🆕"
+        url: /v22.2/callActivities/
+      - title: "Pool and Lanes"
+        url: /v22.2/pool-and-lanes/
+      - title: "Supported BPMN"
+        url: /v22.2/supported-bpmn/
+  - title: Flows for APEX Concepts
+    children:
+      - title: "Task Reservation"
+        url: /v22.2/task-reservation/
+      - title: "Process Variables"
+        url: /v22.2/process-variable/
+      - title: "Variable Expression"
+        url: /v22.2/variable-expression/
+      - title: "Process Variable Scoping   🆕"
+        url: /v22.2/variable-scoping/
+      - title: "Event Logging and Auditing"
+        url: /v22.2/event-logging-and-auditing/
+      - title: "Configuration Parameter 🆕"
+        url: /v22.2/configuration/
+      - title: "About Subflows 🆕"
+        url: /v22.2/about-subflows/
+      - title: "Model Versioning"
+        url: /v22.2/model-versioning/
+      - title: "Timestamps and Timezones"
+        url: /v22.2/timestamps-and-timezones/
+      - title: "Transaction Model"
+        url: /v22.2/transaction-model/
+  - title: PL/SQL API 
+    children:
+      - title: Workflow Engine API
+        url: /v22.2/api/
+      - title: Process Variable System API
+        url: /v22.2/procvar-api/
+  - title: "Oracle APEX plug-ins"
+    url: /v22.2/plugins/
+  - title: FAQ
+    url: /v22.2/faq/
   - title: Other Versions
     url: /documentation/
 
