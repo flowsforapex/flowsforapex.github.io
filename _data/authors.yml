@@ -9,3 +9,14 @@ Niels:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/nielsdb"
+Louis:
+  name        : "Louis Moreaux"
+  bio         : "Senior Oracle APEX Developer at Insum, Oracle ACE Associate"
+  avatar      : "/assets/images/louismoreaux.jpg"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://lmoreaux.hashnode.dev/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/moreaux_louis"
