@@ -104,7 +104,7 @@ row9:
         - Allows easy integration of 3rd Party Systems with Flows
         - Enables Message Flow from Remote Systems
         - Eases Management as an Adminstrator
-    image_path: "/assets/images/Tutorial.png"
+    image_path: "/assets/images/ords.png"
 row10:
   - title: "Still 100% Open Source"
     excerpt: "Flows for APEX is open source. You can share and/or modify it, always under the adherence of the MIT-license."
