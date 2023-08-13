@@ -3,6 +3,7 @@ permalink: /resources/
 title: "Resources"
 layout: splash
 videos:
+  - url: "https://www.youtube.com/embed/pZgbgx92dq4"
   - url: "https://www.youtube.com/embed/NlbRRvK9QjI"
   - url: "https://www.youtube.com/embed/xz3EzDk_vQA"
   - url: "https://www.youtube.com/embed/q77HqPuVN7s"
