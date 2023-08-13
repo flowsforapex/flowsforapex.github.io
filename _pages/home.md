@@ -40,7 +40,7 @@ row2:
 row3:
   - title: 'Try Flows for APEX v23.1 now!'
     excerpt: >
-      The latest release of Flows for APEX, v23.1, is available on preview and adds several exciting features:
+      The latest release of Flows for APEX, v23.1, is now available and adds several exciting features:
         - REST API
         - Modernized Modeler
         - Map Lanes to Roles
@@ -49,6 +49,10 @@ row3:
         - New languages: Italian, Korean, traditional Chinese and simplified Chinese
     image_path: "/assets/images/231_preview.PNG"
     actions:
+      - url: "https://flowsforapex.org/Flows4APEX231Features/"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details'
       - url: "https://flowsforapex.com/preview/engine"
         target: "_blank"
         class: "btn--info"
