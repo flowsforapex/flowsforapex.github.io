@@ -30,7 +30,7 @@ row2:
       - url: "https://asktom.oracle.com/pls/apex/asktom.search?oh=21450"
         target: "_blank"
         class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign Up Now'
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row3:
   - title: 'Try Flows for APEX v23.1 now!'
     excerpt: >
