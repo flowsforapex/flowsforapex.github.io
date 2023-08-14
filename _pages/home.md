@@ -25,7 +25,7 @@ row2:
       Watch "What's New in Flows for APEX v23.1" on APEX Office Hours
     excerpt: >
       The Flows for APEX team showed some of the v23.1 new features in our recent Oracle APEX Office Hours session: What's New in Flows for APEX v 23.1.  See demos for:
-        - Inter-process commnication with BPMN Message Flow
+        - Inter-process communication with BPMN Message Flow
         - REST interface
         - Task Assignment, Due Dates and Priorities
         - Timestamp Process Variables and Binding Everywhere
