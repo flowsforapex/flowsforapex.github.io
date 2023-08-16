@@ -76,14 +76,14 @@ row4:
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row5:
   - title: "Expense Claims Sample App"
-    excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.'
+    excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.  Updated for v23.1'
     image_path: "/assets/images/demo-app.png"
     actions:
       - url: "https://apex.oracle.com/pls/apex/r/mtflows/expense-claims"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      - url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v22.2/FlowsforAPEX_v22.2.zip"
+      - url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v23.1/FlowsforAPEX_v23.1.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
 row6:
@@ -123,10 +123,10 @@ row9:
   - title: "Flows for APEX integration tutorial"
     excerpt: >
       This tutorial provides an introduction to the usage and integration of Flows for APEX into a process-driven APEX application.
-      We also provide a light version of this tutorial in the documentation, accessible by clicking on Learn More.
+      We also provide a light version of this tutorial in the documentation, accessible by clicking on Learn More.  Updated for v23.1.
     image_path: "/assets/images/Tutorial.png"
     actions:
-      - url: "/assets/files/Tutorial_Flows_for_APEX_v22.2.zip"
+      - url: "/assets/files/Tutorial_Flows_for_APEX_v23.1.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
       - url: "/latest/getting-started/"
