@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/RunningFlows.gif
   actions:
     - label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      url: "https://apex.oracle.com/pls/apex/r/mtflows/flows4apex"
+      url: "https://flowsforapex.com/preview/engine"
       target: "_blank"
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
       url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v23.1/FlowsforAPEX_v23.1.zip"
@@ -79,7 +79,7 @@ row5:
     excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.  Updated for v23.1'
     image_path: "/assets/images/demo-app.png"
     actions:
-      - url: "https://apex.oracle.com/pls/apex/r/mtflows/expense-claims"
+      - url: "https://flowsforapex.com/preview/demo"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
