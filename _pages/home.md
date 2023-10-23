@@ -45,7 +45,7 @@ row3:
         - Modernized Modeler
         - Map Lanes to Roles
         - User Task Assignment
-        - Experimental Message Support
+        - Basic Message Support
         - New languages: Italian, Korean, traditional Chinese and simplified Chinese
     image_path: "/assets/images/231_preview.PNG"
     actions:
