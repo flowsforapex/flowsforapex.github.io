@@ -6,13 +6,13 @@ members:
    - name: "Niels de Bruijn"
      bio: >
       Niels has been working with Oracle APEX since its initial public release back in 2004. Together with a team of APEX specialists, Niels is responsible for delivering high-quality APEX projects.<br>
-      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.mt-itsolutions.com/" target="_blank">apex.mt-itsolutions.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
-      Niels is an Oracle ACE Director and program manager of the developer conference APEX Connect.
+      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.hyand.com/" target="_blank">apex.hyand.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
+      Niels is an Oracle ACE Director and program manager of the developer conference APEX Connect(<a href="https://apex.doag.org/" target="_blank">apex.doag.org</a>).
      image: "/assets/images/nielsdebruijn2.jpg"
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:niels.debruijn@mt-itsolutions.com"
+         url: "mailto:Niels.deBruijn@hyand.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/nielsdb"
