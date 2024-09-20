@@ -22,12 +22,12 @@ members:
    - Richard:
      name: "Richard Allen"
      bio: >
-      Richard has been working with Oracle database technology since Oracle V4. Starting as a consultant in  Oracle UK, and then as the Product Manager responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia.<br>Richard has been a leading contributor to the Flows for APEX project, including developing most of the workflow engine.  Richard is a member of the Oracle APEX Development team.
+      Richard has been working with Oracle database technology since Oracle V4. Starting as a consultant in  Oracle UK, and then as the Product Manager responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia.<br>Richard has been a leading contributor to the Flows for APEX project, including developing most of the workflow engine.  Richard was a member of the Oracle APEX Development team in 2022 and 2023, working on APEX Human Tasks, APEX Workflow and Flows for APEX. Richard is now the developer of the Flows for APEX Enterprise Edition, which is avaoilable as a supported version of Flows for APEX from Flowquest Limited.
      image: "/assets/images/richardallen.jpg"
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:richard.allen@oracle.com"
+         url: "mailto:richard@flowquest.net"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/FlowquestR"
@@ -42,7 +42,7 @@ members:
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:dennis.amthor@mt-itsolutions.com"
+         url: "mailto:dennis.amthor@hyand.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/dennisamthor"
@@ -51,15 +51,15 @@ members:
      bio: >
       Moritz Klein has been working with Oracle technology since early 2001.
       He started using Oracle Application Express with it's first public release which was called HTMLDB in 2004.<br>
-      Moritz shares his knowledge through his blog, on Twitter and by speaking at national and international conferences like the DOAG Annual Conference, APEX Connect, APEX World and Kscope.<br>
-      After 6 years working for Ericsson as Data Warehouse Specialist, he's now with MT as Senior Principal Consultant for APEX.<br>
+      Moritz shares his knowledge through his blog, on Twitter and by speaking at national and international conferences like the DOAG Annual Conference, APEX Connect, APEX World and Kscope.  Moritz is an Oracle ACE Director.<br>
+      After 6 years working for Ericsson as Data Warehouse Specialist, he's now with Hyand (formerly MT) as Senior Principal Consultant for APEX.<br>
       His main areas are Data Modeling, PL/SQL and Oracle APEX.
       Nowadays he's also adding JavaScript and DevOps to the mix.
      image: "/assets/images/moritzklein.jpg"
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:moritz.klein@mt-itsolutions.com"
+         url: "mailto:moritz.klein@hyand.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/commi235"
@@ -69,7 +69,7 @@ members:
    - Louis:
      name: "Louis Moreaux"
      bio: >
-         Louis started working on this project after integrating Camunda into an APEX application and discovering the power of BPMN workflow engines. With his 4 years of experience with Oracle APEX and 8 years with Oracle Database development, he focuses mainly on the front-end of the engine application and on the process plug-ins.
+         Louis started working on this project after integrating Camunda into an APEX application and discovering the power of BPMN workflow engines. With his 4 years of experience with Oracle APEX and 8 years with Oracle Database development, he focuses mainly on the front-end of the engine application and on the process plug-ins.  He has implemented Flows for APEX in over five customer projects.  Louis is an Oracle ACE Pro.
      image: "/assets/images/louismoreaux.jpg"
      links: 
        - label: "Email"
@@ -96,10 +96,10 @@ members:
          url: "https://twitter.com/JrgDoppelreiter"  
        - label: "Website"
          icon: "fas fa-fw fa-link"
-         url: "https://www.solicon-it.com/"  
+         url: "https://www.solicon-it.com/"
 ---
 ### Core Team
+
 Meet our active contributors who maintain and improve Flows for APEX.
 
 {% include team.html %}
-
