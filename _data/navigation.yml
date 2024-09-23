@@ -22,7 +22,7 @@ main:
     target: "_blank"
 
 # development documentation links
-_development:
+development:
   - title: Getting started
     url: /development/getting-started/
     children:
