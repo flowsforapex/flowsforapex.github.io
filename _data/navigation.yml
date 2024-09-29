@@ -26,7 +26,7 @@ main:
     target: "_blank"
 
 # development documentation links
-_development:
+development:
   - title: Getting started
     url: /development/getting-started/
     children:
@@ -78,8 +78,14 @@ _development:
         url: /development/variable-expression/
       - title: "Process Variable Scoping  🆕"
         url: /development/variable-scoping/
+      - title: "Introduction to BPMN Message Flow and Process Collaboration"
+        url: /development/messageflow-intro/
       - title: "MessageFlow Concepts  🆕"
-        url: /development/about-messageflow/        
+        url: /development/about-messageflow/  
+      - title: "Introduction to BPMN Iterations and Loops🆕"
+        url: /development/iteration-loop-intro   
+      - title: "Iterations and Loops Concepts🆕"
+        url: /development/iteration-loop-concepts   
       - title: "Event Logging and Auditing 🆕"
         url: /development/event-logging-and-auditing/
       - title: "Configuration Parameter"

@@ -57,6 +57,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-mermaid
 
 collections:
   development:
@@ -64,7 +65,7 @@ collections:
     permalink: /:collection/:path/
     type: "documentation"
     display_name: "Development"
-    publish_date: 2023-08-10T00:00:00+00:00
+    publish_date: 2023-11-10T00:00:00+00:00
     home_page: getting-started/
   latest:
     output: true

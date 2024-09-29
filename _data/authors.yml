@@ -8,10 +8,10 @@ Niels:
       url: "http://nielsdebr.blogspot.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/nielsdb"
+      url: "https://x.com/nielsdb"
 Louis:
   name        : "Louis Moreaux"
-  bio         : "Senior Oracle APEX Developer at Insum, Oracle ACE Associate"
+  bio         : "Senior Oracle APEX Developer at Insum, Oracle ACE Pro"
   avatar      : "/assets/images/louismoreaux.jpg"
   links:
     - label: "Website"
@@ -19,4 +19,15 @@ Louis:
       url: "https://lmoreaux.hashnode.dev/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/moreaux_louis"
+      url: "https://x.com/moreaux_louis"
+Richard:
+  name        : "Richard Allen"
+  bio         : "Founder and Managing Director at Flowquest Limited"
+  avatar      : "/assets/images/richardallen.jpg"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://flows-richard.hashnode.dev/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/FlowquestR"  

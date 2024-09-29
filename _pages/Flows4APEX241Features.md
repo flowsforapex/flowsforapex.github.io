@@ -44,11 +44,10 @@ row3:
 row5:
   - title: "Developer-free Simple Form Task"
     excerpt: >
-      Allow business users to create simple business processes without APEX Development or database skills
+      Allow business users to create simple business processes without APEX development or database skills
         - create simple process data input forms without APEX knowledge
         - store process data in JSON column
-        - leverages Oracle 23ai JSON relational duality views
-    image_path: "/assets/images/IntegratedTaskList.png"
+    image_path: "/assets/images/SimpleForm.png"
 row6:
   - title: "askFlo - GenAI Support for Process Modeler*"
     excerpt: >
@@ -60,23 +59,14 @@ row6:
         - support for GPT-4o and other LLMs
     image_path: "/assets/images/floAIAdvisor241.png"
 row7:
-  - title: "JSON variables, Color your models, Purge completed processes"
+  - title: "Process Viewer Enhancements"
     excerpt: >
-      Other new features in in 24.1 include:
-        - JSON-typed process variables simplify working with JSON
+      The BPMN Process Viewer, which can be added into your workflow application to show users the current ststus of all the steps in their business process, now is enhanced:
+        - open user task steps by clicking on the process viewer
         - highlight model steps with BPMN Color
-        - automate purging of completed process instances
+        - drill into iterating or looping steps*
     image_path: "/assets/images/nls-231-korean-chinese.png"
-row8:
-  - title: "Logging, Archiving, and Process Statistics Improvements"
-    excerpt: >
-      Major enhancement of the event logging system for System Administrators
-        - Now includes logging of Process Diagram changes to Capture Process Changes
-        - New Process Timeline view in Flow Monitor
-        - Automated creation of Instance Summary Archive documents
-        - Automated purging of old log entries
-        - Generation of Process and Task Statistics, including processing and waiting times
-    image_path: "/assets/images/instance-timeline-231.png"
+
 row9:
   - title: "Introducing the Flows for APEX Enterprise Edition"
     excerpt: >
@@ -86,7 +76,7 @@ row9:
         - All Enterprise Edition licencees also have access to an annual advice session with the product developers.
         - Supporting the Enterprise Edition enables dedicated resources to continue the development, testing, and support of both the Enterprise and Community Editions of Flows for APEX.
   
-      The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited.
+      The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * New features available in the Enterprise Edition.
 row10:
   - title: "The Flows for APEX Community Edition remains 100% Open Source"
     excerpt: "The core of Flows for APEX, now called the **Flows for APEX Community Edition**, remains as an open source project. You can continue to share and/or modify it, always under the adherence of the MIT-license.  Support for Community Edition is provided by the Flows for APEX community, via the github issues and discussions pages."
@@ -106,6 +96,5 @@ row10:
 {% include feature_row id="row5" type="left"%}
 {% include feature_row id="row6" type="left"%}
 {% include feature_row id="row7" type="left"%}
-{% include feature_row id="row8" type="left"%}
 {% include feature_row id="row9" type="center"%}
 {% include feature_row id="row10" type="center"%}
