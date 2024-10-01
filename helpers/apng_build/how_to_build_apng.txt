@@ -56,4 +56,10 @@ To make an apng file:
 
         apngasm -o output.apng @apng.json
 
+    Tips:
+
+    1.  Seems good to have a Header / Title slide to see where the animation starts if it is looped
+    2.  For a demo, try delay of 5000 mS
+    3.  Also try adding subtitles to explain if necessary
+
 Good Luck!

@@ -45,6 +45,7 @@ row4:
         - Intuitive Flow Designer with drag and drop interface for creating workflows
         - Configurable properties and conditions allowing APEX-style declarative process definition
         - Model complex processes, including collaboration between processes
+        - AI support available for process explanation, translation, and error detection*
     image_path: "/assets/images/modeler-tstz-bind.png"
 row5:
   - title: "Managing Workflow Execution"
@@ -67,30 +68,36 @@ row6:
 row7:
   - title: "Monitor, Manage, Audit and Report on Processes and Performance"
     excerpt: >
-      - Generate detailed reports on workflow timeline, performance and efficiency
-      - Audit trails for compliance and accountability
-      - Built-in dashboard showing Process and Task statistics, including processing and waiting times
-      - Automated creation of Instance Summary archive document
+      Monitor the execution of business processes in your organization.
+        - Generate detailed reports on workflow timeline, performance and efficiency
+        - Audit trails for compliance and accountability
+        - Built-in dashboard showing Process and Task statistics, including processing and waiting times
+        - Automated creation of Instance Summary archive document
     image_path: "/assets/images/dashboard.png"
 row8:
-  - title: "Major Languages Supported"
+  - title: "Deploy On Any Modern Oracle APEX Environment "
     excerpt: >
-      Flows for APEX now supports all 10 of the APEX development languages with new Korean, Chinese and Italian translations
-        - English
-        - French
-        - German
-        - Spanish
-        - Portuguese (br-pt)
-        - Italian
-        - Japanese
-        - Korean
-        - Simplified Chinese
-        - Traditional Chinese
-    image_path: "/assets/images/nls-231-korean-chinese.png"
+      Flows for APEX can be deployed anywhere APEX runs, from Oracle Free to the largest OCI environment.
+        - Requires Oracle database 19c or later, and Oracle APEX 22.1 or later.
 
+      <br>Deploy Globally 
+        - Flows for APEX supports 10 major languages ( English, French, German, Spanish, Brazilian Portuguese, 
+          Italian, Japanese, Korean, Simplified Chinese and Traditional Chinese).
+    image_path: "/assets/images/nls-231-korean-chinese.png"
+row9:
+  - title: "Also avaiable as an Enterprise Edition with Additional functionality and with support"
+    excerpt: >
+      To support customers now running Flows for APEX in their mission-critical applications, we are introducing the **Flows for APEX Enterprise Edition** in 24.1.  
+        - **Flows for APEX Enterprise Edition** includes additional advanced functionality, starting with 24.1 features process collaboration, iterations and loops, and GenAI modeling support.  
+        - Enterprise customers have access to product support to keep their business processes running.
+        - All Enterprise Edition licencees also have access to an annual advice session with the product developers.
+        - Supporting the Enterprise Edition enables dedicated resources to continue the development, testing, and support of both the Enterprise and Community Editions of Flows for APEX.
+  
+      The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * Features available in the Enterprise Edition.
+    image_path: "assets/images/F4AEE-logo-onblue.png"
 row10:
   - title: "100% Open Source"
-    excerpt: "Flows for APEX is open source. You can share and/or modify it, always under the adherence of the MIT-license."
+    excerpt: "Flows for APEX Community Edition is open source. You can share and/or modify it, always under the adherence of the MIT-license."
     actions:
       - url: "https://github.com/flowsforapex/apex-flowsforapex"
         target: "_blank"
@@ -108,5 +115,6 @@ row10:
 {% include feature_row id="row5" type="left"%}
 {% include feature_row id="row6" type="left"%}
 {% include feature_row id="row7" type="left"%}
+{% include feature_row id="row9" type="left"%}
 {% include feature_row id="row8" type="left"%}
 {% include feature_row id="row10" type="center"%}

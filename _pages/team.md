@@ -6,7 +6,7 @@ members:
    - name: "Niels de Bruijn"
      bio: >
       Niels has been working with Oracle APEX since its initial public release back in 2004. Together with a team of APEX specialists, Niels is responsible for delivering high-quality APEX projects.<br>
-      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.mt-itsolutions.com/" target="_blank">apex.mt-itsolutions.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
+      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.hyand.com/" target="_blank">apex.hyand.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
       Niels is an Oracle ACE Director and program manager of the developer conference APEX Connect.
      image: "/assets/images/nielsdebruijn2.jpg"
      links:
@@ -22,7 +22,7 @@ members:
    - Richard:
      name: "Richard Allen"
      bio: >
-      Richard has been working with Oracle database technology since Oracle V4. Starting as a consultant in  Oracle UK, and then as the Product Manager responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia.<br>Richard has been a leading contributor to the Flows for APEX project, including developing most of the workflow engine.  Richard was a member of the Oracle APEX Development team in 2022 and 2023, working on APEX Human Tasks, APEX Workflow and Flows for APEX. Richard is now the developer of the Flows for APEX Enterprise Edition, which is avaoilable as a supported version of Flows for APEX from Flowquest Limited.
+      Richard is the main developer of the Flows for APEX Enterprise Edition, through his company Flowquest Ltd. Richard has been a major contributor to the Flows for APEX project since 2020, and has developed most of the workflow engine.<br>Richard has been working with Oracle database technology since Oracle V4,  including as a consultant in Oracle UK, as the Product Manager / Director responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia. Richard was a member of the Oracle APEX Development team in 2022 and 2023, working on APEX Human Tasks, APEX Workflow and Flows for APEX.
      image: "/assets/images/richardallen.jpg"
      links:
        - label: "Email"

@@ -38,8 +38,8 @@ row3:
         - execute sequentally or in parallel
         - driven by a list, array, or SQL query
         - also supports BPMN loops
-        - completion conditions define 
-        - process viewer allows drilldown into iteration and loop status
+        - completion conditions on loops and iterations 
+        - process viewer allows drilldown into nested iterations 
     image_path: "/assets/images/iterationsLoops241.PNG"
 row5:
   - title: "Developer-free Simple Form Task"
@@ -47,7 +47,8 @@ row5:
       Allow business users to create simple business processes without APEX development or database skills
         - create simple process data input forms without APEX knowledge
         - store process data in JSON column
-    image_path: "/assets/images/SimpleForm.png"
+        - also introduces a JSON-typed process variable
+    image_path: "/assets/images/simple-form.png"
 row6:
   - title: "askFlo - GenAI Support for Process Modeler*"
     excerpt: >
@@ -65,7 +66,7 @@ row7:
         - open user task steps by clicking on the process viewer
         - highlight model steps with BPMN Color
         - drill into iterating or looping steps*
-    image_path: "/assets/images/nls-231-korean-chinese.png"
+    image_path: "/assets/images/simple-form.png"
 
 row9:
   - title: "Introducing the Flows for APEX Enterprise Edition"
@@ -77,6 +78,7 @@ row9:
         - Supporting the Enterprise Edition enables dedicated resources to continue the development, testing, and support of both the Enterprise and Community Editions of Flows for APEX.
   
       The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * New features available in the Enterprise Edition.
+    image_path: "assets/images/F4AEE-logo-onblue.png"
 row10:
   - title: "The Flows for APEX Community Edition remains 100% Open Source"
     excerpt: "The core of Flows for APEX, now called the **Flows for APEX Community Edition**, remains as an open source project. You can continue to share and/or modify it, always under the adherence of the MIT-license.  Support for Community Edition is provided by the Flows for APEX community, via the github issues and discussions pages."
@@ -91,10 +93,10 @@ row10:
         label: "Open an issue"
 ---
 {% include feature_row id="row1" type="center"%}
+{% include feature_row id="row5" type="left"%}
+{% include feature_row id="row9" type="left"%}
 {% include feature_row id="row2" type="left"%}
 {% include feature_row id="row3" type="left"%}
-{% include feature_row id="row5" type="left"%}
 {% include feature_row id="row6" type="left"%}
 {% include feature_row id="row7" type="left"%}
-{% include feature_row id="row9" type="center"%}
 {% include feature_row id="row10" type="center"%}

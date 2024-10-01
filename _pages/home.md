@@ -22,6 +22,23 @@ row1:
   - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
 row2:
   - title: >
+      Watch "What's New in Flows for APEX v24.1" on APEX Office Hours
+    excerpt: >
+      Join Niels de Bruijn and Richard Allen from the Flows for APEX team as they demo Flows for APEX v24.1 new features in a live Oracle APEX Office Hours session on October 10th: What's New in Flows for APEX v 24.1.  See demos for:
+        - User Task type "Simple Forms"
+        - New sample app "Simple Process Starter"
+        - JSON support for process variables
+        - Support for iterations and loops
+        - Improved process collaboration and messaging
+        - Generative AI support
+    image_path: "/assets/images/241-oh-global-flows-sm.png"
+    actions: 
+      - url: "https://asktom.oracle.com/ords/r/tech/catalog/session-landing-page?p2_event_id=38456474284798627719376035918186735217"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign up Now'
+row3:
+  - title: >
       Watch "What's New in Flows for APEX v23.1" on APEX Office Hours
     excerpt: >
       The Flows for APEX team showed some of the v23.1 new features in our recent Oracle APEX Office Hours session: What's New in Flows for APEX v 23.1.  See demos for:
@@ -33,11 +50,15 @@ row2:
         - System Administration Upgrades with Diagram Logging, Instance Summaries, and Statistics
     image_path: "/assets/images/F4A-OOH-03Aug23.png"
     actions: 
+      - url: "/Flows4APEX231Features/"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 23.1'
       - url: "https://asktom.oracle.com/pls/apex/asktom.search?oh=21450"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
-row3:
+row4:
   - title: 'Try Flows for APEX v23.1 now!'
     excerpt: >
       The latest release of Flows for APEX, v23.1, is now available and adds several exciting features:
@@ -49,7 +70,7 @@ row3:
         - New languages: Italian, Korean, traditional Chinese and simplified Chinese
     image_path: "/assets/images/231_preview.PNG"
     actions:
-      - url: "https://flowsforapex.org/Flows4APEX231Features/"
+      - url: "/Flows4APEX231Features/"
         target: "_blank"
         class: "btn--info"
         label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details'
@@ -61,19 +82,6 @@ row3:
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Demo App - Try now'
-row4:
-  - title: "Watch 'What's New in Flows for APEX v22.2' on APEX Office Hours"
-    excerpt: >
-      The Flows for APEX team presented 'What's New in Flows for APEX v22.2' in the last APEX Office Hours call on September 29th, 2022.  This included a detailed demo of Flows for APEX v22.2 new features, including:
-        -  Call Activities
-        -  Improved Gateway Routing Expressions
-        -  Integration with APEX Approval Tasks and the Unified Task Inbox
-    image_path: "/assets/images/AOHSep22.png"
-    actions:
-      - url: "https://asktom.oracle.com/pls/apex/f?p=100:551::::551:P551_CLASS_ID,P551_INVITED:18506,N&cs=1461622C90E5945B28E6001AE2A9D7031"
-        target: "_blank"
-        class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row5:
   - title: "Expense Claims Sample App"
     excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.  Updated for v23.1'
@@ -94,7 +102,7 @@ row6:
       - url: "/latest/getting-started/"
         class: "btn--info"
         label: 'Learn More'
-    
+  
 row7:
   - title: "Integration in your APEX application"
     excerpt: >
@@ -147,11 +155,11 @@ row10:
 ---
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="row2" type="left"%}
-{% include feature_row id="row3" type="left"%}
 {% include feature_row id="row4" type="left"%}
 {% include feature_row id="row5" type="left"%}
 {% include feature_row id="row6" type="left"%}
 {% include feature_row id="row7" type="left"%}
+{% include feature_row id="row3" type="left"%}
 {% include feature_row id="row8" type="left"%}
 {% include feature_row id="row9" type="left"%}
 {% include feature_row id="row10" type="center"%}

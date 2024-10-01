@@ -3,8 +3,6 @@ main:
     url: /
   - title: "About"
     url: /Flows4APEXFeatures
-  - title: "V23.1 New Features"
-    url: /Flows4APEX231Features
   - title: "V24.1 New Features"
     url: /Flows4APEX241Features
   - title: "Documentation"
@@ -30,7 +28,7 @@ development:
   - title: Getting started
     url: /development/getting-started/
     children:
-      - title: Tutorials 🆕
+      - title: BPMN Tutorials 🆕
         url: /development/tutorials/
   - title: Installation
     url: /development/installation/
