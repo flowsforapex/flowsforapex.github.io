@@ -40,7 +40,7 @@ row3:
         - also supports BPMN loops
         - completion conditions on loops and iterations 
         - process viewer allows drilldown into nested iterations 
-    image_path: "/assets/images/iterationsLoops241.PNG"
+    image_path: "/assets/images/iterationsLoops241.png"
 row5:
   - title: "Developer-free Simple Form Task"
     excerpt: >
