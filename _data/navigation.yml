@@ -46,7 +46,7 @@ development:
         url: /development/tasks/
       - title: "UserTask Settings 🆕"
         url: /development/usertask-settings/
-      - title: "Gateways  🆕"
+      - title: "Gateways"
         url: /development/gateways/
       - title: "Start and Stop Events"
         url: /development/start-and-stop-events/
@@ -62,13 +62,13 @@ development:
         url: /development/subprocesses/
       - title: "Call Activities  "
         url: /development/callActivities/
-      - title: "Task Assignment 🆕"
+      - title: "Task Assignment "
         url: /development/pool-and-lanes/
       - title: "Supported BPMN"
         url: /development/supported-bpmn/
   - title: Flows for APEX Concepts
     children:
-      - title: "Task Reservation 🆕"
+      - title: "Task Reservation"
         url: /development/task-reservation/
       - title: "Process Variables 🆕"
         url: /development/process-variable/
@@ -76,7 +76,7 @@ development:
         url: /development/variable-expression/
       - title: "Process Variable Scoping  🆕"
         url: /development/variable-scoping/
-      - title: "Introduction to BPMN Message Flow and Process Collaboration"
+      - title: "Introduction to BPMN Message Flow and Process Collaboration 🆕"
         url: /development/messageflow-intro/
       - title: "MessageFlow Concepts  🆕"
         url: /development/about-messageflow/  
@@ -84,21 +84,21 @@ development:
         url: /development/iteration-loop-intro   
       - title: "Iterations and Loops Concepts🆕"
         url: /development/iteration-loop-concepts   
-      - title: "Event Logging and Auditing 🆕"
+      - title: "Event Logging and Auditing"
         url: /development/event-logging-and-auditing/
       - title: "Configuration Parameter"
         url: /development/configuration/
-      - title: "About Timers and Scheduling 🆕"
+      - title: "About Timers and Scheduling"
         url: /development/about-timer-execution/
-      - title: "About Subflows "
+      - title: "About Subflows 🆕"
         url: /development/about-subflows/
       - title: "Model Versioning"
         url: /development/model-versioning/
-      - title: "Timestamps and Timezones 🆕"
+      - title: "Timestamps and Timezones "
         url: /development/timestamps-and-timezones/
       - title: "Transaction Model"
         url: /development/transaction-model/
-      - title: "REST API 🆕"
+      - title: "REST API "
         url: /development/rest-api/
   - title: PL/SQL APIs 
     children:
