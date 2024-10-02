@@ -40,19 +40,6 @@ row3:
         - Process Viewer allows drilldown into Subprocess and Call Activity status
         - New support for BPMN Groups, Child Lanesets and Annotations
     image_path: "/assets/images/231_preview.PNG"
-row4:
-  - title: "Watch 'What's New in Flows for APEX v22.2' on APEX Office Hours"
-    excerpt: >
-      The Flows for APEX team presented 'What's New in Flows for APEX v22.2' in the last APEX Office Hours call on September 29th, 2022.  This included a detailed demo of Flows for APEX v22.2 new features, including:
-        -  Call Activities
-        -  Improved Gateway Routing Expressions
-        -  Integration with APEX Approval Tasks and the Unified Task Inbox
-    image_path: "/assets/images/AOHSep22.png"
-    actions:
-      - url: "https://asktom.oracle.com/pls/apex/f?p=100:551::::551:P551_CLASS_ID,P551_INVITED:18506,N&cs=1461622C90E5945B28E6001AE2A9D7031"
-        target: "_blank"
-        class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row5:
   - title: "Task Assignment, Due Dates and Priorities"
     excerpt: >

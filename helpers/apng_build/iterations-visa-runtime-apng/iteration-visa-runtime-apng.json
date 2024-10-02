@@ -1,0 +1,18 @@
+{
+    "frames": [
+      {
+        "file": "run1.png",
+        "delay": 10
+      },
+      {
+        "file": "run2.png",
+        "delay": 20
+      },
+      {
+        "file": "run3.png",
+        "delay": 10
+      }
+    ],
+    "output": "iteration-visa-runtime.png",
+    "loop": 20
+  }

@@ -25,6 +25,15 @@ layout: default
       You are not looking at the latest version of the documentation. Check it out <a href="{{ site.url }}{{ site.baseurl }}/latest/{{ version.home_page }}">there</a>.
     </div>
     {% endif %}
+
+    {% if page.collection == "development" %}
+    <div class="notice--warning doc-draft">
+      <i class="fas fa-exclamation-triangle notice-icon"></i>
+      You are looking at draft pre-release documentation for the next release of Flows for APEX. Product features documented here may not be released or may have different behavior to that documented here. 
+      You should not make any purchase decisions based on this draft documentation.</a>.
+    </div>
+    {% endif %}
+
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}

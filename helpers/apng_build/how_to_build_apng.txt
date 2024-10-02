@@ -1,0 +1,65 @@
+Animated PNG (apng) files are a good way to show a multi-step sequence in a single image on the website.
+
+To make an apng file:
+
+1.  download apngasm from github.  
+
+    https://github.com/apngasm/apngasm/tree/master
+
+    for MacOS, I used the latest apngasm use homebrew: brew install apngasm.
+
+2.  Create  / Capture a series of png files containing the images you want to show.  
+    Note that these png files must of be IDENTICAL pixel size.   If the pixel sizes are different, it will just not give you any output (with no helpful message!)
+
+3.  CLI option:
+
+    apngasm -o output.png file1.png file2.png file3.png 
+
+    to have all screens progress at 1 image per 2 seconds add -d 2000 (default 2000 mS)
+
+    Assemble an APNG with specific frame delays in miliseconds:
+
+        apngasm -o outfile.png frame1.png 200 frame2.png 100 [options]
+
+    Assemble an APNG with specific frame delays in fractions of a second:
+
+        apngasm -o outfile.png frame1.png 1:2 frame2.png 3:5 [options]
+
+    To loop infinitely -l 0
+    To loop 20 times then stop -l20
+
+4.  JSON Build file option (seems useful for more complex animations where you might edit a few times, and want to modify in a later release...)
+    I think this JSON thing might be a ChatGPT Halucination as I can't make this work, and can't find any doc for it ....
+
+    4a.   create a json file apng.json
+
+        {
+          "files": [
+            {
+              "file": "frame1_resized.png",
+              "delay": 10
+            },
+            {
+              "file": "frame2_resized.png",
+              "delay": 20
+            },
+            {
+              "file": "frame3_resized.png",
+              "delay": 10
+            }
+          ],
+          "output": "output.apng",
+          "loop": 0
+        }
+
+    4b.  run apngasm with the json input  (not sure this is correct)
+
+        apngasm -o output.apng @apng.json
+
+    Tips:
+
+    1.  Seems good to have a Header / Title slide to see where the animation starts if it is looped
+    2.  For a demo, try delay of 5000 mS
+    3.  Also try adding subtitles to explain if necessary
+
+Good Luck!
