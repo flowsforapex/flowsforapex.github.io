@@ -59,18 +59,18 @@ plugins:
   - jekyll-include-cache
 
 collections:
-  development:
-    output: true
-    permalink: /:collection/:path/
-    type: "documentation"
-    display_name: "Development v24.1 (Pre-Release)"
-    publish_date: 2024-09-30T11:00:00+00:00
-    home_page: getting-started/
   latest:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
-    display_name: "Latest v23.1"
+    display_name: "Latest v24.1 (Release)"
+    publish_date: 2024-10-09T11:00:00+00:00
+    home_page: getting-started/
+  v23.1:
+    output: true
+    permalink: /:collection/:path/
+    type: "documentation"
+    display_name: "v23.1"
     publish_date: 2023-08-10T00:00:00+00:00
     home_page: getting-started/
   v22.2:
@@ -103,18 +103,6 @@ collections:
     home_page: tutorials/
 
 defaults:
-  # _development
-  - scope:
-      type: development
-    values:
-      classes: wide
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "development"
   # _latest
   - scope:
       type: latest
@@ -127,6 +115,18 @@ defaults:
       comments: false
       sidebar:
         nav: "latest"
+  # _latest
+  - scope:
+      type: v23.1
+    values:
+      classes: wide
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "v23.1"
   # _v22.2
   - scope:
       type: v22.2
