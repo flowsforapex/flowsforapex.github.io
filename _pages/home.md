@@ -155,11 +155,9 @@ row10:
 ---
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="row2" type="left"%}
-{% include feature_row id="row4" type="left"%}
 {% include feature_row id="row5" type="left"%}
 {% include feature_row id="row6" type="left"%}
 {% include feature_row id="row7" type="left"%}
-{% include feature_row id="row3" type="left"%}
 {% include feature_row id="row8" type="left"%}
 {% include feature_row id="row9" type="left"%}
 {% include feature_row id="row10" type="center"%}
