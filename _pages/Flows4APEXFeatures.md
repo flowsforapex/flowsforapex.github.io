@@ -85,7 +85,7 @@ row8:
           Italian, Japanese, Korean, Simplified Chinese and Traditional Chinese).
     image_path: "/assets/images/nls-231-korean-chinese.png"
 row9:
-  - title: "Also avaiable as an Enterprise Edition with Additional functionality and with support"
+  - title: "Also available as an Enterprise Edition with Additional functionality and with support"
     excerpt: >
       To support customers now running Flows for APEX in their mission-critical applications, we are introducing the **Flows for APEX Enterprise Edition** in 24.1.  
         - **Flows for APEX Enterprise Edition** includes additional advanced functionality, starting with 24.1 features process collaboration, iterations and loops, and GenAI modeling support.  
