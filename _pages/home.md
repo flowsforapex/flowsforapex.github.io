@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/RunningFlows.gif
   actions:
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v23.1/FlowsforAPEX_v23.1.zip"
+      url: "https://flowsforapex.com/downloads/FlowsForAPEX_v24.1.zip"
     - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
       url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
       target: "_blank"
