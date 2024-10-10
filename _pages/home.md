@@ -81,7 +81,7 @@ row4:
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Demo App - Try now'
 row5:
   - title: "Expense Claims Sample App"
-    excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.  Updated for v23.1'
+    excerpt: 'Test Flows for APEX with the sample app "Expense Claims", which is also included in the software.  Updated for v24.1'
     image_path: "/assets/images/demo-app.png"
     actions:
       - url: "https://flowsforapex.com/preview/demo"
