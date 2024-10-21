@@ -30,10 +30,14 @@ row2:
         - Generative AI support
     image_path: "/assets/images/241-oh-global-flows-sm.png"
     actions: 
-      - url: "https://asktom.oracle.com/ords/r/tech/catalog/session-landing-page?p2_event_id=38456474284798627719376035918186735217"
+      - url: "/Flows4APEX241Features/"
         target: "_blank"
         class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign up Now'
+        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 24.1'
+      - url: "https://youtu.be/zSOBjRgtou8?si=fgIEo7CVSl1BlYHO"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row3:
   - title: >
       Watch "What's New in Flows for APEX v23.1" on APEX Office Hours
