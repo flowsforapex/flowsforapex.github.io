@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-url: "https://flowsforapex.org"
-repository: "flowsforapex/flowsforapex.github.io"
+url: "https://flowquest.net"
+repository: "rallen2010/flowquest.github.io"
 
-title: Flows for APEX
+title: Flows for APEX Enterprise Edition
 logo: "/assets/images/logo.svg"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  All available resources for Flows for APEX in one place, designed to help you get started and learn more about the product.
+  All available resources for Flows for APEX Enterprise Edition in one place, designed to help you get started and learn more about the product.
 minimal_mistakes_skin: default
 search: true
 search_full_content: true
@@ -58,49 +58,49 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-collections:
-  latest:
-    output: true
-    permalink: /:collection/:path/
-    type: "documentation"
-    display_name: "Latest v24.1 (Release)"
-    publish_date: 2024-10-09T11:00:00+00:00
-    home_page: getting-started/
-  v23.1:
-    output: true
-    permalink: /:collection/:path/
-    type: "documentation"
-    display_name: "v23.1"
-    publish_date: 2023-08-10T00:00:00+00:00
-    home_page: getting-started/
-  v22.2:
-    output: true
-    permalink: /:collection/:path/
-    type: "documentation"
-    display_name: "v22.2"
-    publish_date: 2022-10-11T00:00:00+00:00
-    home_page: getting-started/
-  v22.1:
-    output: true
-    permalink: /:collection/:path/
-    type: "documentation"
-    display_name: "v22.1"
-    publish_date: 2022-02-04T00:00:00+00:00
-    home_page: getting-started/
-  v21.1:
-    output: true
-    permalink: /:collection/:path/
-    type: "documentation"
-    display_name: "v21.1"
-    publish_date: 2021-10-13T00:00:00+00:00
-    home_page: getting-started/
-  v5.1.2:
-    output: true
-    permalink: /:collection/:path/
-    type: "documentation"
-    display_name: "v5.1.2"
-    publish_date: 2021-09-13T00:00:00+00:00
-    home_page: tutorials/
+#collections:
+#  latest:
+#    output: true
+#    permalink: /:collection/:path/
+#    type: "documentation"
+#    display_name: "Latest v24.1 (Release)"
+#    publish_date: 2024-10-09T11:00:00+00:00
+#    home_page: getting-started/
+#  v23.1:
+#    output: true
+#    permalink: /:collection/:path/
+#    type: "documentation"
+#    display_name: "v23.1"
+#    publish_date: 2023-08-10T00:00:00+00:00
+#    home_page: getting-started/
+#  v22.2:
+#    output: true
+#    permalink: /:collection/:path/
+#    type: "documentation"
+#    display_name: "v22.2"
+#    publish_date: 2022-10-11T00:00:00+00:00
+#    home_page: getting-started/
+#  v22.1:
+#    output: true
+#    permalink: /:collection/:path/
+#    type: "documentation"
+#    display_name: "v22.1"
+#    publish_date: 2022-02-04T00:00:00+00:00
+#    home_page: getting-started/
+#  v21.1:
+#    output: true
+#    permalink: /:collection/:path/
+#    type: "documentation"
+#    display_name: "v21.1"
+#    publish_date: 2021-10-13T00:00:00+00:00
+#    home_page: getting-started/
+#  v5.1.2:
+#    output: true
+#    permalink: /:collection/:path/
+#    type: "documentation"
+#    display_name: "v5.1.2"
+#    publish_date: 2021-09-13T00:00:00+00:00
+#    home_page: tutorials/
 
 defaults:
   # _latest
@@ -205,8 +205,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-DZ9P49L61X"
-    anonymize_ip: true 
+#analytics:
+#  provider: "google-gtag"
+#  google:
+#    tracking_id: "G-DZ9P49L61X"
+#    anonymize_ip: true 
