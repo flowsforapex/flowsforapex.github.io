@@ -10,7 +10,7 @@
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
-          <div class="archive__item-teaser">
+          <div class="archive__item-teaser middle-image">
             <img src="{{ f.image_path | relative_url }}"
                  alt="{% if f.alt %}{{ f.alt }}{% endif %}">
             {% if f.image_caption %}
@@ -19,7 +19,7 @@
           </div>
         {% endif %}
 
-        <div class="archive__item-body">
+        <div class="archive__item-body middle-image">
           {% if f.title %}
             <h2 class="archive__item-title">{{ f.title }}</h2>
           {% endif %}

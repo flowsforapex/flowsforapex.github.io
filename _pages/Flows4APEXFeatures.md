@@ -79,22 +79,28 @@ row8:
     excerpt: >
       Flows for APEX can be deployed anywhere APEX runs, from Oracle Free to the largest OCI environment.
         - Requires Oracle database 19c or later, and Oracle APEX 22.1 or later.
+        - AskFlo Gen AI support requires Oracle APEX 24.1 and OpenAI GPT api access
 
       <br>Deploy Globally 
         - Flows for APEX supports 10 major languages ( English, French, German, Spanish, Brazilian Portuguese, 
           Italian, Japanese, Korean, Simplified Chinese and Traditional Chinese).
     image_path: "/assets/images/nls-231-korean-chinese.png"
 row9:
-  - title: "Also available as an Enterprise Edition with Additional functionality and with support"
+  - title: "Flows for APEX Enterprise Edition - advanced functionality, product support, and develop access"
     excerpt: >
       To support customers now running Flows for APEX in their mission-critical applications, we are introducing the **Flows for APEX Enterprise Edition** in 24.1.  
-        - **Flows for APEX Enterprise Edition** includes additional advanced functionality, starting with 24.1 features process collaboration, iterations and loops, and GenAI modeling support.  
+        - **Flows for APEX Enterprise Edition** includes additional advanced functionality, starting in 24.1 with features process collaboration, iterations and loops, and GenAI modeling support.  
         - Enterprise customers have access to product support to keep their business processes running.
         - All Enterprise Edition licencees also have access to an annual advice session with the product developers.
         - Supporting the Enterprise Edition enables dedicated resources to continue the development, testing, and support of both the Enterprise and Community Editions of Flows for APEX.
   
       The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * Features available in the Enterprise Edition.
     image_path: "assets/images/F4AEE-logo-onblue.png"
+    actions: 
+      - url: "/F4AEEOverview"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on Enterprise Edition'
 row10:
   - title: "100% Open Source"
     excerpt: "Flows for APEX Community Edition is open source. You can share and/or modify it, always under the adherence of the MIT-license."

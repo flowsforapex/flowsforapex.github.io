@@ -16,9 +16,9 @@
 url: "https://flowquest.net"
 repository: "rallen2010/flowquest.github.io"
 
-title: Flows for APEX Enterprise Edition
-logo: "/assets/images/logo.svg"
-email:
+title: Flowquest
+logo: "/assets/images/flowquest-logo-color-bg.svg"
+email: info@flowquest.net
 description: >- # this means to ignore newlines until "baseurl:"
   All available resources for Flows for APEX Enterprise Edition in one place, designed to help you get started and learn more about the product.
 minimal_mistakes_skin: default
@@ -58,123 +58,8 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-#collections:
-#  latest:
-#    output: true
-#    permalink: /:collection/:path/
-#    type: "documentation"
-#    display_name: "Latest v24.1 (Release)"
-#    publish_date: 2024-10-09T11:00:00+00:00
-#    home_page: getting-started/
-#  v23.1:
-#    output: true
-#    permalink: /:collection/:path/
-#    type: "documentation"
-#    display_name: "v23.1"
-#    publish_date: 2023-08-10T00:00:00+00:00
-#    home_page: getting-started/
-#  v22.2:
-#    output: true
-#    permalink: /:collection/:path/
-#    type: "documentation"
-#    display_name: "v22.2"
-#    publish_date: 2022-10-11T00:00:00+00:00
-#    home_page: getting-started/
-#  v22.1:
-#    output: true
-#    permalink: /:collection/:path/
-#    type: "documentation"
-#    display_name: "v22.1"
-#    publish_date: 2022-02-04T00:00:00+00:00
-#    home_page: getting-started/
-#  v21.1:
-#    output: true
-#    permalink: /:collection/:path/
-#    type: "documentation"
-#    display_name: "v21.1"
-#    publish_date: 2021-10-13T00:00:00+00:00
-#    home_page: getting-started/
-#  v5.1.2:
-#    output: true
-#    permalink: /:collection/:path/
-#    type: "documentation"
-#    display_name: "v5.1.2"
-#    publish_date: 2021-09-13T00:00:00+00:00
-#    home_page: tutorials/
 
 defaults:
-  # _latest
-  - scope:
-      type: latest
-    values:
-      classes: wide
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "latest"
-  # _latest
-  - scope:
-      type: v23.1
-    values:
-      classes: wide
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "v23.1"
-  # _v22.2
-  - scope:
-      type: v22.2
-    values:
-      classes: wide
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "v22.2"
-  # _v22.1
-  - scope:
-      type: v22.1
-    values:
-      classes: wide
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "v22.1"
-  # _v21.1
-  - scope:
-      type: v21.1
-    values:
-      classes: wide
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "v21.1"
-  # _v5.1.2
-  - scope:
-      type: v5.1.2
-    values:
-      classes: wide
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "v5.1.2"
   # _posts
   - scope:
       path: "_posts"
