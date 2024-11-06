@@ -39,6 +39,8 @@ latest:
         url: /latest/application-step-key-migration/
       - title: "Deinstallation"
         url: /latest/deinstallation/
+      - title: "Upgrading your APEX Environment"
+        url: /latest/apex-upgrade/
   - title: BPMN
     url: /latest/bpmn/
     children: 
