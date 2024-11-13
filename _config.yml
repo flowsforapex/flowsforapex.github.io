@@ -90,8 +90,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
-#analytics:
-#  provider: "google-gtag"
-#  google:
-#    tracking_id: "G-DZ9P49L61X"
-#    anonymize_ip: true 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-SLSTC8TR6K"
+    anonymize_ip: true 

@@ -1,16 +1,18 @@
 main:
-  - title: "Home"
+  - title: "Flows for APEX Enterprise Edition"
     url: /
   - title: "Flows for APEX"
     url: /Flows4APEXFeatures
-  - title: "Enterprise Edition"
-    url: /F4AEEOverview
+  - title: "News"
+    url: /news
   - title: "Documentation"
     url: /documentation
   - title: "Blog"
     url: /blog
   - title: "Resources"
     url: /resources
+  - title: "Old F4A Enterprise Edition"
+    url: /old-enterprise-edition
   - title: "Customer Portal"
     url: /customer-portal
   - title: "Team"

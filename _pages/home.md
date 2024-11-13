@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /news
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
@@ -45,7 +45,7 @@ row3:
       **Flows for APEX Enterprise Edition** is nearing completion and will be available very shortly under license from Flowquest Limited.  The Enterprise Edition is a new, supported edition of Flows for APEX that includes additional functionality and comes with product support from Flowquest.   Stay tuned for more information coming soon.
     image_path: "assets/images/F4AEE-logo-onblue.png"
     actions: 
-      - url: "/F4AEEOverview"
+      - url: "/enterprise-edition"
         target: "_blank"
         class: "btn--info"
         label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on Enterprise Edition'

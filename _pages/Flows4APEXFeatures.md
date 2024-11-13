@@ -97,7 +97,7 @@ row9:
       The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * Features available in the Enterprise Edition.
     image_path: "assets/images/F4AEE-logo-onblue.png"
     actions: 
-      - url: "/F4AEEOverview"
+      - url: "/enterprise-edition"
         target: "_blank"
         class: "btn--info"
         label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on Enterprise Edition'

@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /F4AEEOverview/
+permalink: /old-enterprise-edition
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
@@ -37,7 +37,7 @@ row3:
         - Explain, summarize and translate business processes.
         - Detect errors and bad practice, and suggest fixes.
         - Explain process collaboration and messaging design.
-    image_path: "/assets/images/askFlo-modelSummary.png"
+    image_path: "/assets/images/ask-flo-model-summary.png"
     vertical-align: middle
 row4:
   - title: "Expert Support and Guaranteed Assistance"
@@ -69,34 +69,43 @@ row6:
         - Maintain confidence in the stability of your business processes.
     image_path: "/assets/images/APEXTaskList.png"
 row9:
-  - title: "Flows for APEX Enterprise Edition - advanced functionality, product support, and develop access"
+  - title: "Flows for APEX Enterprise Edition - advanced functionality, product support, and developer access"
     excerpt: >
       To support customers now running Flows for APEX in their mission-critical applications, we are introducing the **Flows for APEX Enterprise Edition** in 24.1.
-      
-      - **Flows for APEX Enterprise Edition** includes additional advanced functionality, starting in 24.1 with features process collaboration, iterations and loops, and GenAI   modeling support.
+  
+      - **Flows for APEX Enterprise Edition**  includes additional advanced functionality, starting in 24.1 with features process collaboration, iterations and loops, and GenAI   modeling support.
       - Enterprise customers have access to product support to keep their business processes running.
       - All Enterprise Edition licencees also have access to an annual advice session with the product developers.
       - Supporting the Enterprise Edition enables dedicated resources to continue the development, testing, and support of both the Enterprise and Community Editions of Flows for   APEX.
-      
+  
       The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * Features available in the Enterprise Edition.
     image_path: "assets/images/F4AEE-logo-onblue.png"
+row8:
+  - title: "Pricing"
+    excerpt: >
+      Flows for APEX Enterprise Edition is available on an annual subscription basis, priced at EUR 9,900 per year per production system.  
+      Subscription includes:
+        - Enterprise Edition software licence for an Oracle APEX production instance.
+        - Associated development and testing and non-active failover systems are included with the production licence.
+        - Software updates to future releases, as released.
+        - Product support
+        - Annual advisory consultation with the product developers (upto 1 day per year).
+    image_path: "assets/images/F4AEE-logo-onblue.png" 
 row10:
   - title: "Coming very soon! (November 2024)"
     excerpt: "Contact Flowquest for details"
     actions:
-    
+  
     - url: "mailto:info@flowquest.net"
       target: "_blank"
       class: "btn--info"
       label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Contact Us'
-
 ---
-
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="row2" type="left"%}
 {% include feature_row id="row3" type="left"%}
 {% include feature_row id="row4" type="left"%}
 {% include feature_row id="row5" type="left"%}
 {% include feature_row id="row6" type="left"%}
+{% include feature_row id="row8" type="left"%}
 {% include feature_row id="row10" type="center"%}
-
