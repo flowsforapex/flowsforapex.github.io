@@ -99,6 +99,6 @@ row10:
 {% include feature_row id="func-row-title" type="center"%}
 {% include feature_row id="func-row"%}
 {% include feature_row id="svc-row-title" type="center"%}
-{% include feature_row id="svc-row"%}
+{% include feature_row_icon id="svc-row"%}
 {% include feature_row id="row-pricing" type="left"%}
 {% include feature_row id="row10" type="center"%}
