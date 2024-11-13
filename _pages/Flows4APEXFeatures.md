@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /Flows4APEXFeatures/
+permalink: /flows4apex/
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"

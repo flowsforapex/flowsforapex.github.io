@@ -15,10 +15,10 @@ header:
     target: "_blank"
 title: "Flows for APEX Enterprise Edition"
 excerpt: >
-  Advanced Functionality plus Product Support
+  Additional Functionality plus Product Support
 row1:
   - excerpt: >
-      Building on the success of the open-source [**Flows for APEX**](https://flowsforapex.org) project, we introduce the **Flows for APEX Enterprise Edition** -- the latest features of Flows for APEX with  **additional functionality**, and coming with **product support** and an **annual advisory session** with the product team.  The Flows for APEX Enterprise Edition is available from Flowquest on an annual subscription basis.
+      Building on the success of the open-source [**Flows for APEX**](flows4apex/) project, we introduce the **Flows for APEX Enterprise Edition** -- the latest features of Flows for APEX with  **additional functionality**, and coming with **product support** and an **annual advisory session** with the product team.  The Flows for APEX Enterprise Edition is available from Flowquest on an annual subscription basis.
 func-row-title:
   - title: "Unlock additional functionality, starting with ..."
 func-row:
