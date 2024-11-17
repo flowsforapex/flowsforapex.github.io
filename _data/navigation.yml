@@ -11,16 +11,12 @@ main:
     url: /blog
   - title: "Resources"
     url: /resources
-  - title: "Old F4A Enterprise Edition"
-    url: /old-enterprise-edition
   - title: "Customer Portal"
     url: /customer-portal
-  - title: "Team"
-    url: /team/
   - title: '<i class="fab fa-youtube" aria-hidden"true" style="padding-right: 5px;"></i>Youtube'
     url: "https://www.youtube.com/flowsforapex"
     target: "_blank"
-  - title: '<i class="fab fa-github" aria-hidden"true" style="padding-right: 5px;"></i>Github'
-    url: "https://github.com/flowsforapex/apex-flowsforapex"
-    target: "_blank"
+  - title: "Installation"
+    url: /install-doc-ee-241
+
 

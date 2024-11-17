@@ -5,14 +5,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.6"
   overlay_image: /assets/images/RunningFlows.gif
-  actions:
-  
-  - label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-    url: "https://flowsforapex.com/preview/engine"
-    target: "_blank"
-  - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
-    url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
-    target: "_blank"
+
 title: "Flows for APEX Enterprise Edition"
 excerpt: >
   Additional Functionality plus Product Support
@@ -52,25 +45,41 @@ svc-row:
   - image_path: /assets/icons/contact_support_66dp_156082.png
     alt: "Product Support"
     title: "Product Support"
-    excerpt: "Benefit from professional-grade support to ensure smooth operations and rapid troubleshooting when you need it most."
+    excerpt: >
+        Benefit from professional-grade support to ensure smooth operations and rapid troubleshooting when you need it most.
+          - Access dedicated **product support** for your team.
+          - Resolve issues quickly with expert guidance.
+          - Ensure stable operation of your applications with reliable support.
+          - Receive timely updates and fixes tailored for your business needs.
     url: "/customer-portal"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/icons/alt_route_66dp_156082.png
     alt: "Annual Advisory"
     title: "Annual Advisory Session"
-    excerpt: "Receive hands-on guidance from the creators of Flows for APEX, with access to 1 day per year of exclusive advisory services."
+    excerpt: >
+        Receive hands-on guidance from the creators of Flows for APEX, with access to 1 day per year of exclusive advisory services.
+          - Get tailored advice for optimizing your workflows.
+          - Discuss future enhancements and feature requests.
+          - Collaborate with the product team to solve specific challenges.
+          - Leverage expert insights to maximize the value of your solution.
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"  
   - image_path: /assets/icons/trending_up_66dp_156082.png
     alt: "Investment protection"
     title: "Protecting Your Investment"
-    excerpt: "Support the long-term viability of Flows for APEX and safeguard your investment in applications and processes"
+    excerpt: >
+      Support the long-term viability of Flows for APEX and safeguard your investment in applications and processes
+        - Help secure the future development of both editions.
+        - Ensure continued compatibility and feature growth.
+        - Protect your investment with sustained innovation and maintenance.
+        - Maintain confidence in the stability of your business processes.
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-
+pricing-row-title:
+  - title: "Pricing"
 row-pricing:
   - title: "Pricing"
     excerpt: >
@@ -100,5 +109,39 @@ row10:
 {% include feature_row id="func-row"%}
 {% include feature_row id="svc-row-title" type="center"%}
 {% include feature_row_icon id="svc-row"%}
-{% include feature_row id="row-pricing" type="left"%}
-{% include feature_row id="row10" type="center"%}
+{% include feature_row id="pricing-row-title" type="center"%}
+
+<div>
+
+    <section id="pricing" class="pricing">
+      <container class="footer-container">
+
+        <div class="edition"></div>
+
+        <div class="edition">
+            <div class="edition-description">
+                <p><strong>Enterprise Edition</strong></p>
+                <ul class="edition-features">
+                    <li>everything in Community Edition</li>
+                    <li>BPMN Iterations and Loops</li>
+                    <li>Full BPMn Message Flow</li>
+                    <li>AskFlo GenAI Support for Process Modeling</li>
+                    <li>One Oracle APEX Instance for Production usage</li>
+                    <li>included license for Development instance</li>
+                    <li>included license for Testing instance</li>
+                    <li>included license for non-active failover instance</li>
+                    <li>software updates to future releases, as released</li>
+                    <li>standard product support abd helpdesk</li>
+                    <li>annual advisory consultation (upto 8 hrs per year)</li>
+                </ul>
+                                                
+                <p ><strong>EUR 9,900 per year</strong></p>
+            </div>
+        </div><!-- .edition -->
+
+      </container>
+
+
+    </section><!-- .pricing -->
+   </div>
+  {% include feature_row id="row10" type="center"%}

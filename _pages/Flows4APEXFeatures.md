@@ -5,17 +5,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.6"
   overlay_image: /assets/images/RunningFlows.gif
-  actions:
-    - label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      url: "https://flowsforapex.com/preview/engine"
-      target: "_blank"
-    - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v23.1/FlowsforAPEX_v23.1.zip"
-    - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
-      url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
-      target: "_blank"
-    - label: "Learn more"
-      url: "/latest/getting-started/"
 title: 'Flows for APEX Features'
 excerpt: >
   Feature Overview

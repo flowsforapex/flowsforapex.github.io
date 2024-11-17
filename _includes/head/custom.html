@@ -120,5 +120,59 @@
       width: 64px;
       height: auto;
    }
+   /* custom style for footer */
+   .footer-container {
+      padding-top: 5px;
+      margin-top: 5px;
+      display: flex;
+      flex-direction: row;
+   }
+   .footer-container > div {
+      width: 33%;
+      margin: 10px;
+      margin-bottom: 2px;
+      padding: 5px;
+
+   }
+   .footer-address-text {
+      line-height: 1.2;
+   }
+   .footer-x-small {
+      font-size: 12px;
+   }  
+   .footer-logo {
+      width: 120px;
+      height: auto;
+      padding-top: 30px;
+   }
+   /* custom style for pricing */
+   .pricing-container {
+      padding-top: 5px;
+      margin-top: 5px;
+      display: flex;
+      flex-direction: row;
+   }
+   .pricing-container > div {
+      width: 50%;
+      margin: 10 em;
+      margin-bottom: 2px;
+      padding: 10%;
+   }
+   .pricing ul {
+      list-style: none;
+      padding-left: 0;
+   }
+   .pricing li {
+      position: relative;
+      padding-left: 1.5em; /*preserve space for tick*/
+   }
+   .pricing li::before {
+      color: #066d5b;
+      content: "✔ ";
+      position: absolute;
+      left: 0;
+      width: 1em;
+      height: 1em;
+   }
 </style>
 <!-- end custom head snippets -->

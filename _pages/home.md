@@ -5,14 +5,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.6"
   overlay_image: /assets/images/RunningFlows.gif
-  actions:
-    - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download Community Edition'
-      url: "https://flowsforapex.com/downloads/FlowsForAPEX_v24.1.zip"
-    - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
-      url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
-      target: "_blank"
-    - label: "Learn more"
-      url: "/documentation/"
 excerpt: >
   Oracle APEX extension for BPMN based workflows
 row1:
@@ -40,9 +32,9 @@ row2:
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row3:
   - title: >
-      Flows for APEX Enterprise Edition nearing completion
+      Flows for APEX Enterprise Edition now shipping!
     excerpt: >
-      **Flows for APEX Enterprise Edition** is nearing completion and will be available very shortly under license from Flowquest Limited.  The Enterprise Edition is a new, supported edition of Flows for APEX that includes additional functionality and comes with product support from Flowquest.   Stay tuned for more information coming soon.
+      **Flows for APEX Enterprise Edition** is now available  under license from Flowquest Limited.  The Enterprise Edition is a new, supported edition of Flows for APEX that includes additional functionality and comes with product support from Flowquest.   Stay tuned for more information coming soon.
     image_path: "assets/images/F4AEE-logo-onblue.png"
     actions: 
       - url: "/enterprise-edition"
