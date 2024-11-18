@@ -36,7 +36,7 @@ func-row:
     title: "GenAI for Smarter Workflows"
     excerpt: "Gain GenAI assistance in understanding, improving, verifying and translating business processes"
     actions:
-      - url: "/docs/license/"
+      - url: "/posts/genai-helps-bpmn/"
         class: "btn--primary"
         label: "Learn more"  
 svc-row-title:
@@ -124,7 +124,7 @@ row10:
                 <ul class="edition-features">
                     <li>everything in Community Edition</li>
                     <li>BPMN Iterations and Loops</li>
-                    <li>Full BPMn Message Flow</li>
+                    <li>Full BPMN Message Flow</li>
                     <li>AskFlo GenAI Support for Process Modeling</li>
                     <li>One Oracle APEX Instance for Production usage</li>
                     <li>included license for Development instance</li>
@@ -132,7 +132,7 @@ row10:
                     <li>included license for non-active failover instance</li>
                     <li>software updates to future releases, as released</li>
                     <li>standard product support abd helpdesk</li>
-                    <li>annual advisory consultation (upto 8 hrs per year)</li>
+                    <li>annual advisory consultation (up to 8 hrs per year)</li>
                 </ul>
                                                 
                 <p ><strong>EUR 9,900 per year</strong></p>
