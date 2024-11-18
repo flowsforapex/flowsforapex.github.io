@@ -13,5 +13,5 @@ Flows for APEX documentation, including for the Flows for APEX Enterprise Editio
 
 ### Installation Documentation 
 
-Flows for APEX Enterprise Edition [Installation Guide v24.1]({{site.url}}{{site.baseurl}}/install-doc-ee-241)
+Flows for APEX Enterprise Edition [Installation Guide v24.1](/install-doc-ee-241)
 
