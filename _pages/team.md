@@ -75,7 +75,9 @@ members:
    - Louis:
      name: "Louis Moreaux"
      bio: >
-         Louis started working on this project after integrating Camunda into an APEX application and discovering the power of BPMN workflow engines. With his 4 years of experience with Oracle APEX and 8 years with Oracle Database development, he focuses mainly on the front-end of the engine application and on the process plug-ins.  He has implemented Flows for APEX in over five customer projects.  Louis is an Oracle ACE Pro.
+         Louis is an Oracle ACE Pro with expertise in Oracle Database development since 2013, and he has been focusing on Oracle APEX since 2017.<br>
+         His journey into workflow began when he integrated Camunda into an APEX application, discovering the potential of BPMN workflow engines. In the project, Louis specializes in front-end development and process plug-ins.<br>
+         Currently working as a Senior Developer and Tech Lead for <a href="https://insum.talan.com/" target="_blank">Insum Solutions</a>, he has successfully implemented Flows for APEX in over five customer projects.
      image: "/assets/images/louismoreaux.jpg"
      links: 
        - label: "Email"

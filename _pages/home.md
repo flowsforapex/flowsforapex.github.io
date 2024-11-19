@@ -6,11 +6,8 @@ header:
   overlay_filter: "0.6"
   overlay_image: /assets/images/RunningFlows.gif
   actions:
-    - label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      url: "https://flowsforapex.com/preview/engine"
-      target: "_blank"
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v23.1/FlowsforAPEX_v23.1.zip"
+      url: "https://flowsforapex.com/downloads/FlowsForAPEX_v24.1.zip"
     - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
       url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
       target: "_blank"
@@ -33,10 +30,14 @@ row2:
         - Generative AI support
     image_path: "/assets/images/241-oh-global-flows-sm.png"
     actions: 
-      - url: "https://asktom.oracle.com/ords/r/tech/catalog/session-landing-page?p2_event_id=38456474284798627719376035918186735217"
+      - url: "/Flows4APEX241Features/"
         target: "_blank"
         class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign up Now'
+        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 24.1'
+      - url: "https://youtu.be/zSOBjRgtou8?si=fgIEo7CVSl1BlYHO"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row3:
   - title: >
       Watch "What's New in Flows for APEX v23.1" on APEX Office Hours
