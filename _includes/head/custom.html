@@ -126,6 +126,7 @@
       margin-top: 5px;
       display: flex;
       flex-direction: row;
+      justify-content: center;
    }
    .footer-container > div {
       width: 33%;
@@ -174,5 +175,23 @@
       width: 1em;
       height: 1em;
    }
+   @media (max-width: 500px) {
+      #pricing .footer-container > .edition {
+         width: 100%;
+      }
+      #footer .footer-container {
+         flex-direction:column;
+      }
+      #footer .footer-container div:not(.footer-logo) {
+         width: 100%;
+      }
+   }
+
+   @media (min-width: 501px) and (max-width: 1024px) {
+      #pricing .footer-container > .edition {
+         width: 50%;
+      }
+   }
+   
 </style>
 <!-- end custom head snippets -->
