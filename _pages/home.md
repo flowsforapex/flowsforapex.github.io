@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/RunningFlows.gif
   actions:
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      url: "https://flowsforapex.com/downloads/FlowsForAPEX_v24.1.zip"
+      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v24.1/FlowsForAPEX_v24.1.zip"
     - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
       url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
       target: "_blank"
@@ -40,25 +40,27 @@ row2:
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row3:
   - title: >
-      Watch "What's New in Flows for APEX v23.1" on APEX Office Hours
+      Flows for APEX v24.1 Community Edition and Enterprise Edition now Available
     excerpt: >
-      The Flows for APEX team showed some of the v23.1 new features in our recent Oracle APEX Office Hours session: What's New in Flows for APEX v 23.1.  See demos for:
-        - Inter-process communication with BPMN Message Flow
-        - REST interface
-        - Task Assignment, Due Dates and Priorities
-        - Timestamp Process Variables and Binding Everywhere
-        - Updated Process Modeler and Viewer
-        - System Administration Upgrades with Diagram Logging, Instance Summaries, and Statistics
-    image_path: "/assets/images/F4A-OOH-03Aug23.png"
+      The Flows for APEX team is proud to announce the general availability of Flows for APEX v24.1 in two editions.   The Community Edition remains
+      fully open source and free of charge with community support via Github issues.  The Enterprise Edition* adds additional functionality and comes with product support, and is available on an 
+      annual subscription basis from Flowquest.
+        - Simple Forms allow data inputs without development
+        - New "Process Starter" sample app
+        - JSON support for process variables
+        - Support for iterations and loops*
+        - Improved process collaboration and messaging*
+        - Generative AI support*
+    image_path: "/assets/images/floAIAdvisor241.png"
     actions: 
-      - url: "/Flows4APEX231Features/"
+      - url: "/Flows4APEX241Features/"
         target: "_blank"
         class: "btn--info"
-        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 23.1'
-      - url: "https://asktom.oracle.com/pls/apex/asktom.search?oh=21450"
+        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 24.1'
+      - url: "https://flowquest.net/"
         target: "_blank"
         class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
+        label: "About Enterprise Edition"
 row4:
   - title: 'Try Flows for APEX v23.1 now!'
     excerpt: >
@@ -132,10 +134,10 @@ row9:
   - title: "Flows for APEX integration tutorial"
     excerpt: >
       This tutorial provides an introduction to the usage and integration of Flows for APEX into a process-driven APEX application.
-      We also provide a light version of this tutorial in the documentation, accessible by clicking on Learn More.  Updated for v23.1.
+      We also provide a light version of this tutorial in the documentation, accessible by clicking on Learn More.  Updated for v24.1.
     image_path: "/assets/images/Tutorial.png"
     actions:
-      - url: "/assets/files/Tutorial_Flows_for_APEX_v23.1.zip"
+      - url: "/assets/files/Tutorial_Flows_for_APEX_v24.1.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
       - url: "/latest/getting-started/"
@@ -155,6 +157,7 @@ row10:
         label: "Open an issue"
 ---
 {% include feature_row id="row1" type="center"%}
+{% include feature_row id="row3" type="left"%}
 {% include feature_row id="row2" type="left"%}
 {% include feature_row id="row6" type="left"%}
 {% include feature_row id="row7" type="left"%}
