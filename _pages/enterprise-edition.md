@@ -129,7 +129,7 @@ row10:
                     <li>included license for Testing instance</li>
                     <li>included license for non-active failover instance</li>
                     <li>software updates to future releases, as released</li>
-                    <li>standard product support abd helpdesk</li>
+                    <li>standard product support and helpdesk</li>
                     <li>annual advisory consultation (up to 8 hrs per year)</li>
                 </ul>
                                                 
