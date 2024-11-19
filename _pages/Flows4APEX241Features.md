@@ -10,7 +10,7 @@ header:
 --      url: "https://flowsforapex.com/preview/engine"
 --      target: "_blank"
 --    - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></--i>Download'
---      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v23.1/FlowsforAPEX_v23.1.zip"
+--      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v24.1/FlowsForAPEX_v24.1.zip"
 --    - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></--i>Subscribe'
 --      url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
 --      target: "_blank"
@@ -18,7 +18,7 @@ header:
 --      url: "/latest/getting-started/"
 title: 'Flows for APEX v24.1'
 excerpt: >
-  New Features coming soon in 24.1 
+  New Features now available in v24.1 
 row1:
   - excerpt: "In addition to new features, Flows for APEX version 24.1 introduces the **Flows for APEX Enterprise Edition** - with powerful new enterprise features and  technical support available on an annual subscription basis.  The **Flows for APEX Community Edition** remains as a free-of-charge, community supported product - also with new features."
 row2:
@@ -79,6 +79,11 @@ row9:
   
       The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * New features available in the Enterprise Edition.
     image_path: "assets/images/F4AEE-logo-onblue.png"
+    actions: 
+      - url: "https://www.flowquest.net"
+        target: "_blank"
+        class: "btn--info"
+        label: "More Info"
 row10:
   - title: "The Flows for APEX Community Edition remains 100% Open Source"
     excerpt: "The core of Flows for APEX, now called the **Flows for APEX Community Edition**, remains as an open source project. You can continue to share and/or modify it, always under the adherence of the MIT-license.  Support for Community Edition is provided by the Flows for APEX community, via the github issues and discussions pages."

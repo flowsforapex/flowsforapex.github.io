@@ -10,7 +10,7 @@ header:
       url: "https://flowsforapex.com/preview/engine"
       target: "_blank"
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v23.1/FlowsforAPEX_v23.1.zip"
+      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v24.1/FlowsforAPEX_v24.1.zip"
     - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
       url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
       target: "_blank"
@@ -95,6 +95,11 @@ row9:
   
       The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * Features available in the Enterprise Edition.
     image_path: "assets/images/F4AEE-logo-onblue.png"
+    actions: 
+      - url: "https://www.flowquest.net"
+        target: "_blank"
+        class: "btn--info"
+        label: "More Info"
 row10:
   - title: "100% Open Source"
     excerpt: "Flows for APEX Community Edition is open source. You can share and/or modify it, always under the adherence of the MIT-license."
