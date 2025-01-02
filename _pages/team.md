@@ -13,6 +13,9 @@ members:
        - label: "Email"
          icon: "fas fa-envelope"
          url: "mailto:Niels.deBruijn@hyand.com"
+       - label: "Bluesky"
+         icon: "fab fa-fw fa-bluesky"
+         url: "https://bsky.app/profile/nielsdb.bsky.social"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/nielsdb"
@@ -28,9 +31,9 @@ members:
        - label: "Email"
          icon: "fas fa-envelope"
          url: "mailto:richard@flowquest.net"
-       - label: "Twitter"
-         icon: "fab fa-fw fa-twitter-square"
-         url: "https://twitter.com/FlowquestR"
+       - label: "Bluesky"
+         icon: "fab fa-fw fa-bluesky"
+         url: "https://bsky.app/profile/rallen2010.bsky.social"
        - label: "Website"
          icon: "fas fa-fw fa-link"
          url: "https://richardsredoblog.blogspot.com/"  
@@ -60,6 +63,9 @@ members:
        - label: "Email"
          icon: "fas fa-envelope"
          url: "mailto:moritz.klein@hyand.com"
+       - label: "Bluesky"
+         icon: "fab fa-fw fa-bluesky"
+         url: "https://bsky.app/profile/sqlmoe.bsky.social"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/commi235"
@@ -69,12 +75,17 @@ members:
    - Louis:
      name: "Louis Moreaux"
      bio: >
-         Louis started working on this project after integrating Camunda into an APEX application and discovering the power of BPMN workflow engines. With his 4 years of experience with Oracle APEX and 8 years with Oracle Database development, he focuses mainly on the front-end of the engine application and on the process plug-ins.  He has implemented Flows for APEX in over five customer projects.  Louis is an Oracle ACE Pro.
+         Louis is an Oracle ACE Pro with expertise in Oracle Database development since 2013, and he has been focusing on Oracle APEX since 2017.<br>
+         His journey into workflow began when he integrated Camunda into an APEX application, discovering the potential of BPMN workflow engines. In the project, Louis specializes in front-end development and process plug-ins.<br>
+         Currently working as a Senior Developer and Tech Lead for <a href="https://insum.talan.com/" target="_blank">Insum Solutions</a>, he has successfully implemented Flows for APEX in over five customer projects.
      image: "/assets/images/louismoreaux.jpg"
      links: 
        - label: "Email"
          icon: "fas fa-envelope"
          url: "mailto:lmoreaux@insum.ca"
+       - label: "Bluesky"
+         icon: "fab fa-fw fa-bluesky"
+         url: "https://bsky.app/profile/moreaux-louis.bsky.social"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/moreaux_louis"
