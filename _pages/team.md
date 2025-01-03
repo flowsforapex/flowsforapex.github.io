@@ -36,7 +36,7 @@ members:
          url: "https://bsky.app/profile/rallen2010.bsky.social"
        - label: "Website"
          icon: "fas fa-fw fa-link"
-         url: "https://richardsredoblog.blogspot.com/"  
+         url: "https://blog.flowquest.net"  
    - Dennis:
      name: "Dennis Amthor"
      bio: >
@@ -49,6 +49,9 @@ members:
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/dennisamthor"
+       - label: "Bluesky"
+         icon: "fab fa-fw fa-bluesky"
+         url: "https://bsky.app/profile/dennisamthor.bsky.social"
    - Moritz:
      name: "Moritz Klein"
      bio: >
