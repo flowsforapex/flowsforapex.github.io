@@ -137,7 +137,7 @@ row9:
       We also provide a light version of this tutorial in the documentation, accessible by clicking on Learn More.  Updated for v24.1.
     image_path: "/assets/images/Tutorial.png"
     actions:
-      - url: "/assets/files/Tutorial_Flows_for_APEX_v24.1.zip"
+      - url: "/assets/files/Tutorial_Flows_for_APEX_v23.1.zip"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
       - url: "/latest/getting-started/"
