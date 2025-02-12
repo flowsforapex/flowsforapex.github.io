@@ -108,6 +108,8 @@ latest:
     children:
       - title: Workflow Engine API
         url: /latest/api/
+      - title: Workflow Engine Admin API
+        url: /latest/admin-api/
       - title: Process Variable System API
         url: /latest/procvar-api/
   - title: "Oracle APEX plug-ins"
