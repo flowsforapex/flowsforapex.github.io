@@ -63,14 +63,14 @@ collections:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
-    display_name: "Development (25.1)"
+    display_name: "Development"
     publish_date: 2025-03-29T11:00:00+00:00
     home_page: getting-started/
   latest:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
-    display_name: "Latest v24.1 (Release)"
+    display_name: "Latest"
     publish_date: 2025-03-29T11:00:00+00:00
     home_page: getting-started/
   v24.1:

@@ -236,7 +236,7 @@ v21.1:
   ...
 ```
 
-The version should be publish under it's own url, take a look at the /documentation/ page to see if it's bublish. If you click on the new 21.1 link, you should be redirect to this version of the documentation.
+The version should be published under it's own url, take a look at the /documentation/ page to see if it's published. If you click on the new 21.1 link, you should be redirect to this version of the documentation.
 
 Before
 
@@ -284,7 +284,7 @@ latest:
 - copy the development links
 - past the development links and rename the navbar "latest"
 
-The version should be publish under it's own url, take a look at the /documentation/ page to see if it's bublish. If you click on the latest link, you should be redirect to the new latest version of the documentation.
+The version should be published under it's own url, take a look at the /documentation/ page to see if it's published. If you click on the latest link, you should be redirect to the new latest version of the documentation.
 
 ## How to create a new documentation page
 
@@ -325,7 +325,7 @@ tags:
 - title: Name your blog post
 - last_modified_at: typically the publish date but if you update the blog post later, make sure to update this value
 - permalink: link where the page will be accessible, you should keep /:collection/ because all blog post will be publish under the post collection
-- author: refer to an author profile, datas can be udpated under _data/authors.yml
+- author: refer to an author profile, datas can be updated under _data/authors.yml
 - tags: add one or more tags to the blog posts
 
 ## Update the resources page
