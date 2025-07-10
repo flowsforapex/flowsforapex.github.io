@@ -64,7 +64,7 @@ collections:
     permalink: /:collection/:path/
     type: "documentation"
     display_name: "Development"
-    publish_date: 2025-03-29T11:00:00+00:00
+    publish_date: 2025-07-10T11:00:00+00:00
     home_page: getting-started/
   latest:
     output: true
