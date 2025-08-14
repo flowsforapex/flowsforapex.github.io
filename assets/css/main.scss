@@ -8,6 +8,23 @@
 @import "minimal-mistakes"; // main partials
 
 
+@font-face {
+  font-family: 'bpmn';
+  src: url('/assets/fonts/bpmn/bpmn.ttf') format('truetype'),
+       url('/assets/fonts/bpmn/bpmn.woff') format('woff'),
+       url('/assets/fonts/bpmn/bpmn.woff2') format('woff2'),
+       url('/assets/fonts/bpmn/bpmn.eot') format('embedded-opentype'),
+       url('/assets/fonts/bpmn/bpmn.svg#bpmn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bpmn-icon {
+  font-family: 'bpmn';
+  font-style: normal;
+  speak: none;
+}
+
 html {
   
   @include breakpoint($large) {
@@ -17,4 +34,31 @@ html {
   @include breakpoint($x-large) {
     font-size: 18px; // change to whatever
   }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+.grid-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  padding: 1.5rem;
+  transition: box-shadow 0.3s;
+}
+
+.grid-item:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+  display: block;
 }

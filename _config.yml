@@ -64,7 +64,7 @@ collections:
     permalink: /:collection/:path/
     type: "documentation"
     display_name: "Development"
-    publish_date: 2025-07-10T11:00:00+00:00
+    publish_date: 2025-08-14T11:00:00+00:00
     home_page: getting-started/
   latest:
     output: true
@@ -129,6 +129,7 @@ defaults:
       comments: false
       sidebar:
         nav: "dev"
+        nav_level: 3
   # _latest
   - scope:
       type: latest
