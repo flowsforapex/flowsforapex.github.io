@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<link rel="stylesheet" href="{{ '/assets/css/bpmn.css' | relative_url }}" type="text/css" media="all">
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -26,7 +26,7 @@ layout: default
     </div>
     {% endif %}
 
-    {% if page.collection == "development" %}
+    {% if page.collection == "dev" %}
     <div class="notice--warning doc-draft">
       <i class="fas fa-exclamation-triangle notice-icon"></i>
       You are looking at draft pre-release documentation for the next release of Flows for APEX. Product features documented here may not be released or may have different behavior to that documented here. 

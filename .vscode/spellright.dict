@@ -5,3 +5,5 @@ config.yml
 yml
 navbar
 md
+typora
+site.baseurl
