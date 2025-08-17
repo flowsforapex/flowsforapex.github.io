@@ -104,22 +104,20 @@ dev:
         url: /dev/task-reservation/
       - title: "Process Variables "
         url: /dev/process-variable/
-      - title: "Variable Expression"
+      - title: "Variable Expressions"
         url: /dev/variable-expression/
       - title: "Process Variable Scoping "
         url: /dev/variable-scoping/
       - title: "Introduction to BPMN Message Flow and Process Collaboration 🆕"
         url: /dev/messageflow-intro/
-      - title: "MessageFlow Concepts"
+      - title: "Message Flow Concepts"
         url: /dev/about-messageflow/  
-      - title: "MessageFlow - Message Design"
+      - title: "Message Flow - Message Design"
         url: /dev/messageflow-messages/
       - title: "Introduction to BPMN Iterations and Loops"
         url: /dev/iteration-loop-intro   
       - title: "Iterations and Loops Concepts"
         url: /dev/iteration-loop-concepts   
-      - title: "Configuration Parameter"
-        url: /dev/configuration/
       - title: "About Timers and Scheduling"
         url: /dev/about-timer-execution/
       - title: "Model Versioning"
@@ -143,9 +141,13 @@ dev:
       - title: "Administration Console"
         url: /dev/administration-console/
       - title: "Configuration Parameters 🆕"
-        url: /dev/configuration-parameters/
+        url: /dev/configuration/
       - title: "Configuring Timers"
         url: /dev/about-timer-execution/
+      - title: "Suspending and Resuming a Process"
+        url: /dev/suspend-resume/
+      - title: "Rewinding a Process"
+        url: /dev/rewind/
       - title: "Monitoring and Troubleshooting"
         url: /dev/monitoring-and-troubleshooting/
       - title: "Security Considerations"
