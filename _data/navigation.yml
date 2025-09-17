@@ -30,6 +30,8 @@ dev:
     children:
       - title: BPMN Tutorials 🆕
         url: /dev/tutorials/
+      - title: "Getting started with the Flows for APEX app"
+        url: /dev/getting-started-flows-app
   - title: "Installation Guide"
     url: /dev/installation/
     children:
@@ -43,8 +45,6 @@ dev:
         url: /dev/application-step-key-migration/
       - title: "Upgrading your APEX Environment"
         url: /dev/apex-upgrade/
-      - title: "My Test File"
-        url: /dev/myTestFile/
   - title: About BPMN
     url: /dev/bpmn/
     children: 
@@ -154,7 +154,10 @@ dev:
         url: /dev/security-considerations/
       - title: "Event Logging and Auditing 🆕"
         url: /dev/event-logging-and-auditing/
-  - title: APIs 
+      - title: "Instance Archiving and Purging"
+        url: /dev/instance-archiving-purging/
+  - title: APIs
+    url: /dev/apis/
     children:
       - title: Workflow Engine API
         url: /dev/api/
