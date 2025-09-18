@@ -17,15 +17,15 @@ excerpt: >
   Oracle APEX extension for BPMN based workflows
 row2:
   - title: >
-      Register for "What's New in Flows for APEX v25.1 - Smarter BPMN Workflows with AI, Suspend & Rewind" on APEX Office Hours
+      Register for "What's New in Flows for APEX v25.1" on APEX Office Hours
     excerpt: >
-      Join Moritz Klein and Richard Allen from the Flows for APEX team as they demo Flows for APEX v25.1 new features in a live Oracle APEX Office Hours session on September 25th: What's New in Flows for APEX v 25.1.  See demos for:
+      Join Moritz Klein and Richard Allen from the Flows for APEX team as they demo Flows for APEX v25.1 new features in a live Oracle APEX Office Hours session on Thursday September 25th at 10 AM New York / 14:00 UTC. What's New in Flows for APEX v 25.1 - **Smarter BPMN Workflows with AI, Suspend and Rewind**.  See demos for:
         - AI Service Tasks - Adding Gen AI into your Workflow
         - Suspend/Resume for running processes
         - Rewind to recover from bad user decisions
         - Improved APEX Human Tasks integration
         - Enhanced event logging, debugging, and usability
-    image_path: "/assets/images/241-oh-global-flows-sm.png"
+    image_path: "/assets/images/oh-flowsforapex-251-sm.png"
     actions: 
       - url: "/Flows4APEX251Features/"
         target: "_blank"
@@ -37,7 +37,7 @@ row2:
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Register'
 row1:
   - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
-row2:
+row4:
   - title: >
       Watch "What's New in Flows for APEX v24.1" on APEX Office Hours
     excerpt: >
@@ -153,9 +153,9 @@ row10:
         label: "Open an issue"
 ---
 {% include feature_row id="row1" type="center"%}
-{% include feature_row id="row3" type="left"%}
 {% include feature_row id="row2" type="left"%}
-{% include feature_row id="row6" type="left"%}
+{% include feature_row id="row3" type="left"%}
+{% include feature_row id="row4" type="left"%}
 {% include feature_row id="row7" type="left"%}
 {% include feature_row id="row8" type="left"%}
 {% include feature_row id="row9" type="left"%}
