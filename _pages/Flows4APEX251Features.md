@@ -10,7 +10,7 @@ header:
 --      url: "https://flowsforapex.com/preview/engine"
 --      target: "_blank"
 --    - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></--i>Download'
---      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v24.1/FlowsForAPEX_v24.1.zip"
+--      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/latest"
 --    - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></--i>Subscribe'
 --      url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
 --      target: "_blank"
@@ -27,7 +27,7 @@ row2:
     excerpt: >
       Embed AI-powered decisioning and generative tasks directly into business processes with simple, configurable service tasks for smarter automation:
         - Drive process routing with AI-based decision support outputs.
-        - Generate summaries, reports, or personalised communications automatically.
+        - Generate summaries, reports, or personalized communications automatically.
         - Use RAD and vector search to ground AI in Oracle data.
         - Low-code design makes AI use simple and repeatable.
     image_path: "/assets/images/ai-service-task-tax-example-diagram.png"
@@ -62,7 +62,7 @@ row5:
 row6:
   - title: "Other Developer Features"
     excerpt: >
-      New developer-focused enhancements streamline modelling, improve error handling, and provide clearer visual cues for easier design and maintenance:
+      New developer-focused enhancements streamline modeling, improve error handling, and provide clearer visual cues for easier design and maintenance:
         - Script Task Error Boundary Events let PL/SQL throw BPMN errors.
         - Model-defined process naming simplifies deployment and version management.
         - Diagram badges highlight metadata directly within process diagrams.
@@ -70,12 +70,12 @@ row6:
         - Bundling plugins delivered as APEX Component Groups.
     image_path: "/assets/images/script-task-bpmn-error-exec2.png"
 row7:
-  - title: "Introducing the Flows for APEX Enterprise Edition"
+  - title: "Flows for APEX Enterprise Edition"
     excerpt: >
-      To support customers now running Flows for APEX in their mission-critical applications, we are introducing the **Flows for APEX Enterprise Edition** in 24.1.  
-        - **Flows for APEX Enterprise Edition** includes additional advanced functionality, starting with 24.1 features process collaboration, iterations and loops, and GenAI modeling support.  
+      To support customers now running Flows for APEX in their mission-critical applications, we also offer the **Flows for APEX Enterprise Edition**.  
+        - **Flows for APEX Enterprise Edition** includes additional advanced functionality, including process collaboration, suspend and resume, process rewind, iterations and loops, and GenAI modeling support.  
         - Enterprise customers have access to product support to keep their business processes running.
-        - All Enterprise Edition licencees also have access to an annual advice session with the product developers.
+        - All Enterprise Edition licensees also have access to an annual advice session with the product developers.
         - Supporting the Enterprise Edition enables dedicated resources to continue the development, testing, and support of both the Enterprise and Community Editions of Flows for APEX.
   
       The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * New features available in the Enterprise Edition.
@@ -87,7 +87,7 @@ row7:
         label: "More Info"
 row10:
   - title: "The Flows for APEX Community Edition remains 100% Open Source"
-    excerpt: "The core of Flows for APEX, now called the **Flows for APEX Community Edition**, remains as an open source project. You can continue to share and/or modify it, always under the adherence of the MIT-license.  Support for Community Edition is provided by the Flows for APEX community, via the github issues and discussions pages."
+    excerpt: "The core of Flows for APEX, now called the **Flows for APEX Community Edition**, remains as an open source project. You can continue to share and/or modify it, always under the adherence of the MIT-license.  Support for Community Edition is provided by the Flows for APEX community, via the GitHub issues and discussions pages.  Your support of the Enterprise Edition enables new features and higher quality of the Community Edition."
     actions:
       - url: "https://github.com/flowsforapex/apex-flowsforapex"
         target: "_blank"

@@ -35,11 +35,11 @@ row3:
     excerpt: >
       Repeat a step for each item in a list or query, sequentially or in parallel 
         - works on tasks and sub-processes
-        - execute sequentally or in parallel
+        - execute sequentially or in parallel
         - driven by a list, array, or SQL query
         - also supports BPMN loops
         - completion conditions on loops and iterations 
-        - process viewer allows drilldown into nested iterations 
+        - process viewer allows drill-down into nested iterations 
     image_path: "/assets/images/iterationsLoops241.png"
 row5:
   - title: "Developer-free Simple Form Task"
@@ -52,7 +52,7 @@ row5:
 row6:
   - title: "askFlo - GenAI Support for Process Modeler*"
     excerpt: >
-      Use GenAI to assist process modelling
+      Use GenAI to assist process modeling
         - explain BPMN process models in business English
         - suggest modeling, technical, or business process improvements
         - assist in model error detection and explanation
@@ -62,7 +62,7 @@ row6:
 row7:
   - title: "Process Viewer Enhancements"
     excerpt: >
-      The BPMN Process Viewer, which can be added into your workflow application to show users the current ststus of all the steps in their business process, now is enhanced:
+      The BPMN Process Viewer, which can be added into your workflow application to show users the current status of all the steps in their business process, now is enhanced:
         - open user task steps by clicking on the process viewer
         - highlight model steps with BPMN Color
         - drill into iterating or looping steps*
@@ -74,7 +74,7 @@ row9:
       To support customers now running Flows for APEX in their mission-critical applications, we are introducing the **Flows for APEX Enterprise Edition** in 24.1.  
         - **Flows for APEX Enterprise Edition** includes additional advanced functionality, starting with 24.1 features process collaboration, iterations and loops, and GenAI modeling support.  
         - Enterprise customers have access to product support to keep their business processes running.
-        - All Enterprise Edition licencees also have access to an annual advice session with the product developers.
+        - All Enterprise Edition licensees also have access to an annual advice session with the product developers.
         - Supporting the Enterprise Edition enables dedicated resources to continue the development, testing, and support of both the Enterprise and Community Editions of Flows for APEX.
   
       The Flows for APEX Enterprise Edition is available on an annual subscription basis from Flowquest Limited. * New features available in the Enterprise Edition.
@@ -86,7 +86,7 @@ row9:
         label: "More Info"
 row10:
   - title: "The Flows for APEX Community Edition remains 100% Open Source"
-    excerpt: "The core of Flows for APEX, now called the **Flows for APEX Community Edition**, remains as an open source project. You can continue to share and/or modify it, always under the adherence of the MIT-license.  Support for Community Edition is provided by the Flows for APEX community, via the github issues and discussions pages."
+    excerpt: "The core of Flows for APEX, now called the **Flows for APEX Community Edition**, remains as an open source project. You can continue to share and/or modify it, always under the adherence of the MIT-license.  Support for Community Edition is provided by the Flows for APEX community, via the GitHub issues and discussions pages."
     actions:
       - url: "https://github.com/flowsforapex/apex-flowsforapex"
         target: "_blank"
