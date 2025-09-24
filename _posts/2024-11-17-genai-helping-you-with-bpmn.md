@@ -7,6 +7,7 @@ author: Richard
 tags:
   - "AI"
   - "24.1"
+  - "Enterprise Edition"
 ---
 ### How we're using GenAI in Flows for APEX to help model business processes.
 

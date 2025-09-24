@@ -11,7 +11,7 @@ excerpt: >
   Additional Functionality plus Product Support
 row1:
   - excerpt: >
-      Building on the success of the open-source [**Flows for APEX**](flows4apex/) project, we introduce the **Flows for APEX Enterprise Edition** -- the latest features of Flows for APEX with  **additional functionality**, and coming with **product support** and an **annual advisory session** with the product team.  The Flows for APEX Enterprise Edition is available from Flowquest on an annual subscription basis.
+      Building on the success of the open-source [**Flows for APEX**](flows4apex/) project, in 2024 we introduced the **Flows for APEX Enterprise Edition** -- the latest features of Flows for APEX with  **additional functionality**, and coming with **product support** and an **annual advisory session** with the product team.  The Flows for APEX Enterprise Edition is available from Flowquest on an annual subscription basis.
 func-row-title:
   - title: "Unlock additional functionality, starting with ..."
 func-row:
@@ -37,6 +37,23 @@ func-row:
     excerpt: "Gain GenAI assistance in understanding, improving, verifying and translating business processes"
     actions:
       - url: "/posts/genai-helps-bpmn/"
+        class: "btn--primary"
+        label: "Learn more"
+func-row2:
+  - image_path: /assets/images/suspend-251.png
+    alt: "Suspend and Resume"
+    title: "Suspend and Resume"
+    excerpt: "Enables an administrator to suspend a process and resume it later."
+    actions:
+      - url: "https://flowsforapex.org/latest/suspend-resume/"
+        class: "btn--primary"
+        label: "Learn more"  
+  - image_path: /assets/images/rewind-251.png
+    alt: "Process Rewind"
+    title: "Process Rewind"
+    excerpt: "Rewind a workflow to take a different path. Even a bad process deserves a second chance!"
+    actions:
+      - url: "https://flowsforapex.org/latest/rewind/"
         class: "btn--primary"
         label: "Learn more"  
 svc-row-title:
@@ -85,13 +102,13 @@ row-pricing:
     excerpt: >
       Flows for APEX Enterprise Edition is licensed on an annual subscription basis.
       Subscription includes:
-        - unlimited licence for one Oracle APEX production instance.
+        - unlimited license for one Oracle APEX production instance.
         - included license for development instance
         - included license for test and staging instances
         - included license for any non-active failover systems
         - software updates to future releases, as released.
         - product support and helpdesk
-        - annual advisory consultation with the product developers (upto 1 day per year).
+        - annual advisory consultation with the product developers (up to 1 day per year).
   
       Price: EUR 9,900 per year
   
@@ -103,10 +120,15 @@ row10:
       target: "_blank"
       class: "btn--info"
       label: '<i class="fab fa-github" aria-hidden="true" style="padding-right: 5px;"></i>Contact Us'
+    - url: "https://cal.com/rallen2010/15min"
+      target: "_blank"
+      class: "btn--info"
+      label: '<i class="fab fa-video" aria-hidden="true" style="padding-right:5 px;"></i>Arrange Introductory Call'
 ---
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="func-row-title" type="center"%}
 {% include feature_row id="func-row"%}
+{% include feature_row id="func-row2"%}
 {% include feature_row id="svc-row-title" type="center"%}
 {% include feature_row_icon id="svc-row"%}
 {% include feature_row id="pricing-row-title" type="center"%}
@@ -115,17 +137,19 @@ row10:
 
     <section id="pricing" class="pricing">
       <container class="footer-container">
-
+    
         <div class="edition"></div>
-
+    
         <div class="edition">
             <div class="edition-description">
                 <p><strong>Enterprise Edition</strong></p>
                 <ul class="edition-features">
                     <li>everything in Community Edition</li>
                     <li>BPMN Iterations and Loops</li>
-                    <li>Full BPMN Message Flow</li>
+                    <li>Full BPMN Message Flow, including Inbound Message Queueing</li>
                     <li>AskFlo GenAI Support for Process Modeling</li>
+                    <li>Process Suspend and Resume</li>
+                    <li>Process Rewind</li>
                     <li>One Oracle APEX Instance for Production usage</li>
                     <li>included license for Development instance</li>
                     <li>included license for Testing instance</li>
@@ -138,7 +162,7 @@ row10:
                 <p ><strong>EUR 9,900 per year</strong></p>
             </div>
         </div><!-- .edition -->
-
+    
       </container>
 
 
