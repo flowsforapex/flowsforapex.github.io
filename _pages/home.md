@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/RunningFlows.gif
   actions:
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
-      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v24.1/FlowsForAPEX_v24.1.zip"
+      url: "https://github.com/flowsforapex/apex-flowsforapex/releases/download/v25.1/FlowsForAPEX_v25.1.zip"
     - label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Subscribe'
       url: "https://apex.mt-ag.com/ords/portal/r/apex/newsletter-page?p8_source_page=FLOWSFORAPEX"
       target: "_blank"
@@ -154,8 +154,6 @@ row10:
 ---
 {% include feature_row id="row1" type="center"%}
 {% include feature_row id="row2" type="left"%}
-{% include feature_row id="row3" type="left"%}
-{% include feature_row id="row4" type="left"%}
 {% include feature_row id="row7" type="left"%}
 {% include feature_row id="row8" type="left"%}
 {% include feature_row id="row9" type="left"%}
