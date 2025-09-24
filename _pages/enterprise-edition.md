@@ -137,9 +137,7 @@ row10:
 
     <section id="pricing" class="pricing">
       <container class="footer-container">
-    
-        <div class="edition"></div>
-    
+
         <div class="edition">
             <div class="edition-description">
                 <p><strong>Enterprise Edition</strong></p>

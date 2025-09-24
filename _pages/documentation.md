@@ -9,7 +9,7 @@ header:
 ---
 ### Product Documentation
 
-Flows for APEX documentation, including for the Flows for APEX Enterprise Edition, is currently available on the [flowsforapex.org](https://flowsforapex.org/documentation) website.
+Flows for APEX documentation, including for the Flows for APEX Enterprise Edition, is currently available on the [flowsforapex.org](https://flowsforapex.org/documentation){:target="_blank"} website.
 
 ### Installation Documentation 
 
