@@ -3,10 +3,10 @@ main:
     url: /
   - title: "About"
     url: /Flows4APEXFeatures
-  - title: "V24.1 New Features"
-    url: /Flows4APEX241Features
+  - title: "V25.1 New Features"
+    url: /Flows4APEX251Features
   - title: "Documentation"
-    url: /latest/getting-started
+    url: /latest/getting-started2
   - title: "Blog"
     url: /blog
   - title: "Resources"
@@ -23,253 +23,159 @@ main:
     url: "https://github.com/sponsors/flowsforapex"
     target: "_blank"
 
-# development documentation links
-dev:
-  - title: Getting started
-    url: /dev/getting-started/
-    children:
-      - title: BPMN Tutorials 🆕
-        url: /dev/tutorials/
-      - title: "Getting started with the Flows for APEX app"
-        url: /dev/getting-started-flows-app
-  - title: "Installation Guide"
-    url: /dev/installation/
-    children:
-      - title: "Installing v25.1"
-        url: /dev/installation_251/
-      - title: "Migration"
-        url: /dev/migration/
-      - title: "Deinstallation"
-        url: /dev/deinstallation/
-      - title: "Application Step Key Migration"
-        url: /dev/application-step-key-migration/
-      - title: "Upgrading your APEX Environment"
-        url: /dev/apex-upgrade/
-  - title: About BPMN
-    url: /dev/bpmn/
-    children: 
-      - title: "Activities"
-        url: /dev/bpmn-activities/
-      - title: "Tasks"
-        url: /dev/tasks/
-      - title: "APEX Page Tasks"
-        url: /dev/apex-page-task/
-      - title: "APEX Human Tasks"
-        url: /dev/apex-human-task/
-      - title: "APEX Simple Forms"
-        url: /dev/apex-simple-form/
-      - title: "PL/SQL Script Tasks"
-        url: /dev/script-task/
-      - title: "AI Service Tasks 🆕"
-        url: /dev/ai-service-task/
-      - title: "Sub Processes"
-        url: /dev/subprocesses/
-      - title: "Call Activities  "
-        url: /dev/callActivities/
-      - title: "Multi-Instance Activities"
-        url: /dev/iteration-and-loop-intro/
-      - title: "Gateways"
-        url: /dev/gateways/
-      - title: "Events"
-        url: /dev/bpmn-events/
-      - title: "Start and Stop Events"
-        url: /dev/start-and-stop-events/
-      - title: "Start and Generic (None) Events"
-        url: /dev/none-events/
-      - title: "Timer Events"
-        url: /dev/timer-events/
-      - title: "Error Events 🆕"
-        url: /dev/error-events/
-      - title: "Escalation Events"
-        url: /dev/escalation-events/
-      - title: "Message Events"
-        url: /dev/message-events/
-      - title: "Terminate Events"
-        url: /dev/terminate-events/
-      - title: "Link Events"
-        url: /dev/link-events/
-      - title: "Diagram-level Objects 🆕"
-        url: /dev/collaborations-processes-lanes/
-      - title : "Configure Participants and Processes 🆕"
-        url: /dev/config-participant-and-process/
-      - title: "Configure Lanes"
-        url: /dev/config-lanes/
-      - title: "Supported BPMN"
-        url: /dev/supported-bpmn/
-  - title: Flows for APEX Concepts
-    children:
-      - title: "About Subflows 🆕"
-        url: /dev/about-subflows/
-      - title: "Task Reservation"
-        url: /dev/task-reservation/
-      - title: "Process Variables "
-        url: /dev/process-variable/
-      - title: "Variable Expressions"
-        url: /dev/variable-expression/
-      - title: "Process Variable Scoping "
-        url: /dev/variable-scoping/
-      - title: "Introduction to BPMN Message Flow and Process Collaboration 🆕"
-        url: /dev/messageflow-intro/
-      - title: "Message Flow Concepts"
-        url: /dev/about-messageflow/  
-      - title: "Message Flow - Message Design"
-        url: /dev/messageflow-messages/
-      - title: "Introduction to BPMN Iterations and Loops"
-        url: /dev/iteration-loop-intro   
-      - title: "Iterations and Loops Concepts"
-        url: /dev/iteration-loop-concepts   
-      - title: "About Timers and Scheduling"
-        url: /dev/about-timer-execution/
-      - title: "Model Versioning"
-        url: /dev/model-versioning/
-      - title: "Timestamps and Timezones "
-        url: /dev/timestamps-and-timezones/
-      - title: "Transaction Model"
-        url: /dev/transaction-model/
-  - title: "Best Practice and How To... 🆕"
-    url: /dev/how-tos/
-    children:
-      - title: "Integrate with APEX Task List 🆕"
-        url: /dev/apex-task-list/
-      - title: "Using CE MessageFlow"
-        url: /dev/using-ce-messageflow/
-      - title: "Using Lanes to Assign Tasks 🆕"
-        url: /dev/using-lanes-for-assignment/
-  - title: "Administer a Flows for APEX Instance 🆕"
-    url: /dev/administer/
-    children:
-      - title: "Administration Console"
-        url: /dev/administration-console/
-      - title: "Configuration Parameters 🆕"
-        url: /dev/configuration/
-      - title: "Configuring Timers"
-        url: /dev/about-timer-execution/
-      - title: "Suspending and Resuming a Process"
-        url: /dev/suspend-resume/
-      - title: "Rewinding a Process"
-        url: /dev/rewind/
-      - title: "Monitoring and Troubleshooting"
-        url: /dev/monitoring-and-troubleshooting/
-      - title: "Security Considerations"
-        url: /dev/security-considerations/
-      - title: "Event Logging and Auditing 🆕"
-        url: /dev/event-logging-and-auditing/
-      - title: "Instance Archiving and Purging"
-        url: /dev/instance-archiving-purging/
-  - title: APIs
-    url: /dev/apis/
-    children:
-      - title: Workflow Engine API
-        url: /dev/api/
-      - title: Process Variable System API
-        url: /dev/procvar-api/
-      - title: "REST API "
-        url: /dev/rest-api/
-      - title: Workflow Engine Admin API
-        url: /dev/admin-api/
-      - title: "Oracle APEX plug-ins 🆕"
-        url: /dev/apex-plugins/
-  - title: FAQ
-    url: /dev/faq/
-  - title: Other Versions
-    url: /documentation/
-
 # latest documentation links
 latest:
   - title: Getting started
-    url: /latest/getting-started/
+    url: /latest/getting-started2/
     children:
-      - title: BPMN Tutorials 🆕
-        url: /latest/tutorials/
-  - title: Installation
+      - title: "Getting started with the Flows for APEX app"
+        url: /latest/getting-started-flows-app
+      - title: "Build your First Workflow"
+        url: /latest/first-workflow/
+      - title: "BPMN Tutorials 🆕"
+        url: /latest/bpmn-tutorials/
+      - title: "ABPMN Tutorials for Upgraders 🆕"
+        url: /latest/bpmn-tutorials-upgraders/
+  - title: "Installation Guide"
     url: /latest/installation/
     children:
+      - title: "Installing v25.1"
+        url: /latest/installation_251/
       - title: "Migration"
         url: /latest/migration/
-      - title: "Application Step Key Migration"
-        url: /latest/application-step-key-migration/
       - title: "Deinstallation"
         url: /latest/deinstallation/
+      - title: "Application Step Key Migration"
+        url: /latest/application-step-key-migration/
       - title: "Upgrading your APEX Environment"
         url: /latest/apex-upgrade/
-  - title: BPMN
+  - title: About BPMN
     url: /latest/bpmn/
     children: 
-      - title: "Tasks 🆕"
+      - title: "Activities"
+        url: /latest/bpmn-activities/
+      - title: "Tasks"
         url: /latest/tasks/
-      - title: "UserTask Settings 🆕"
-        url: /latest/usertask-settings/
-      - title: "Gateways"
-        url: /latest/gateways/
-      - title: "Start and Stop Events"
-        url: /latest/start-and-stop-events/
-      - title: "Timer Events"
-        url: /latest/timer-events/
-      - title: "Timer Syntax"
-        url: /latest/timer-syntax/
-      - title: "Boundary Events"
-        url: /latest/boundary-events/
-      - title: "Link Events"
-        url: /latest/link-events/
+      - title: "APEX Page Tasks"
+        url: /latest/apex-page-task/
+      - title: "APEX Human Tasks"
+        url: /latest/apex-human-task/
+      - title: "APEX Simple Forms"
+        url: /latest/apex-simple-form/
+      - title: "PL/SQL Script Tasks"
+        url: /latest/script-task/
+      - title: "AI Service Tasks 🆕"
+        url: /latest/ai-service-task/
       - title: "Sub Processes"
         url: /latest/subprocesses/
       - title: "Call Activities  "
         url: /latest/callActivities/
-      - title: "Task Assignment "
-        url: /latest/pool-and-lanes/
+      - title: "Multi-Instance Activities"
+        url: /latest/iteration-loop-intro/
+      - title: "Gateways"
+        url: /latest/gateways/
+      - title: "Events"
+        url: /latest/bpmn-events/
+      - title: "Start and Stop Events"
+        url: /latest/start-and-stop-events/
+      - title: "Start and Generic (None) Events"
+        url: /latest/none-events/
+      - title: "Timer Events"
+        url: /latest/timer-events/
+      - title: "Error Events 🆕"
+        url: /latest/error-events/
+      - title: "Escalation Events"
+        url: /latest/escalation-events/
+      - title: "Message Events"
+        url: /latest/message-events/
+      - title: "Terminate Events"
+        url: /latest/terminate-events/
+      - title: "Link Events"
+        url: /latest/link-events/
+      - title: "Diagram-level Objects 🆕"
+        url: /latest/collaborations-processes-lanes/
+      - title : "Configure Participants and Processes 🆕"
+        url: /latest/config-participant-and-process/
+      - title: "Configure Lanes"
+        url: /latest/config-lanes/
       - title: "Supported BPMN"
         url: /latest/supported-bpmn/
   - title: Flows for APEX Concepts
+    url: /latest/concepts-and-features/
     children:
+      - title: "About Subflows 🆕"
+        url: /latest/about-subflows/
       - title: "Task Reservation"
         url: /latest/task-reservation/
-      - title: "Process Variables 🆕"
+      - title: "Process Variables "
         url: /latest/process-variable/
-      - title: "Variable Expression 🆕"
+      - title: "Variable Expressions"
         url: /latest/variable-expression/
-      - title: "Process Variable Scoping  🆕"
+      - title: "Process Variable Scoping "
         url: /latest/variable-scoping/
       - title: "Introduction to BPMN Message Flow and Process Collaboration 🆕"
         url: /latest/messageflow-intro/
-      - title: "MessageFlow Concepts  🆕"
+      - title: "Message Flow Concepts"
         url: /latest/about-messageflow/  
-      - title: "MessageFlow - Message Design🆕"
+      - title: "Message Flow - Message Design"
         url: /latest/messageflow-messages/
-      - title: "Introduction to BPMN Iterations and Loops🆕"
+      - title: "Introduction to BPMN Iterations and Loops"
         url: /latest/iteration-loop-intro   
-      - title: "Iterations and Loops Concepts🆕"
+      - title: "Iterations and Loops Concepts"
         url: /latest/iteration-loop-concepts   
-      - title: "Event Logging and Auditing"
-        url: /latest/event-logging-and-auditing/
-      - title: "Configuration Parameter"
-        url: /latest/configuration/
       - title: "About Timers and Scheduling"
         url: /latest/about-timer-execution/
-      - title: "About Subflows 🆕"
-        url: /latest/about-subflows/
       - title: "Model Versioning"
         url: /latest/model-versioning/
       - title: "Timestamps and Timezones "
         url: /latest/timestamps-and-timezones/
       - title: "Transaction Model"
         url: /latest/transaction-model/
-      - title: "REST API "
-        url: /latest/rest-api/
-  - title: PL/SQL APIs 
+  - title: "Best Practice and How To... 🆕"
+    url: /latest/how-tos/
+    children:
+      - title: "Integrate with APEX Task List 🆕"
+        url: /latest/apex-task-list/
+      - title: "Using CE MessageFlow"
+        url: /latest/using-ce-messageflow/
+      - title: "Using Lanes to Assign Tasks 🆕"
+        url: /latest/using-lanes-for-assignment/
+  - title: "Administer a Flows for APEX Instance 🆕"
+    url: /latest/admin-guide/
+    children:
+      - title: "Configuration Parameters 🆕"
+        url: /latest/configuration/
+      - title: "Configuring Timers"
+        url: /latest/about-timer-execution/
+      - title: "Suspending and Resuming a Process"
+        url: /latest/suspend-resume/
+      - title: "Rewinding a Process"
+        url: /latest/rewind/
+      - title: "Monitoring and Troubleshooting"
+        url: /latest/monitoring-and-troubleshooting/
+      - title: "Security Considerations"
+        url: /latest/security-considerations/
+      - title: "Event Logging and Auditing 🆕"
+        url: /latest/event-logging-and-auditing/
+      - title: "Instance Archiving and Purging"
+        url: /latest/instance-archiving-purging/
+  - title: APIs
+    url: /latest/apis/
     children:
       - title: Workflow Engine API
         url: /latest/api/
-      - title: Workflow Engine Admin API
-        url: /latest/admin-api/
       - title: Process Variable System API
         url: /latest/procvar-api/
-  - title: "Oracle APEX plug-ins"
-    url: /latest/plugins/
+      - title: "REST API "
+        url: /latest/rest-api/
+      - title: Workflow Engine Admin API
+        url: /latest/admin-api/
+      - title: "Oracle APEX plug-ins 🆕"
+        url: /latest/apex-plugins/
   - title: FAQ
     url: /latest/faq/
   - title: Other Versions
     url: /documentation/
-
 
 # v24.1 documentation links
 v24.1:
