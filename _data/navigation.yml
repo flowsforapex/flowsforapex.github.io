@@ -140,6 +140,8 @@ latest:
         url: /latest/using-ce-messageflow/
       - title: "Using Lanes to Assign Tasks 🆕"
         url: /latest/using-lanes-for-assignment/
+      - title: "How to Implement Complex Approval Cycles 🆕"
+        url: /latest/complex-approvals/
   - title: "Administer a Flows for APEX Instance 🆕"
     url: /latest/admin-guide/
     children:
@@ -147,17 +149,13 @@ latest:
         url: /latest/configuration/
       - title: "Configuring Timers"
         url: /latest/about-timer-execution/
-      - title: "Suspending and Resuming a Process"
+      - title: "Suspending and Resuming a Process 🆕"
         url: /latest/suspend-resume/
-      - title: "Rewinding a Process"
+      - title: "Rewinding a Process 🆕"
         url: /latest/rewind/
-      - title: "Monitoring and Troubleshooting"
-        url: /latest/monitoring-and-troubleshooting/
-      - title: "Security Considerations"
-        url: /latest/security-considerations/
       - title: "Event Logging and Auditing 🆕"
         url: /latest/event-logging-and-auditing/
-      - title: "Instance Archiving and Purging"
+      - title: "Instance Archiving and Purging 🆕"
         url: /latest/instance-archiving-purging/
   - title: APIs
     url: /latest/apis/
