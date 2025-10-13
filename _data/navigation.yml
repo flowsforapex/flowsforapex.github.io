@@ -34,7 +34,7 @@ latest:
         url: /latest/first-workflow/
       - title: "BPMN Tutorials 🆕"
         url: /latest/bpmn-tutorials/
-      - title: "ABPMN Tutorials for Upgraders 🆕"
+      - title: "BPMN Tutorials for Upgraders 🆕"
         url: /latest/bpmn-tutorials-upgraders/
   - title: "Installation Guide"
     url: /latest/installation/
@@ -134,8 +134,12 @@ latest:
   - title: "Best Practice and How To... 🆕"
     url: /latest/how-tos/
     children:
+      - title: "Set Up App for Flows for APEX 🆕"
+        url: /latest/get-component-group/
       - title: "Integrate with APEX Task List 🆕"
         url: /latest/apex-task-list/
+      - title: "Add a Process Viewer to your App 🆕"
+        url: /latest/add-process-viewer/
       - title: "Using CE MessageFlow"
         url: /latest/using-ce-messageflow/
       - title: "Using Lanes to Assign Tasks 🆕"
