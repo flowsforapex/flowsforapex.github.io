@@ -3,6 +3,7 @@ permalink: /resources/
 title: "Resources"
 layout: splash
 videos:
+  - url: "https://www.youtube.com/embed/fKYG71gdlOc"
   - url: "https://www.youtube.com/embed/zSOBjRgtou8"
   - url: "https://www.youtube.com/embed/LUiM2JZOCMo"
   - url: "https://www.youtube.com/embed/pZgbgx92dq4"
@@ -27,7 +28,7 @@ articles:
     author: "Yuji N."
     url: "http://apexugj.blogspot.com/2021/04/flows-for-APEX-sample-instruction.html"
   - title: "6 reasons you should use Flows for APEX"
-    author: "Michelle Skamene (Insum)"
+    author: "Michelle Skamene (Insum, now Talan)"
     url: "https://www.insum.ca/6-reasons-you-should-use-flows-for-apex/"
   - title: "Go With The Flow"
     author: "Paul Guerin"
