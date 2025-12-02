@@ -30,8 +30,8 @@ latest:
     children:
       - title: "Getting started with the Flows for APEX app"
         url: /latest/getting-started-flows-app
-      - title: "Build your First Workflow"
-        url: /latest/first-workflow/
+      - title: "Build your First Workflow 🆕"
+        url: /latest/starter-workshop/
       - title: "BPMN Tutorials 🆕"
         url: /latest/bpmn-tutorials/
       - title: "BPMN Tutorials for Upgraders 🆕"
