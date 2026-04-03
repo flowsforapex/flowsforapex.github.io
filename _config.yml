@@ -59,11 +59,18 @@ plugins:
   - jekyll-include-cache
 
 collections:
+  dev:
+    output: true
+    permalink: /:collection/:path/
+    type: "documentation"
+    display_name: "Dev v26.1"
+    publish_date: 2026-04-03T00:00:00+00:00
+    home_page: getting-started2/
   latest:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
-    display_name: "Latest"
+    display_name: "Latest (v25.1)"
     publish_date: 2025-09-21T11:00:00+00:00
     home_page: getting-started2/
   v24.1:
@@ -110,6 +117,18 @@ collections:
     home_page: tutorials/
 
 defaults:
+  # _dev
+  - scope:
+      type: dev
+    values:
+      classes: wide
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "dev"
   # _latest
   - scope:
       type: latest
