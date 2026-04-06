@@ -1,12 +1,12 @@
 @charset "utf-8";
 @font-face {
   font-family: 'bpmn';
-  src: url('../fonts/bpmn.eot?21877404');
-  src: url('../fonts/bpmn.eot?21877404#iefix') format('embedded-opentype'),
-       url('../fonts/bpmn.woff2?21877404') format('woff2'),
-       url('../fonts/bpmn.woff?21877404') format('woff'),
-       url('../fonts/bpmn.ttf?21877404') format('truetype'),
-       url('../fonts/bpmn.svg?21877404#bpmn') format('svg');
+  src: url('../fonts/bpmn/bpmn.eot?21877404');
+  src: url('../fonts/bpmn/bpmn.eot?21877404#iefix') format('embedded-opentype'),
+       url('../fonts/bpmn/bpmn.woff2?21877404') format('woff2'),
+       url('../fonts/bpmn/bpmn.woff?21877404') format('woff'),
+       url('../fonts/bpmn/bpmn.ttf?21877404') format('truetype'),
+       url('../fonts/bpmn/bpmn.svg?21877404#bpmn') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'bpmn';
-    src: url('../font/bpmn.svg?21877404#bpmn') format('svg');
+    src: url('../fonts/bpmn/bpmn.svg?21877404#bpmn') format('svg');
   }
 }
 */
