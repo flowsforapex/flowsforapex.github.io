@@ -11,7 +11,7 @@ header:
 
 ### Installation Documentation 
 
-Flows for APEX Enterrise Edition v25.1 has a single installation process (unlike v24.1, where the Ask Flo AI was optional).  
+Flows for APEX Enterrise Edition v25.1 has a single installation process (unlike v24.1, where there were 2 different installations as 'Ask Flo AI' was optional).  
 
 ## Pre-Requisites 
 
@@ -19,7 +19,7 @@ Flows for APEX Enterrise Edition v25.1 has a single installation process (unlike
 
     - If you have an existing Flows for APEX 24.1 or earlier installation, upgrade and migrate this to Flows for APEX v25.1 Community Edition first using the instructions [here](https://www.flowsforapex.org/latest/installation_251/).
     
-    - If  you are installing a new system, start by installing Flows  for APEX Community Edition v24.1.  You can do this by importing the Flows for APEX Community Edition app and installing its supporting objects.  
+    - If  you are installing a new system, start by installing Flows  for APEX Community Edition v25.1.  You can do this by importing the Flows for APEX Community Edition app and installing its supporting objects using the instructions [here](https://www.flowsforapex.org/latest/installation_251/).
     
 - You should have Timers set up and working.  (Unlike v24.1, these are now set up for you as part of the Community Edition installation  - so this should already be the case)
 
@@ -27,7 +27,7 @@ Flows for APEX Enterrise Edition v25.1 has a single installation process (unlike
 
 - Database: Installation requires Oracle Database 19c or later.
 
-- Privileges:  The Flows for APEX Schema requires the following privileges,  grants, and roles:
+- Privileges:  To run Enterprise Edition, the Flows for APEX Schema requires the following privileges,  grants, and roles:
 
     | Type              | Required                                                     |
     | ----------------- | ------------------------------------------------------------ |
