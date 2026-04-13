@@ -258,6 +258,10 @@ dev:
         url: /dev/config-lanes/
       - title: "Supported BPMN"
         url: /dev/supported-bpmn/
+      - title: "APEX Extensions Guide"
+        url: /dev/apex-extensions-guide/
+      - title: "APEX Extensions Catalog"
+        url: /dev/apex-extensions-catalog/
   - title: Flows for APEX Concepts
     url: /dev/concepts-and-features/
     children:
