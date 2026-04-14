@@ -131,6 +131,8 @@ latest:
         url: /latest/timestamps-and-timezones/
       - title: "Transaction Model"
         url: /latest/transaction-model/
+      - title: "Logging Philosophy and Lifecycle 🆕"
+        url: /latest/logging-philosophy-and-lifecycle/
   - title: "Best Practice and How To... 🆕"
     url: /latest/how-tos/
     children:
@@ -159,6 +161,8 @@ latest:
         url: /latest/rewind/
       - title: "Event Logging and Auditing 🆕"
         url: /latest/event-logging-and-auditing/
+      - title: "Managing Instance Logging Levels 🆕"
+        url: /latest/managing-instance-logging/
       - title: "Instance Archiving and Purging 🆕"
         url: /latest/instance-archiving-purging/
   - title: APIs
@@ -303,6 +307,8 @@ dev:
         url: /dev/timestamps-and-timezones/
       - title: "Transaction Model"
         url: /dev/transaction-model/
+      - title: "Logging Philosophy and Lifecycle 🆕"
+        url: /dev/logging-philosophy-and-lifecycle/
   - title: "Best Practice and How To... 🆕"
     url: /dev/how-tos/
     children:
@@ -333,6 +339,8 @@ dev:
         url: /dev/rewind/
       - title: "Event Logging and Auditing 🆕"
         url: /dev/event-logging-and-auditing/
+      - title: "Managing Instance Logging Levels 🆕"
+        url: /dev/managing-instance-logging/
       - title: "Instance Archiving and Purging 🆕"
         url: /dev/instance-archiving-purging/
   - title: APIs
