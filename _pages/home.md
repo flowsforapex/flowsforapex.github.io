@@ -11,9 +11,30 @@ row1:
   - excerpt: "Flows for APEX is a powerful workflow engine extension for Oracle APEX applications. Model your business processes with BPMN, develop your process steps in APEX, and monitor your running processes with the Flows for APEX application. Flows for APEX was created as a community project by team of experienced APEX professionals to meet the workflow requirements in many APEX applications."
 row4:
   - title: >
-      Flowquest was on "What's New in Flows for APEX v25.1" on APEX Office Hours
+      Preview what's coming in Flows for APEX v26.1
     excerpt: >
-       Moritz Klein and Richard Allen from the Flows for APEX team demoed Flows for APEX v25.1 new features in a live Oracle APEX Office Hours session on Thursday September 25th.  What's New in Flows for APEX v 25.1 - **Smarter BPMN Workflows with AI, Suspend and Rewind**.  Watch the replay to see demos for:
+       Flows for APEX v26.1 brings a major step forward for adaptive, AI-assisted workflow automation.  Key highlights include:
+        - adhoc sub processes for knowledge workers
+        - AI-driven adhoc sub processes with recommendations or fully autonomous BPMN-defined agents
+        - async workflow execution for long-running tasks
+        - usability improvements with task subjects
+        - developer enhancements with task parameters and JSONPath variable expressions
+        - UserTask Autoform and Start Event Autoform currently under development
+    image_path: "/assets/images/floAIAdvisor241.png"
+    actions: 
+      - url: "/Flows4APEX261Features/"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See 26.1 Highlights'
+      - url: "mailto:info@flowquest.net"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i class="fas fa-envelope-open-text" aria-hidden="true" style="padding-right: 5px;"></i>Contact Flowquest'
+row2:
+  - title: >
+      Watch "What's New in Flows for APEX v25.1" replay on APEX Office Hours
+    excerpt: >
+      Watch the replay of Moritz Klein and Richard Allen from the Flows for APEX team as they demoed our current production  release, Flows for APEX v25.1, on a Oracle APEX Office Hours session on September 25th, 2025.  What's New in Flows for APEX v 25.1 - **Smarter BPMN Workflows with AI, Suspend and Rewind**.  See demos for:
         - AI Service Tasks - Adding GenAI into your Workflow
         - Suspend/Resume for running processes
         - Rewind to recover from bad data or bad user decisions
@@ -21,32 +42,11 @@ row4:
         - Enhanced event logging, debugging, and usability
     image_path: "/assets/images/oh-flowsforapex-251-sm.png"
     actions: 
-      - url: "https://flowsforapex.org/Flows4APEX251Features/"
+      - url: "/Flows4APEX251Features/"
         target: "_blank"
         class: "btn--info"
         label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 25.1'
-      - url: "https://www.youtube.com/watch?v=fKYG71gdlOc"
-        target: "_blank"
-        class: "btn--info"
-        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
-row2:
-  - title: >
-      Watch "What's New in Flows for APEX v24.1" on APEX Office Hours
-    excerpt: >
-      Join Niels de Bruijn and Richard Allen from the Flows for APEX team as they demo Flows for APEX v24.1 new features in a live Oracle APEX Office Hours session on October 10th: What's New in Flows for APEX v 24.1.  See demos for:
-        - User Task type "Simple Forms"
-        - New sample app "Simple Process Starter"
-        - JSON support for process variables
-        - Support for iterations and loops
-        - Improved process collaboration and messaging
-        - Generative AI support
-    image_path: "/assets/images/241-oh-global-flows-sm.png"
-    actions: 
-      - url: "/"
-        target: "_blank"
-        class: "btn--info"
-        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 24.1'
-      - url: "https://youtu.be/zSOBjRgtou8?si=fgIEo7CVSl1BlYHO"
+      - url: "https://www.youtube.com/watch?v=fKYG71gdlOc&t=3s"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'

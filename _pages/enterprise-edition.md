@@ -11,51 +11,51 @@ excerpt: >
   Additional Functionality plus Product Support
 row1:
   - excerpt: >
-      Building on the success of the open-source [**Flows for APEX**](flows4apex/) project, in 2024 we introduced the **Flows for APEX Enterprise Edition** -- the latest features of Flows for APEX with  **additional functionality**, and coming with **product support** and an **annual advisory session** with the product team.  The Flows for APEX Enterprise Edition is available from Flowquest on an annual subscription basis.
+      Building on the success of the open-source [**Flows for APEX**](flows4apex/) project, the **Flows for APEX Enterprise Edition** adds advanced functionality, **product support**, and an **annual advisory session** with the product team.  The 26.1 release wave adds adhoc workflow control for knowledge workers, AI-driven BPMN agents, async execution for long-running work, and stronger low-code developer tooling.
 func-row-title:
-  - title: "Unlock additional functionality, starting with ..."
+  - title: "New in 26.1 for Enterprise Edition"
 func-row:
-  - image_path: /assets/images/messageflow-241-tutorial7-diagram.png
-    alt: "extra functionality"
-    title: "Process Collaboration"
-    excerpt: "Enable your processes to start, collaborate and message other workflows with Message Flow."
+  - image_path: /assets/images/ahsp-261-manual-def.png
+    alt: "Adhoc Sub Processes"
+    title: "Adhoc Sub Processes"
+    excerpt: "Give knowledge workers controlled flexibility by letting them choose the next relevant action at runtime while BPMN still defines the guardrails and completion rules."
     actions:
-      - url: "https://flowsforapex.org/latest/about-messageflow/"
+      - url: "/adhoc-subprocesses-basics/"
         class: "btn--primary"
         label: "Learn more"
-  - image_path: /assets/images/bpmn-iteration-loops.png
-    alt: "BPMN Iteration and Loops"
-    title: "BPMN Iteration and Loops"
-    excerpt: "Loop or repeat process steps for each item on a List or SQL Query, sequentially or in parallel."
+  - image_path: /assets/images/ahsp-261-autonomous-def.png
+    alt: "AI-Driven BPMN Agents"
+    title: "AI-Driven BPMN Agents"
+    excerpt: "Move from recommendations to hybrid or fully autonomous BPMN-defined agents while keeping workflow behavior auditable and governed."
     actions:
-      - url: "https://flowsforapex.org/latest/iteration-loop-intro/"
+      - url: "/adhoc-subprocesses-ai-agents/"
         class: "btn--primary"
         label: "Learn more"
-  - image_path: /assets/images/ask-flo-model-summary.png
-    alt: "AI Support"
-    title: "GenAI for Smarter Workflows"
-    excerpt: "Gain GenAI assistance in understanding, improving, verifying and translating business processes"
+  - image_path: /assets/images/async-task-261.png
+    alt: "Async Workflow Execution"
+    title: "Async Workflow Execution"
+    excerpt: "Push selected long-running work into background async execution for better resilience, improved user experience, and safer orchestration of external services or AI calls."
     actions:
-      - url: "/posts/genai-helps-bpmn/"
+      - url: "https://flowsforapex.org/dev/async-tasks-and-background-execution/"
         class: "btn--primary"
         label: "Learn more"
 func-row2:
-  - image_path: /assets/images/suspend-251.png
-    alt: "Suspend and Resume"
-    title: "Suspend and Resume"
-    excerpt: "Enables an administrator to suspend a process and resume it later."
+  - image_path: /assets/images/261-ai-dev-bundle.png
+    alt: "AI Development Support Toolkit"
+    title: "AI-Powered Development Support Toolkit"
+    excerpt: "This release includes XSD definition of Flows for APEX BPMN extensions, read-only MCP schema scripts, and Flows for APEX skill definitions to accelerate consistent AI-powered workflow development across teams."
+  - image_path: /assets/images/261-dev-features.png
+    alt: "Subjects, Task Parameters and JSONPath"
+    title: "Developer Improvements"
+    excerpt: "Use declarative task subjects, task parameters and JSONPath variable expressions to define cleaner task contracts, simpler data mapping, and more maintainable process applications."
     actions:
-      - url: "https://flowsforapex.org/latest/suspend-resume/"
+      - url: "https://flowsforapex.org/dev/task-parameters/"
         class: "btn--primary"
-        label: "Learn more"  
-  - image_path: /assets/images/rewind-251.png
-    alt: "Process Rewind"
-    title: "Process Rewind"
-    excerpt: "Rewind a workflow to take a different path. Even a bad process deserves a second chance!"
-    actions:
-      - url: "https://flowsforapex.org/latest/rewind/"
-        class: "btn--primary"
-        label: "Learn more"  
+        label: "Learn more"
+  - image_path: /assets/images/261-temp-auto-form.png
+    alt: "Autoforms"
+    title: "Autoforms"
+    excerpt: "UserTask Autoform and Start Event Autoform will auto-create input forms so that analysts can create simple data collection forms declaratively without APEX development skills."
 svc-row-title:
   - title: "Support for Enterprise Use"
 svc-row:
@@ -146,6 +146,9 @@ row10:
                     <li>BPMN Iterations and Loops</li>
                     <li>Full BPMN Message Flow, including Inbound Message Queueing</li>
                     <li>AskFlo GenAI Support for Process Modeling</li>
+                    <li>Adhoc Sub Processes for knowledge workers</li>
+                    <li>AI-driven adhoc sub processes and BPMN agents</li>
+                    <li>Async workflow execution for long-running tasks</li>
                     <li>Process Suspend and Resume</li>
                     <li>Process Rewind</li>
                     <li>One Oracle APEX Instance for Production usage</li>
