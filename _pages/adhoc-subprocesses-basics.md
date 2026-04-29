@@ -44,6 +44,36 @@ The Adhoc Sub Process definition features allow simple and automatic creation of
 - Available Activities
 - Completed Activities Log
 
+## Business Capabilities Provided
+
+Adhoc Sub Processes allow organizations to support work that is too variable for a rigid step-by-step sequence, but still too important to leave outside workflow governance.
+
+This is particularly useful for:
+
+- investigations, reviews, and assessments where the next best step depends on findings
+- case-management style work where skilled staff need discretion
+- knowledge-worker processes that mix optional activities with required governance
+- situations where teams want runtime flexibility without losing auditability
+
+## Why Flows for APEX
+
+Adhoc Sub Processes bring a BPMN capability that is designed specifically for discretionary, knowledge-worker process behavior. That allows Flows for APEX to support work patterns that do not fit cleanly into a strict linear or approval-only model.
+
+Many teams simulate flexible work by building large custom pages full of buttons, conditions, and special-case rules. Flows for APEX keeps that flexibility inside a governed BPMN structure, which is easier to reason about, review, and evolve.
+
+External tools may support flexible work, but they can sit awkwardly beside Oracle APEX applications. Flows for APEX allows the discretionary work model to remain close to the application, the data, and the BPMN process that surrounds it.
+
+## Best-Fit Use Cases
+
+- medical or clinical review workflows
+- insurance and claims assessment
+- compliance investigations and exception handling
+- service operations where staff choose from a set of optional actions
+
+## Edition Notes
+
+Adhoc Sub Process support described on this page is an Enterprise Edition capability introduced in v26.1.
+
 ---
 
 For AI-powered and agentic Adhoc Sub Processes, see [Adding AI and Agentic Adhoc Sub Processes](/adhoc-subprocesses-ai-agents/).

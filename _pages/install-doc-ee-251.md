@@ -17,9 +17,9 @@ Flows for APEX Enterrise Edition v25.1 has a single installation process (unlike
 
 -  You need a working Flows for APEX v25.1 Community Edition installation before you start - the Enterprise Edition instals on top of the Community Edition.  
 
-    - If you have an existing Flows for APEX 24.1 or earlier installation, upgrade and migrate this to Flows for APEX v25.1 Community Edition first using the instructions [here](https://www.flowsforapex.org/latest/installation_251/).
+    - If you have an existing Flows for APEX 24.1 or earlier installation, upgrade and migrate this to Flows for APEX v25.1 Community Edition first using the instructions [here](https://www.flowsforapex.org/latest/installation_251/){:target="_blank"}.
     
-    - If  you are installing a new system, start by installing Flows  for APEX Community Edition v25.1.  You can do this by importing the Flows for APEX Community Edition app and installing its supporting objects using the instructions [here](https://www.flowsforapex.org/latest/installation_251/).
+    - If  you are installing a new system, start by installing Flows  for APEX Community Edition v25.1.  You can do this by importing the Flows for APEX Community Edition app and installing its supporting objects using the instructions [here](https://www.flowsforapex.org/latest/installation_251/){:target="_blank"}.
     
 - You should have Timers set up and working.  (Unlike v24.1, these are now set up for you as part of the Community Edition installation  - so this should already be the case)
 
@@ -82,7 +82,7 @@ The migration path in overview is:
 
  3. Backup your System.
 
- 4. Follow. the [instructions](https://flowsforapex.org/latest/migration/) to migrate a Community Edition v24.1 installation to a CE v25.1 one.  This will temporarily make your system a v25.1 Community Edition.
+ 4. Follow. the [instructions](https://flowsforapex.org/latest/migration/){:target="_blank"} to migrate a Community Edition v24.1 installation to a CE v25.1 one.  This will temporarily make your system a v25.1 Community Edition.
 
  5. Install Enterprise Edition v25.1 **on-top** of the Community Edition.  The installation sets up Oracle Advanced Queueing, installs some missing PL/SQL package bodies and SQL views, recompiles everything, and gives you an Enterprise Edition system.  To do this:
 

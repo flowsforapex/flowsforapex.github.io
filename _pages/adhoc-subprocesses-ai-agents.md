@@ -15,9 +15,9 @@ While manually controlled Adhoc Sub Processes already provide strong support for
 
 AI support can be provided at 3 levels of control:
 
-- Recommendations, where the sub process is performed by a human user, but at any point the user can ask for a recommended next course of action from AI. The recommendation can be accepted or dismissed, optionally capturing the reason for dismissal for model tuning.
-- Hybrid, where the user lets AI recommend and execute the next steps.
-- Fully autonomous, where AI is in control of the adhoc sub process and it executes autonomously.
+- **Recommendations**, where the sub process is performed by a human user, but at any point the user can ask for a recommended next course of action from AI. The recommendation can be accepted or dismissed, optionally capturing the reason for dismissal for model tuning.
+- **Hybrid**, where the user lets AI recommend and execute the next steps.
+- **Fully Autonomous**, where AI is in control of the adhoc sub process and it executes fully autonomously.
 
 Configuring an adhoc sub process for AI support is simple, and requires a text definition of the subprocess objective. The AI engine can be connected via the built-in APEX AI package, or using the United Codes AI package, allowing a full range of modern models to be used even on older APEX versions like APEX 24.1.
 
@@ -37,6 +37,36 @@ Not all applications are able to go to autonomous operation, or are comfortable 
 - While gaining confidence in AI, or in regulated environments where a human has to make critical process decisions, an adhoc sub process can be run in recommendation mode.
 
 ![Recommendation Mode]({{ site.url }}{{ site.baseurl }}/assets/images/261-ahsp-recommendation-app.png "Recommendation Mode")
+
+## Business Capabilities Provided
+
+AI-assisted and agentic execution allows organizations to introduce AI into workflow incrementally rather than through an all-or-nothing architectural jump.
+
+This supports:
+
+- decision support for knowledge workers in live process contexts
+- gradual progression from recommendation to hybrid execution to autonomy
+- AI use within BPMN-defined operational guardrails
+- rationale capture and review for sensitive or regulated processes
+
+## Why Flows for APEX
+
+Standalone agents can be powerful, but they often operate without a formal process frame. Flows for APEX places AI inside BPMN-defined boundaries so the agent can only act within the process design and available runtime state.
+
+It is possible to add AI services to many applications, but Flows for APEX provides a more coherent orchestration pattern for combining AI decisions with BPMN activities, human approvals, runtime auditability, and controlled autonomy.
+
+Generic automation tools may emphasize AI flexibility over process governance. Flows for APEX is aimed at teams who want AI adoption without losing workflow explainability, operational control, or Oracle APEX alignment.
+
+## Best-Fit Use Cases
+
+- AI-assisted operational reviews and investigations
+- complex case work where the best next action depends on context
+- semi-autonomous business processes that still require human checkpoints
+- regulated or high-trust environments where rationale and control matter
+
+## Edition Notes
+
+AI-assisted and agentic Adhoc Sub Process execution is an Enterprise Edition capability introduced in v26.1.
 
 ---
 

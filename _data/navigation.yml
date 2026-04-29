@@ -5,10 +5,13 @@ main:
     url: /flows4apex
   - title: "News"
     url: /news
+  - title: "Releases"
+    url: /releases
   - title: "Documentation"
     url: /documentation
   - title: "Blog"
-    url: /blog
+    url: https://blog.flowquest.net
+    target: "_blank"
   - title: "Resources"
     url: /resources
   - title: "Customer Portal"

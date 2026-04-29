@@ -18,9 +18,9 @@ header:
 --      url: "/latest/getting-started/"
 title: 'Flows for APEX v24.1'
 excerpt: >
-  New Features coming soon in 24.1 
+  New Features released in Flows for APEX v24.1 
 row1:
-  - excerpt: "In addition to new features, Flows for APEX version 24.1 introduces the **Flows for APEX Enterprise Edition** - with powerful new enterprise features and  technical support available on an annual subscription basis.  The **Flows for APEX Community Edition** remains as a free-of-charge, community supported product - also with new features."
+  - excerpt: "In addition to new features, Flows for APEX version 24.1 introduced the **Flows for APEX Enterprise Edition** - with powerful new enterprise features and  technical support available on an annual subscription basis.  The **Flows for APEX Community Edition** remains as a free-of-charge, community supported product - also with new features."
 row2:
   - title: 'Full Process Collaboration with BPMN Message Flow*'
     excerpt: >
@@ -31,9 +31,9 @@ row2:
         - emit messages from a process or sub-process end event
     image_path: "/assets/images/msgFlowSendRxInvoice241.png"
 row3:
-  - title: 'Iterating and Looping Process Steps*'
+  - title: 'Multi Iteration (For Each) and Looping Process Steps*'
     excerpt: >
-      Repeat a step for each item in a list or query, sequentially or in parallel 
+      Repeat a step **for each** item in a list or query, sequentially or in parallel 
         - works on tasks and sub-processes
         - execute sequentally or in parallel
         - driven by a list, array, or SQL query
@@ -93,10 +93,10 @@ row10:
         label: "Open an issue"
 ---
 {% include feature_row id="row1" type="center"%}
-{% include feature_row id="row5" type="left"%}
-{% include feature_row id="row9" type="left"%}
-{% include feature_row id="row2" type="left"%}
 {% include feature_row id="row3" type="left"%}
+{% include feature_row id="row2" type="left"%}
 {% include feature_row id="row6" type="left"%}
+{% include feature_row id="row5" type="left"%}
 {% include feature_row id="row7" type="left"%}
+{% include feature_row id="row9" type="left"%}
 {% include feature_row id="row10" type="center"%}

@@ -1,13 +1,13 @@
 ---
 layout: splash
-permalink: /Flows4APEX261Features/
+permalink: /releases
+title: "Releases"
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
   overlay_image: /assets/images/ahsp-261-manual-def.png
-title: "New in Enterprise Edition for 26.1"
 excerpt: >
-  Release highlights for Flows for APEX Enterprise Edition 26.1.
+  Latest release highlights for Flows for APEX, plus links to earlier release feature pages.
 row1:
   - excerpt: >
       This page summarizes the 26.1 wave for Flows for APEX Enterprise Edition, including new runtime flexibility,
@@ -58,19 +58,29 @@ row3:
     alt: "Autoforms"
     title: "Autoforms"
     excerpt: "UserTask Autoform and Start Event Autoform will auto-create input forms so that analysts can create simple data collection forms declaratively without APEX development skills."
+row4-title:
+  - title: "Earlier Releases"
 row4:
-  - title: "Enterprise Edition"
-    excerpt: >
-      Flows for APEX Enterprise Edition builds on the open-source Community Edition with additional advanced functionality, including Adhoc Sub Process and AI orchestration features, plus product support from Flowquest.
+  - image_path: /assets/images/rewind-251.png
+    alt: "Flows for APEX 25.1"
+    title: "Flows for APEX 25.1"
+    excerpt: "Highlights include AI service tasks, suspend and resume, rewind for controlled recovery, and stronger operational tooling."
     actions:
-      - url: "mailto:info@flowquest.net"
-        target: "_blank"
+      - url: "/Flows4APEX251Features/"
         class: "btn--info"
-        label: "Contact us"
+        label: "Open 25.1 page"
+  - image_path: /assets/images/floAIAdvisor241.png
+    alt: "Flows for APEX 24.1"
+    title: "Flows for APEX 24.1"
+    excerpt: "Introduced the first Enterprise Edition wave, including advanced capabilities and early GenAI support for process delivery."
+    actions:
+      - url: "/Flows4APEX241Features/"
+        class: "btn--info"
+        label: "Open 24.1 page"
 ---
-
-{% include feature_row id="row1" type="center" %}
-{% include feature_row id="row2-title" type="center" %}
-{% include feature_row id="row2" %}
-{% include feature_row id="row3" %}
-{% include feature_row id="row4" type="center" %}
+{% include feature_row id="row1" type="center"%}
+{% include feature_row id="row2-title" type="center"%}
+{% include feature_row id="row2"%}
+{% include feature_row id="row3"%}
+{% include feature_row id="row4-title" type="center"%}
+{% include feature_row id="row4" type="left"%}

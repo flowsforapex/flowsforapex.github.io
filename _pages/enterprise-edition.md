@@ -8,48 +8,48 @@ header:
 
 title: "Flows for APEX Enterprise Edition"
 excerpt: >
-  Additional Functionality plus Product Support
+  Advanced workflow capabilities, product support, and advisory services for mission-critical Oracle APEX process applications.
 row1:
   - excerpt: >
-      Building on the success of the open-source [**Flows for APEX**](flows4apex/) project, the **Flows for APEX Enterprise Edition** adds advanced functionality, **product support**, and an **annual advisory session** with the product team.  The 26.1 release wave adds adhoc workflow control for knowledge workers, AI-driven BPMN agents, async execution for long-running work, and stronger low-code developer tooling.
+      Building on the success of the open-source [**Flows for APEX**](/flows4apex/) project, **Flows for APEX Enterprise Edition** is the supported edition for organizations running business-critical workflows. It adds advanced functionality, product support, and annual advisory access so your team can deliver and operate BPMN process applications with confidence.
 func-row-title:
-  - title: "New in 26.1 for Enterprise Edition"
+  - title: "Enterprise Edition Overview"
 func-row:
-  - image_path: /assets/images/ahsp-261-manual-def.png
-    alt: "Adhoc Sub Processes"
-    title: "Adhoc Sub Processes"
-    excerpt: "Give knowledge workers controlled flexibility by letting them choose the next relevant action at runtime while BPMN still defines the guardrails and completion rules."
+  - image_path: /assets/images/RunningFlows.gif
+    alt: "Enterprise Runtime Capabilities"
+    title: "Advanced Runtime Capabilities"
+    excerpt: "Run complex BPMN workflows with enterprise-grade capabilities including process collaboration, iterations and loops, message flow enhancements, and operational controls."
     actions:
-      - url: "/adhoc-subprocesses-basics/"
+      - url: "/flows4apex/"
         class: "btn--primary"
         label: "Learn more"
   - image_path: /assets/images/ahsp-261-autonomous-def.png
-    alt: "AI-Driven BPMN Agents"
-    title: "AI-Driven BPMN Agents"
-    excerpt: "Move from recommendations to hybrid or fully autonomous BPMN-defined agents while keeping workflow behavior auditable and governed."
+    alt: "Adaptive AI and Knowledge Work"
+    title: "Adaptive AI and Knowledge Work"
+    excerpt: "Enable Adhoc Sub Processes for knowledge workers and move from AI recommendations to hybrid or autonomous BPMN-defined agents with governance built in."
     actions:
-      - url: "/adhoc-subprocesses-ai-agents/"
+      - url: "/Flows4APEX261Features/"
         class: "btn--primary"
-        label: "Learn more"
+        label: "See 26.1 highlights"
   - image_path: /assets/images/async-task-261.png
-    alt: "Async Workflow Execution"
-    title: "Async Workflow Execution"
-    excerpt: "Push selected long-running work into background async execution for better resilience, improved user experience, and safer orchestration of external services or AI calls."
+    alt: "Support and Confidence"
+    title: "Support and Confidence"
+    excerpt: "Combine platform capability with responsive product support and annual advisory services to reduce delivery risk and keep process operations stable over time."
     actions:
-      - url: "https://flowsforapex.org/dev/async-tasks-and-background-execution/"
+      - url: "/customer-portal/"
         class: "btn--primary"
         label: "Learn more"
 func-row2:
   - image_path: /assets/images/261-ai-dev-bundle.png
     alt: "AI Development Support Toolkit"
     title: "AI-Powered Development Support Toolkit"
-    excerpt: "This release includes XSD definition of Flows for APEX BPMN extensions, read-only MCP schema scripts, and Flows for APEX skill definitions to accelerate consistent AI-powered workflow development across teams."
-  - image_path: /assets/images/261-dev-features.png
-    alt: "Subjects, Task Parameters and JSONPath"
-    title: "Developer Improvements"
-    excerpt: "Use declarative task subjects, task parameters and JSONPath variable expressions to define cleaner task contracts, simpler data mapping, and more maintainable process applications."
+    excerpt: "Includes XSD definition of Flows for APEX BPMN extensions, read-only MCP schema scripts, and Flows for APEX skill definitions to accelerate consistent AI-powered workflow development across teams."
+  - image_path: /assets/images/rewind-251.png
+    alt: "Enterprise Administration Controls"
+    title: "Enterprise Administration Support"
+    excerpt: "Support real-world production operations with logging, archiving, and essential administrator controls including process suspend, rewind, and resume capabilities introduced in 25.1."
     actions:
-      - url: "https://flowsforapex.org/dev/task-parameters/"
+      - url: "/Flows4APEX251Features/"
         class: "btn--primary"
         label: "Learn more"
   - image_path: /assets/images/261-temp-auto-form.png
@@ -95,6 +95,21 @@ svc-row:
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+partners-row-title:
+  - title: "Reseller and Implementation Partners"
+  - excerpt: "Our partner network provides regional coverage and implementation expertise for Enterprise Edition rollout and adoption."
+partners-row:
+  - image_path: /assets/icons/alt_route_66dp_156082.png
+    alt: "Reseller and Implementation Partners"
+    title: "Reseller and Implementation Partners"
+    excerpt: "Our partner network provides regional coverage and implementation expertise for Enterprise Edition rollout and adoption."
+partners-join-row:
+  - title: "Join the Partners Program"
+    excerpt: "Partner with Flowquest as a reseller or implementation specialist."
+    actions:
+      - url: "mailto:info@flowquest.com?subject=Join%20the%20Partners%20Program"
+        class: "btn--primary"
+        label: "Get info"
 pricing-row-title:
   - title: "Pricing"
 row-pricing:
@@ -131,6 +146,81 @@ row10:
 {% include feature_row id="func-row2"%}
 {% include feature_row id="svc-row-title" type="center"%}
 {% include feature_row_icon id="svc-row"%}
+{% include feature_row id="partners-row-title" type="center"%}
+
+<style>
+  .partner-logo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+  }
+
+  .partner-logo-card {
+    align-items: center;
+    border: 1px solid #d7dce2;
+    border-radius: 8px;
+    color: #3e4a57;
+    display: flex;
+    font-size: 0.95rem;
+    font-weight: 600;
+    justify-content: center;
+    min-height: 110px;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    background: #ffffff;
+  }
+
+  .partner-logo-card img {
+    display: block;
+    max-height: 54px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .partner-logo-card .partner-logo-placeholder {
+    color: #6a7686;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .partner-logo-note {
+    color: #596678;
+    font-size: 0.9rem;
+    margin: 0.25rem 0 1.5rem;
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    .partner-logo-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 560px) {
+    .partner-logo-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="partner-logo-grid">
+  <a class="partner-logo-card" href="#" aria-label="Talan">
+    <img src="/assets/logos/talan-logo.svg" alt="Talan" />
+  </a>
+  <a class="partner-logo-card" href="#" aria-label="Hyand"><img src="/assets/logos/hyand_logo_rgb_pos.png" alt="Hyand" /></a>
+  <a class="partner-logo-card" href="#" aria-label="Solicon-IT"><img src="/assets/logos/solicon-logo-400.png" alt="Solicon-IT" /></a>
+  <a class="partner-logo-card" href="#" aria-label="TGC"><img src="/assets/logos/TGC_blue.png" alt="TGC" /></a>
+  <!--
+  <a class="partner-logo-card" href="#" aria-label="Partner Logo 5"><span class="partner-logo-placeholder">Partner Logo 5</span></a>
+  <a class="partner-logo-card" href="#" aria-label="Partner Logo 6"><span class="partner-logo-placeholder">Partner Logo 6</span></a>
+  <a class="partner-logo-card" href="#" aria-label="Partner Logo 7"><span class="partner-logo-placeholder">Partner Logo 7</span></a>
+  <a class="partner-logo-card" href="#" aria-label="Partner Logo 8"><span class="partner-logo-placeholder">Partner Logo 8</span></a>
+  -->
+</div>
+
+{% include feature_row id="partners-join-row" type="center"%}
 {% include feature_row id="pricing-row-title" type="center"%}
 
 <div>
