@@ -15,6 +15,43 @@ header:
       url: "/latest/getting-started/"
 excerpt: >
   Oracle APEX extension for BPMN based workflows
+row0:
+  - title: >
+      Announcing Flows for APEX v26.1 
+    excerpt: >
+      Flows for APEX v26.1 features significant enhancements to both editions.  The Community Edition is a maintenance release, but adds:
+       - **Task Parameters** for easier task development
+       - **Task Subjects** for better task organization and communication
+       - bug fixes and stability improvements.
+
+      The Enterprise Edition* features major new capabilities, including:
+       - Support for **BPMN Adhoc Sub Processes**, providing capabilities for manual and AI-controlled case management.
+       - **Fully Autonomous Agentic Agents**, with AI-controlled Adhoc SubProcesses.
+       - **Async Task Execution**, allowing long running tasks to run in background processes.
+       - **Auto Forms**, allowing non-APEX developers to create simple data input forms declaratively and build simple workflows
+
+      Both editions of Flows for APEX v26.1 will be released during May 2026.
+    image_path: "/assets/images/ahsp-261-manual-def.png"
+    actions: 
+      - url: "/Flows4APEX261Features/"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 26.1'
+row0a:
+  - title: >
+      Fully Autonomous Agentic Workflows*
+    excerpt: >
+      Experience the future of workflow automation with Fully Autonomous Agentic Workflows. These AI-powered processes can make decisions, adapt to changing conditions, and execute complex business logic without human intervention. Transform your business processes with intelligent agents that learn, reason, and act autonomously to achieve optimal outcomes, inside the guard rails, audit, and control of BPMN-defined processes.  *Available in Enterprise Edition only.
+    image_path: "/assets/images/ahsp-261-autonomous-def.png"
+    actions: 
+      - url: "https://flowquest.net/adhoc-subprocesses-ai-agents/"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i class="fas fa-robot" aria-hidden="true" style="padding-right: 5px;"></i>Learn About Autonomous Workflows'
+      - url: "https://flowquest.net/"
+        target: "_blank"
+        class: "btn--info"
+        label: "About Enterprise Edition"
 row2:
   - title: >
       Watch "What's New in Flows for APEX v25.1" replay on APEX Office Hours
@@ -153,6 +190,8 @@ row10:
         label: "Open an issue"
 ---
 {% include feature_row id="row1" type="center"%}
+{% include feature_row id="row0" type="left"%}
+{% include feature_row id="row0a" type="left"%}
 {% include feature_row id="row2" type="left"%}
 {% include feature_row id="row7" type="left"%}
 {% include feature_row id="row8" type="left"%}

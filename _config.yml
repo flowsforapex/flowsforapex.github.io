@@ -30,8 +30,6 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
@@ -51,7 +49,6 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -63,14 +60,14 @@ collections:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
-    display_name: "Dev v26.1"
+    display_name: "v26.1 - Development Release (not finalized)"
     publish_date: 2026-04-03T00:00:00+00:00
     home_page: getting-started2/
   latest:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
-    display_name: "Latest (v25.1)"
+    display_name: "v25.1 - Current Release"
     publish_date: 2025-09-21T11:00:00+00:00
     home_page: getting-started2/
   v24.1:

@@ -8,7 +8,8 @@ main:
   - title: "Documentation"
     url: /latest/getting-started2
   - title: "Blog"
-    url: /blog
+    url: "https://blog.flowquest.net"
+    target: "_blank"
   - title: "Resources"
     url: /resources
   - title: "Team"
