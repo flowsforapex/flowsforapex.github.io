@@ -38,6 +38,10 @@ row3:
           - Simple enough for your basic processes - but with power to grow when you need it.
           - Already understood by leading GenAI models, including GPT
     image_path: "/assets/images/ShipmentProcess.png"
+    actions:
+      - label: "Explore"
+        url: "/bpmn-modeling-foundation/"
+        class: "btn--info"
 row4:
   - title: "Creating Workflows"
     excerpt: >
@@ -47,6 +51,10 @@ row4:
         - Model complex processes, including collaboration between processes
         - AI support available for process explanation, translation, and error detection*
     image_path: "/assets/images/modeler-tstz-bind.png"
+    actions:
+      - label: "Explore"
+        url: "/flow-designer-modeling/"
+        class: "btn--info"
 row5:
   - title: "Managing Workflow Execution"
     excerpt: >
@@ -56,6 +64,10 @@ row5:
         - View real-time status and history of process instances
         - Options to pause, resume or terminate flows as needed.
     image_path: "/assets/images/flowMonitor.png"
+    actions:
+      - label: "Explore"
+        url: "/flow-monitor-execution/"
+        class: "btn--info"
 row6:
   - title: "Integration with APEX"
     excerpt: >
@@ -65,6 +77,10 @@ row6:
         - Use RESTful web services to connect with external systems
         - Start Process Instances from an APEX Automation
     image_path: "/assets/images/APEXTaskList.png"
+    actions:
+      - label: "Explore"
+        url: "/integration-api-connectivity/"
+        class: "btn--info"
 row7:
   - title: "Monitor, Manage, Audit and Report on Processes and Performance"
     excerpt: >
@@ -74,21 +90,31 @@ row7:
         - Built-in dashboard showing Process and Task statistics, including processing and waiting times
         - Automated creation of Instance Summary archive document
     image_path: "/assets/images/dashboard.png"
+    actions:
+      - label: "Explore"
+        url: "/monitoring-audit-operations/"
+        class: "btn--info"
 row8:
   - title: "Deploy On Any Modern Oracle APEX Environment "
     excerpt: >
       Flows for APEX can be deployed anywhere APEX runs, from Oracle Free to the largest OCI environment.
-        - Requires Oracle database 19c or later, and Oracle APEX 22.1 or later.
+        - Requires Oracle database 19c or later, and Oracle APEX 24.1 or later.
 
       <br>Deploy Globally 
         - Flows for APEX supports 10 major languages ( English, French, German, Spanish, Brazilian Portuguese, 
           Italian, Japanese, Korean, Simplified Chinese and Traditional Chinese).
     image_path: "/assets/images/nls-231-korean-chinese.png"
+    actions:
+      - label: "Explore"
+        url: "/deployment-global-support/"
+        class: "btn--info"
 row9:
-  - title: "Also available as an Enterprise Edition with Additional functionality and with support"
+  - title: "Support for Production Deployments*"
     excerpt: >
-      To support customers now running Flows for APEX in their mission-critical applications, we are introducing the **Flows for APEX Enterprise Edition** in 24.1.  
-        - **Flows for APEX Enterprise Edition** includes additional advanced functionality, starting with 24.1 features process collaboration, iterations and loops, and GenAI modeling support.  
+      To support customers now running Flows for APEX in their mission-critical applications, organizations can upgrade to the **Flows for APEX Enterprise Edition**.  With v26.1, this provides:  
+        - Additional advanced BPMN functionality to support **fully autonomous agentic workflows**, simple case management, process collaboration, 'for each' iterations and loops.
+        - Development support for use with AI dev tools, including language definition, agent definitions, and MCP schemas.
+        - Support tools to suspend, redirect, and resume long running processes  
         - Enterprise customers have access to product support to keep their business processes running.
         - All Enterprise Edition licencees also have access to an annual advice session with the product developers.
         - Supporting the Enterprise Edition enables dedicated resources to continue the development, testing, and support of both the Enterprise and Community Editions of Flows for APEX.

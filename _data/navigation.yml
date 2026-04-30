@@ -8,7 +8,8 @@ main:
   - title: "Documentation"
     url: /latest/getting-started2
   - title: "Blog"
-    url: /blog
+    url: "https://blog.flowquest.net"
+    target: "_blank"
   - title: "Resources"
     url: /resources
   - title: "Team"
@@ -131,6 +132,8 @@ latest:
         url: /latest/timestamps-and-timezones/
       - title: "Transaction Model"
         url: /latest/transaction-model/
+      - title: "Logging Philosophy and Lifecycle 🆕"
+        url: /latest/logging-philosophy-and-lifecycle/
   - title: "Best Practice and How To... 🆕"
     url: /latest/how-tos/
     children:
@@ -159,6 +162,8 @@ latest:
         url: /latest/rewind/
       - title: "Event Logging and Auditing 🆕"
         url: /latest/event-logging-and-auditing/
+      - title: "Managing Instance Logging Levels 🆕"
+        url: /latest/managing-instance-logging/
       - title: "Instance Archiving and Purging 🆕"
         url: /latest/instance-archiving-purging/
   - title: APIs
@@ -176,6 +181,186 @@ latest:
         url: /latest/apex-plugins/
   - title: FAQ
     url: /latest/faq/
+  - title: Other Versions
+    url: /documentation/
+
+# dev documentation links
+dev:
+  - title: Getting started
+    url: /dev/getting-started2/
+    children:
+      - title: "Getting started with the Flows for APEX app"
+        url: /dev/getting-started-flows-app
+      - title: "Build your First Workflow 🆕"
+        url: /dev/starter-workshop/
+      - title: "BPMN Tutorials 🆕"
+        url: /dev/bpmn-tutorials/
+      - title: "BPMN Tutorials for Upgraders 🆕"
+        url: /dev/bpmn-tutorials-upgraders/
+  - title: "Installation Guide"
+    url: /dev/installation/
+    children:
+      - title: "Installing v25.1"
+        url: /dev/installation_251/
+      - title: "Migration"
+        url: /dev/migration/
+      - title: "Deinstallation"
+        url: /dev/deinstallation/
+      - title: "Application Step Key Migration"
+        url: /dev/application-step-key-migration/
+      - title: "Upgrading your APEX Environment"
+        url: /dev/apex-upgrade/
+  - title: About BPMN
+    url: /dev/bpmn/
+    children:
+      - title: "Activities"
+        url: /dev/bpmn-activities/
+      - title: "Tasks"
+        url: /dev/tasks/
+      - title: "APEX Page Tasks"
+        url: /dev/apex-page-task/
+      - title: "APEX Human Tasks"
+        url: /dev/apex-human-task/
+      - title: "APEX Simple Forms"
+        url: /dev/apex-simple-form/
+      - title: "PL/SQL Script Tasks"
+        url: /dev/script-task/
+      - title: "AI Service Tasks 🆕"
+        url: /dev/ai-service-task/
+      - title: "Sub Processes"
+        url: /dev/subprocesses/
+      - title: "Adhoc Sub Processes 🆕(EE)"
+        url: /dev/adhoc-subprocesses/
+      - title: "Call Activities  "
+        url: /dev/callActivities/
+      - title: "Multi-Instance Activities"
+        url: /dev/iteration-loop-intro/
+      - title: "Gateways"
+        url: /dev/gateways/
+      - title: "Events"
+        url: /dev/bpmn-events/
+      - title: "Start and Stop Events"
+        url: /dev/start-and-stop-events/
+      - title: "Start and Generic (None) Events"
+        url: /dev/none-events/
+      - title: "Timer Events"
+        url: /dev/timer-events/
+      - title: "Error Events 🆕"
+        url: /dev/error-events/
+      - title: "Escalation Events"
+        url: /dev/escalation-events/
+      - title: "Message Events"
+        url: /dev/message-events/
+      - title: "Terminate Events"
+        url: /dev/terminate-events/
+      - title: "Link Events"
+        url: /dev/link-events/
+      - title: "Diagram-level Objects 🆕"
+        url: /dev/collaborations-processes-lanes/
+      - title : "Configure Participants and Processes 🆕"
+        url: /dev/config-participant-and-process/
+      - title: "Configure Lanes"
+        url: /dev/config-lanes/
+      - title: "Supported BPMN"
+        url: /dev/supported-bpmn/
+      - title: "APEX Extensions Guide"
+        url: /dev/apex-extensions-guide/
+      - title: "APEX Extensions Catalog"
+        url: /dev/apex-extensions-catalog/
+  - title: Flows for APEX Concepts
+    url: /dev/concepts-and-features/
+    children:
+      - title: "About Subflows 🆕"
+        url: /dev/about-subflows/
+      - title: "Task Reservation"
+        url: /dev/task-reservation/
+      - title: "Process Variables "
+        url: /dev/process-variable/
+      - title: "Task Parameters 🆕"
+        url: /dev/task-parameters/
+      - title: "Input Parameter Layout Guide 🆕"
+        url: /dev/input-parameter-layout-guide/
+      - title: "Variable Expressions"
+        url: /dev/variable-expression/
+      - title: "Process Variable Scoping "
+        url: /dev/variable-scoping/
+      - title: "Introduction to BPMN Message Flow and Process Collaboration 🆕"
+        url: /dev/messageflow-intro/
+      - title: "Message Flow Concepts"
+        url: /dev/about-messageflow/
+      - title: "Message Flow - Message Design"
+        url: /dev/messageflow-messages/
+      - title: "Async Tasks and Background Execution 🆕"
+        url: /dev/async-tasks-and-background-execution/
+      - title: "Introduction to BPMN Iterations and Loops"
+        url: /dev/iteration-loop-intro
+      - title: "Iterations and Loops Concepts"
+        url: /dev/iteration-loop-concepts
+      - title: "Adhoc Sub Process Concepts 🆕(EE)"
+        url: /dev/adhoc-subprocess-concepts/
+      - title: "AI-Driven Adhoc Sub Processes 🆕(EE)"
+        url: /dev/ai-driven-adhoc-subprocesses/
+      - title: "About Timers and Scheduling"
+        url: /dev/about-timer-execution/
+      - title: "Model Versioning"
+        url: /dev/model-versioning/
+      - title: "Timestamps and Timezones "
+        url: /dev/timestamps-and-timezones/
+      - title: "Transaction Model"
+        url: /dev/transaction-model/
+      - title: "Logging Philosophy and Lifecycle 🆕"
+        url: /dev/logging-philosophy-and-lifecycle/
+  - title: "Best Practice and How To... 🆕"
+    url: /dev/how-tos/
+    children:
+      - title: "Set Up App for Flows for APEX 🆕"
+        url: /dev/get-component-group/
+      - title: "Integrate with APEX Task List 🆕"
+        url: /dev/apex-task-list/
+      - title: "Using Manual Adhoc Sub Processes 🆕(EE)"
+        url: /dev/using-manual-adhoc-subprocesses/
+      - title: "Add a Process Viewer to your App 🆕"
+        url: /dev/add-process-viewer/
+      - title: "Using CE MessageFlow"
+        url: /dev/using-ce-messageflow/
+      - title: "Using Lanes to Assign Tasks 🆕"
+        url: /dev/using-lanes-for-assignment/
+      - title: "How to Implement Complex Approval Cycles 🆕"
+        url: /dev/complex-approvals/
+  - title: "Administer a Flows for APEX Instance 🆕"
+    url: /dev/admin-guide/
+    children:
+      - title: "Configuration Parameters 🆕"
+        url: /dev/configuration/
+      - title: "Configuring Timers"
+        url: /dev/about-timer-execution/
+      - title: "Suspending and Resuming a Process 🆕"
+        url: /dev/suspend-resume/
+      - title: "Rewinding a Process 🆕"
+        url: /dev/rewind/
+      - title: "Event Logging and Auditing 🆕"
+        url: /dev/event-logging-and-auditing/
+      - title: "Managing Instance Logging Levels 🆕"
+        url: /dev/managing-instance-logging/
+      - title: "Instance Archiving and Purging 🆕"
+        url: /dev/instance-archiving-purging/
+  - title: APIs
+    url: /dev/apis/
+    children:
+      - title: Workflow Engine API
+        url: /dev/api/
+      - title: Process Variable System API
+        url: /dev/procvar-api/
+      - title: flow_globals Runtime Context API 🆕
+        url: /dev/flow-globals-api/
+      - title: "REST API "
+        url: /dev/rest-api/
+      - title: Workflow Engine Admin API
+        url: /dev/admin-api/
+      - title: "Oracle APEX plug-ins 🆕"
+        url: /dev/apex-plugins/
+  - title: FAQ
+    url: /dev/faq/
   - title: Other Versions
     url: /documentation/
 

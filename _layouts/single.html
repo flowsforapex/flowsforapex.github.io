@@ -18,7 +18,7 @@ layout: default
   {% include sidebar.html %}
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if page.collection != "posts" and page.collection != "latest" %}
+    {% if page.collection and page.collection != "posts" and page.collection != "latest" %}
     {% assign version = site.collections | where_exp:"version", "version.label == 'latest'" | first  %}
     <div class="notice--warning doc-not-latest">
       <i class="fas fa-exclamation-triangle notice-icon"></i>
