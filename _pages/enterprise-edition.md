@@ -212,8 +212,8 @@ row10:
   <a class="partner-logo-card" href="#" aria-label="Hyand"><img src="/assets/logos/hyand_logo_rgb_pos.png" alt="Hyand" /></a>
   <a class="partner-logo-card" href="#" aria-label="Solicon-IT"><img src="/assets/logos/solicon-logo-400.png" alt="Solicon-IT" /></a>
   <a class="partner-logo-card" href="#" aria-label="TGC"><img src="/assets/logos/TGC_blue.png" alt="TGC" /></a>
+  <a class="partner-logo-card" href="#" aria-label="Radicle"><img src="/assets/logos/Radicle-red-900-450png.png" alt="Radicle" /></a>
   <!--
-  <a class="partner-logo-card" href="#" aria-label="Partner Logo 5"><span class="partner-logo-placeholder">Partner Logo 5</span></a>
   <a class="partner-logo-card" href="#" aria-label="Partner Logo 6"><span class="partner-logo-placeholder">Partner Logo 6</span></a>
   <a class="partner-logo-card" href="#" aria-label="Partner Logo 7"><span class="partner-logo-placeholder">Partner Logo 7</span></a>
   <a class="partner-logo-card" href="#" aria-label="Partner Logo 8"><span class="partner-logo-placeholder">Partner Logo 8</span></a>
