@@ -107,7 +107,7 @@ members:
          url: "mailto:joerg.doppelreiter@solicon-it.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
-         url: "https://twitter.com/JörgDoppelreiter"  
+         url: "https://twitter.com/JorgDoppelreiter"  
        - label: "Website"
          icon: "fas fa-fw fa-link"
          url: "https://www.solicon-it.com/"
