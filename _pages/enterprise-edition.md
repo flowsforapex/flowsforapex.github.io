@@ -209,7 +209,7 @@ row10:
   <a class="partner-logo-card" href="#" aria-label="Talan">
     <img src="/assets/logos/talan-logo.svg" alt="Talan" />
   </a>
-  <a class="partner-logo-card" href="#" aria-label="Hyand"><img src="/assets/logos/hyand_logo_rgb_pos.png" alt="Hyand" /></a>
+  <a class="partner-logo-card" href="#" aria-label="HyPlus"><img src="/assets/logos/HyPlus_rgb.png" alt="Hyand" /></a>
   <a class="partner-logo-card" href="#" aria-label="Solicon-IT"><img src="/assets/logos/solicon-logo-400.png" alt="Solicon-IT" /></a>
   <a class="partner-logo-card" href="#" aria-label="TGC"><img src="/assets/logos/TGC_blue.png" alt="TGC" /></a>
   <a class="partner-logo-card" href="#" aria-label="Radicle"><img src="/assets/logos/Radicle-red-900-450png.png" alt="Radicle" style="max-height: 100px; max-width: 90%;" /></a>
