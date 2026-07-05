@@ -30,7 +30,7 @@ row0:
        - **Async Task Execution**, allowing long running tasks to run in background processes.
        - **Auto Forms**, allowing non-APEX developers to create simple data input forms declaratively and build simple workflows
 
-      Both editions of Flows for APEX v26.1 will be released during May 2026.
+      Both editions of Flows for APEX v26.1 will be released during July 2026.
     image_path: "/assets/images/ahsp-261-manual-def.png"
     actions: 
       - url: "/Flows4APEX261Features/"
