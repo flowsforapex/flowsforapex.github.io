@@ -200,9 +200,9 @@ dev:
   - title: "Installation Guide"
     url: /dev/installation/
     children:
-      - title: "Installing v25.1"
-        url: /dev/installation_251/
-      - title: "Migration"
+      - title: "Installing v26.1 🆕"
+        url: /dev/installation_261/
+      - title: "Migration 🆕"
         url: /dev/migration/
       - title: "Deinstallation"
         url: /dev/deinstallation/
