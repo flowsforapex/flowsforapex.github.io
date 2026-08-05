@@ -6,13 +6,13 @@ members:
    - name: "Niels de Bruijn"
      bio: >
       Niels has been working with Oracle APEX since its initial public release back in 2004. Together with a team of APEX specialists, Niels is responsible for delivering high-quality APEX projects.<br>
-      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.hyand.com/" target="_blank">apex.hyplus.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
+      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.hyplus-group.com/" target="_blank">apex.hyplus-group.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
       Niels is an Oracle ACE Director and program manager of the developer conference APEX Connect (<a href="https://apex.doag.org/" target="_blank">apex.doag.org</a>).
      image: "/assets/images/nielsdebruijn2.jpg"
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:Niels.deBruijn@hyplus.com"
+         url: "mailto:Niels.deBruijn@hyplus-group.com"
        - label: "Bluesky"
          icon: "fab fa-fw fa-bluesky"
          url: "https://bsky.app/profile/nielsdb.bsky.social"
@@ -45,7 +45,7 @@ members:
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:dennis.amthor@hyplus.com"
+         url: "mailto:dennis.amthor@hyplus-group.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/dennisamthor"
@@ -65,7 +65,7 @@ members:
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:moritz.klein@hyplus.com"
+         url: "mailto:moritz.klein@hyplus-group.com"
        - label: "Bluesky"
          icon: "fab fa-fw fa-bluesky"
          url: "https://bsky.app/profile/sqlmoe.bsky.social"
@@ -80,7 +80,7 @@ members:
      bio: >
          Louis is an Oracle ACE Pro with expertise in Oracle Database development since 2013, and he has been focusing on Oracle APEX since 2017.<br>
          His journey into workflow began when he integrated Camunda into an APEX application, discovering the potential of BPMN workflow engines. In the project, Louis specializes in front-end development and process plug-ins.<br>
-         Currently working as a Senior Developer and Innovation Director for <a href="https://insum.talan.com/" target="_blank">Talan</a>, he has successfully implemented Flows for APEX in over five customer projects.
+         Currently working as a Senior Developer and Tech Lead for <a href="https://insum.talan.com/" target="_blank">Talan</a>, he has successfully implemented Flows for APEX in over five customer projects.
      image: "/assets/images/louismoreaux.jpg"
      links: 
        - label: "Email"

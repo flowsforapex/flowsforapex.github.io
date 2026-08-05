@@ -1,6 +1,6 @@
 Niels:
   name        : "Niels de Bruijn"
-  bio         : "Business Unit Manager@Hyand, Oracle ACE Director"
+  bio         : "Business Unit Manager@HyPlus, Oracle ACE Director"
   avatar      : "/assets/images/nielsdebruijn.jpeg"
   links:
     - label: "Website"
@@ -12,12 +12,9 @@ Niels:
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/nielsdb.bsky.social"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/nielsdb"
 Louis:
   name        : "Louis Moreaux"
-  bio         : "Senior Oracle APEX Developer at Insum, Oracle ACE Pro"
+  bio         : "Senior Oracle APEX Developer at Talan, Oracle ACE Pro"
   avatar      : "/assets/images/louismoreaux.jpg"
   links:
     - label: "Website"
@@ -31,7 +28,7 @@ Louis:
       url: "https://www.linkedin.com/in/louis-moreaux/"
 Richard:
   name        : "Richard Allen"
-  bio         : "Founder and Managing Director at Flowquest Limited"
+  bio         : "Founder and Managing Director at Flowquest Limited.  Oracle ACE Pro"
   avatar      : "/assets/images/richardallen.jpg"
   links:
     - label: "Website"

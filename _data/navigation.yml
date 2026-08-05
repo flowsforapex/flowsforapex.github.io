@@ -3,8 +3,8 @@ main:
     url: /
   - title: "About"
     url: /Flows4APEXFeatures
-  - title: "V25.1 New Features"
-    url: /Flows4APEX251Features
+  - title: "V26.1 New Features"
+    url: /Flows4APEX261Features
   - title: "Documentation"
     url: /latest/getting-started2
   - title: "Blog"
@@ -24,165 +24,6 @@ main:
     url: "https://github.com/sponsors/flowsforapex"
     target: "_blank"
 
-# v25.1 documentation links
-v25.1:
-  - title: Getting started
-    url: /v25.1/getting-started2/
-    children:
-      - title: "Getting started with the Flows for APEX app"
-        url: /v25.1/getting-started-flows-app
-      - title: "Build your First Workflow 🆕"
-        url: /v25.1/starter-workshop/
-      - title: "BPMN Tutorials 🆕"
-        url: /v25.1/bpmn-tutorials/
-      - title: "BPMN Tutorials for Upgraders 🆕"
-        url: /v25.1/bpmn-tutorials-upgraders/
-  - title: "Installation Guide"
-    url: /v25.1/installation/
-    children:
-      - title: "Installing v25.1"
-        url: /v25.1/installation_251/
-      - title: "Migration"
-        url: /v25.1/migration/
-      - title: "Deinstallation"
-        url: /v25.1/deinstallation/
-      - title: "Application Step Key Migration"
-        url: /v25.1/application-step-key-migration/
-      - title: "Upgrading your APEX Environment"
-        url: /v25.1/apex-upgrade/
-  - title: About BPMN
-    url: /v25.1/bpmn/
-    children: 
-      - title: "Activities"
-        url: /v25.1/bpmn-activities/
-      - title: "Tasks"
-        url: /v25.1/tasks/
-      - title: "APEX Page Tasks"
-        url: /v25.1/apex-page-task/
-      - title: "APEX Human Tasks"
-        url: /v25.1/apex-human-task/
-      - title: "APEX Simple Forms"
-        url: /v25.1/apex-simple-form/
-      - title: "PL/SQL Script Tasks"
-        url: /v25.1/script-task/
-      - title: "AI Service Tasks 🆕"
-        url: /v25.1/ai-service-task/
-      - title: "Sub Processes"
-        url: /v25.1/subprocesses/
-      - title: "Call Activities  "
-        url: /v25.1/callActivities/
-      - title: "Multi-Instance Activities"
-        url: /v25.1/iteration-loop-intro/
-      - title: "Gateways"
-        url: /v25.1/gateways/
-      - title: "Events"
-        url: /v25.1/bpmn-events/
-      - title: "Start and Stop Events"
-        url: /v25.1/start-and-stop-events/
-      - title: "Start and Generic (None) Events"
-        url: /v25.1/none-events/
-      - title: "Timer Events"
-        url: /v25.1/timer-events/
-      - title: "Error Events 🆕"
-        url: /v25.1/error-events/
-      - title: "Escalation Events"
-        url: /v25.1/escalation-events/
-      - title: "Message Events"
-        url: /v25.1/message-events/
-      - title: "Terminate Events"
-        url: /v25.1/terminate-events/
-      - title: "Link Events"
-        url: /v25.1/link-events/
-      - title: "Diagram-level Objects 🆕"
-        url: /v25.1/collaborations-processes-lanes/
-      - title : "Configure Participants and Processes 🆕"
-        url: /v25.1/config-participant-and-process/
-      - title: "Configure Lanes"
-        url: /v25.1/config-lanes/
-      - title: "Supported BPMN"
-        url: /v25.1/supported-bpmn/
-  - title: Flows for APEX Concepts
-    url: /v25.1/concepts-and-features/
-    children:
-      - title: "About Subflows 🆕"
-        url: /v25.1/about-subflows/
-      - title: "Task Reservation"
-        url: /v25.1/task-reservation/
-      - title: "Process Variables "
-        url: /v25.1/process-variable/
-      - title: "Variable Expressions"
-        url: /v25.1/variable-expression/
-      - title: "Process Variable Scoping "
-        url: /v25.1/variable-scoping/
-      - title: "Introduction to BPMN Message Flow and Process Collaboration 🆕"
-        url: /v25.1/messageflow-intro/
-      - title: "Message Flow Concepts"
-        url: /v25.1/about-messageflow/  
-      - title: "Message Flow - Message Design"
-        url: /v25.1/messageflow-messages/
-      - title: "Introduction to BPMN Iterations and Loops"
-        url: /v25.1/iteration-loop-intro   
-      - title: "Iterations and Loops Concepts"
-        url: /v25.1/iteration-loop-concepts   
-      - title: "About Timers and Scheduling"
-        url: /v25.1/about-timer-execution/
-      - title: "Model Versioning"
-        url: /v25.1/model-versioning/
-      - title: "Timestamps and Timezones "
-        url: /v25.1/timestamps-and-timezones/
-      - title: "Transaction Model"
-        url: /v25.1/transaction-model/
-      - title: "Logging Philosophy and Lifecycle 🆕"
-        url: /v25.1/logging-philosophy-and-lifecycle/
-  - title: "Best Practice and How To... 🆕"
-    url: /v25.1/how-tos/
-    children:
-      - title: "Set Up App for Flows for APEX 🆕"
-        url: /v25.1/get-component-group/
-      - title: "Integrate with APEX Task List 🆕"
-        url: /v25.1/apex-task-list/
-      - title: "Add a Process Viewer to your App 🆕"
-        url: /v25.1/add-process-viewer/
-      - title: "Using CE MessageFlow"
-        url: /v25.1/using-ce-messageflow/
-      - title: "Using Lanes to Assign Tasks 🆕"
-        url: /v25.1/using-lanes-for-assignment/
-      - title: "How to Implement Complex Approval Cycles 🆕"
-        url: /v25.1/complex-approvals/
-  - title: "Administer a Flows for APEX Instance 🆕"
-    url: /v25.1/admin-guide/
-    children:
-      - title: "Configuration Parameters 🆕"
-        url: /v25.1/configuration/
-      - title: "Configuring Timers"
-        url: /v25.1/about-timer-execution/
-      - title: "Suspending and Resuming a Process 🆕"
-        url: /v25.1/suspend-resume/
-      - title: "Rewinding a Process 🆕"
-        url: /v25.1/rewind/
-      - title: "Event Logging and Auditing 🆕"
-        url: /v25.1/event-logging-and-auditing/
-      - title: "Managing Instance Logging Levels 🆕"
-        url: /v25.1/managing-instance-logging/
-      - title: "Instance Archiving and Purging 🆕"
-        url: /v25.1/instance-archiving-purging/
-  - title: APIs
-    url: /v25.1/apis/
-    children:
-      - title: Workflow Engine API
-        url: /v25.1/api/
-      - title: Process Variable System API
-        url: /v25.1/procvar-api/
-      - title: "REST API "
-        url: /v25.1/rest-api/
-      - title: Workflow Engine Admin API
-        url: /v25.1/admin-api/
-      - title: "Oracle APEX plug-ins 🆕"
-        url: /v25.1/apex-plugins/
-  - title: FAQ
-    url: /v25.1/faq/
-  - title: Other Versions
-    url: /documentation/
 
 # latest documentation links
 latest:
@@ -361,6 +202,166 @@ latest:
         url: /latest/apex-plugins/
   - title: FAQ
     url: /latest/faq/
+  - title: Other Versions
+    url: /documentation/
+    
+# v25.1 documentation links
+v25.1:
+  - title: Getting started
+    url: /v25.1/getting-started2/
+    children:
+      - title: "Getting started with the Flows for APEX app"
+        url: /v25.1/getting-started-flows-app
+      - title: "Build your First Workflow 🆕"
+        url: /v25.1/starter-workshop/
+      - title: "BPMN Tutorials 🆕"
+        url: /v25.1/bpmn-tutorials/
+      - title: "BPMN Tutorials for Upgraders 🆕"
+        url: /v25.1/bpmn-tutorials-upgraders/
+  - title: "Installation Guide"
+    url: /v25.1/installation/
+    children:
+      - title: "Installing v25.1"
+        url: /v25.1/installation_251/
+      - title: "Migration"
+        url: /v25.1/migration/
+      - title: "Deinstallation"
+        url: /v25.1/deinstallation/
+      - title: "Application Step Key Migration"
+        url: /v25.1/application-step-key-migration/
+      - title: "Upgrading your APEX Environment"
+        url: /v25.1/apex-upgrade/
+  - title: About BPMN
+    url: /v25.1/bpmn/
+    children: 
+      - title: "Activities"
+        url: /v25.1/bpmn-activities/
+      - title: "Tasks"
+        url: /v25.1/tasks/
+      - title: "APEX Page Tasks"
+        url: /v25.1/apex-page-task/
+      - title: "APEX Human Tasks"
+        url: /v25.1/apex-human-task/
+      - title: "APEX Simple Forms"
+        url: /v25.1/apex-simple-form/
+      - title: "PL/SQL Script Tasks"
+        url: /v25.1/script-task/
+      - title: "AI Service Tasks 🆕"
+        url: /v25.1/ai-service-task/
+      - title: "Sub Processes"
+        url: /v25.1/subprocesses/
+      - title: "Call Activities  "
+        url: /v25.1/callActivities/
+      - title: "Multi-Instance Activities"
+        url: /v25.1/iteration-loop-intro/
+      - title: "Gateways"
+        url: /v25.1/gateways/
+      - title: "Events"
+        url: /v25.1/bpmn-events/
+      - title: "Start and Stop Events"
+        url: /v25.1/start-and-stop-events/
+      - title: "Start and Generic (None) Events"
+        url: /v25.1/none-events/
+      - title: "Timer Events"
+        url: /v25.1/timer-events/
+      - title: "Error Events 🆕"
+        url: /v25.1/error-events/
+      - title: "Escalation Events"
+        url: /v25.1/escalation-events/
+      - title: "Message Events"
+        url: /v25.1/message-events/
+      - title: "Terminate Events"
+        url: /v25.1/terminate-events/
+      - title: "Link Events"
+        url: /v25.1/link-events/
+      - title: "Diagram-level Objects 🆕"
+        url: /v25.1/collaborations-processes-lanes/
+      - title : "Configure Participants and Processes 🆕"
+        url: /v25.1/config-participant-and-process/
+      - title: "Configure Lanes"
+        url: /v25.1/config-lanes/
+      - title: "Supported BPMN"
+        url: /v25.1/supported-bpmn/
+  - title: Flows for APEX Concepts
+    url: /v25.1/concepts-and-features/
+    children:
+      - title: "About Subflows 🆕"
+        url: /v25.1/about-subflows/
+      - title: "Task Reservation"
+        url: /v25.1/task-reservation/
+      - title: "Process Variables "
+        url: /v25.1/process-variable/
+      - title: "Variable Expressions"
+        url: /v25.1/variable-expression/
+      - title: "Process Variable Scoping "
+        url: /v25.1/variable-scoping/
+      - title: "Introduction to BPMN Message Flow and Process Collaboration 🆕"
+        url: /v25.1/messageflow-intro/
+      - title: "Message Flow Concepts"
+        url: /v25.1/about-messageflow/  
+      - title: "Message Flow - Message Design"
+        url: /v25.1/messageflow-messages/
+      - title: "Introduction to BPMN Iterations and Loops"
+        url: /v25.1/iteration-loop-intro   
+      - title: "Iterations and Loops Concepts"
+        url: /v25.1/iteration-loop-concepts   
+      - title: "About Timers and Scheduling"
+        url: /v25.1/about-timer-execution/
+      - title: "Model Versioning"
+        url: /v25.1/model-versioning/
+      - title: "Timestamps and Timezones "
+        url: /v25.1/timestamps-and-timezones/
+      - title: "Transaction Model"
+        url: /v25.1/transaction-model/
+      - title: "Logging Philosophy and Lifecycle 🆕"
+        url: /v25.1/logging-philosophy-and-lifecycle/
+  - title: "Best Practice and How To... 🆕"
+    url: /v25.1/how-tos/
+    children:
+      - title: "Set Up App for Flows for APEX 🆕"
+        url: /v25.1/get-component-group/
+      - title: "Integrate with APEX Task List 🆕"
+        url: /v25.1/apex-task-list/
+      - title: "Add a Process Viewer to your App 🆕"
+        url: /v25.1/add-process-viewer/
+      - title: "Using CE MessageFlow"
+        url: /v25.1/using-ce-messageflow/
+      - title: "Using Lanes to Assign Tasks 🆕"
+        url: /v25.1/using-lanes-for-assignment/
+      - title: "How to Implement Complex Approval Cycles 🆕"
+        url: /v25.1/complex-approvals/
+  - title: "Administer a Flows for APEX Instance 🆕"
+    url: /v25.1/admin-guide/
+    children:
+      - title: "Configuration Parameters 🆕"
+        url: /v25.1/configuration/
+      - title: "Configuring Timers"
+        url: /v25.1/about-timer-execution/
+      - title: "Suspending and Resuming a Process 🆕"
+        url: /v25.1/suspend-resume/
+      - title: "Rewinding a Process 🆕"
+        url: /v25.1/rewind/
+      - title: "Event Logging and Auditing 🆕"
+        url: /v25.1/event-logging-and-auditing/
+      - title: "Managing Instance Logging Levels 🆕"
+        url: /v25.1/managing-instance-logging/
+      - title: "Instance Archiving and Purging 🆕"
+        url: /v25.1/instance-archiving-purging/
+  - title: APIs
+    url: /v25.1/apis/
+    children:
+      - title: Workflow Engine API
+        url: /v25.1/api/
+      - title: Process Variable System API
+        url: /v25.1/procvar-api/
+      - title: "REST API "
+        url: /v25.1/rest-api/
+      - title: Workflow Engine Admin API
+        url: /v25.1/admin-api/
+      - title: "Oracle APEX plug-ins 🆕"
+        url: /v25.1/apex-plugins/
+  - title: FAQ
+    url: /v25.1/faq/
   - title: Other Versions
     url: /documentation/
 
