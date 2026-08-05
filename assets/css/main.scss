@@ -1,5 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @charset "utf-8";
@@ -16,5 +15,37 @@ html {
 
   @include breakpoint($x-large) {
     font-size: 18px; // change to whatever
+  }
+}
+
+@include breakpoint($medium) {
+  .feature__item--left .archive__item,
+  .feature__item--right .archive__item {
+    display: flex;
+    align-items: center;
+  }
+
+  .feature__item--left .archive__item-teaser,
+  .feature__item--right .archive__item-teaser,
+  .feature__item--left .archive__item-body,
+  .feature__item--right .archive__item-body {
+    float: none;
+    margin-bottom: 0;
+  }
+
+  .feature__item--left .archive__item-teaser,
+  .feature__item--right .archive__item-teaser {
+    flex: 0 0 40.6779661017%;
+    width: 40.6779661017%;
+  }
+
+  .feature__item--left .archive__item-body,
+  .feature__item--right .archive__item-body {
+    flex: 0 0 57.6271186441%;
+    width: 57.6271186441%;
+  }
+
+  .feature__item--right .archive__item {
+    flex-direction: row-reverse;
   }
 }

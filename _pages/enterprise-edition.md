@@ -32,8 +32,8 @@ func-row:
         class: "btn--primary"
         label: "See 26.1 highlights"
   - image_path: /assets/images/async-task-261.png
-    alt: "Support and Confidence"
-    title: "Support and Confidence"
+    alt: "Product Support and Confidence"
+    title: "Product Support and Advice"
     excerpt: "Combine platform capability with responsive product support and annual advisory services to reduce delivery risk and keep process operations stable over time."
     actions:
       - url: "/customer-portal/"
@@ -52,10 +52,6 @@ func-row2:
       - url: "/Flows4APEX251Features/"
         class: "btn--primary"
         label: "Learn more"
-  - image_path: /assets/images/261-temp-auto-form.png
-    alt: "Autoforms"
-    title: "Autoforms"
-    excerpt: "UserTask Autoform and Start Event Autoform will auto-create input forms so that analysts can create simple data collection forms declaratively without APEX development skills."
 svc-row-title:
   - title: "Support for Enterprise Use"
 svc-row:

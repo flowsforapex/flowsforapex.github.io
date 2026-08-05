@@ -36,7 +36,7 @@ row2:
     title: "Async Workflow Execution"
     excerpt: "Push selected long-running work into background async execution for better resilience, improved user experience, and safer orchestration of external services or AI calls."
     actions:
-      - url: "https://flowsforapex.org/dev/async-tasks-and-background-execution/"
+      - url: "https://flowsforapex.org/latest/async-tasks-and-background-execution/"
         target: "_blank"
         class: "btn--primary"
         label: "Learn more"
@@ -50,14 +50,10 @@ row3:
     title: "Developer Improvements"
     excerpt: "Use declarative task subjects, task parameters and JSONPath variable expressions to define cleaner task contracts, simpler data mapping, and more maintainable process applications."
     actions:
-      - url: "https://flowsforapex.org/dev/task-parameters/"
+      - url: "https://flowsforapex.org/latest/task-parameters/"
         target: "_blank"
         class: "btn--primary"
         label: "Learn more"
-  - image_path: /assets/images/261-temp-auto-form.png
-    alt: "Autoforms"
-    title: "Autoforms"
-    excerpt: "UserTask Autoform and Start Event Autoform will auto-create input forms so that analysts can create simple data collection forms declaratively without APEX development skills."
 row4:
   - title: "Enterprise Edition"
     excerpt: >
@@ -67,6 +63,10 @@ row4:
         target: "_blank"
         class: "btn--info"
         label: "Contact us"
+      - url: "https://cal.com/rallen2010/15min"
+        target: "_blank"
+        class: "btn--info"
+        label: "Arrange Introductory Zoom Call"
 ---
 
 {% include feature_row id="row1" type="center" %}

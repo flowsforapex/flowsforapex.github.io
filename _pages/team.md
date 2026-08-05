@@ -6,13 +6,13 @@ members:
    - name: "Niels de Bruijn"
      bio: >
       Niels has been working with Oracle APEX since its initial public release back in 2004. Together with a team of APEX specialists, Niels is responsible for delivering high-quality APEX projects.<br>
-      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.hyand.com/" target="_blank">apex.hyand.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
+      His contributions to the APEX community range from presenting and publishing articles on <a href="https://apex.hyplus-group.com/" target="_blank">apex.hyplus-group.com</a> to initiating and promoting open source solutions like Flows for APEX.<br>
       Niels is an Oracle ACE Director and program manager of the developer conference APEX Connect (<a href="https://apex.doag.org/" target="_blank">apex.doag.org</a>).
      image: "/assets/images/nielsdebruijn2.jpg"
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:Niels.deBruijn@hyand.com"
+         url: "mailto:Niels.deBruijn@hyplus-group.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/nielsdb"
@@ -22,7 +22,7 @@ members:
    - Richard:
      name: "Richard Allen"
      bio: >
-      Richard is the main developer of the Flows for APEX Enterprise Edition, through his company Flowquest Ltd. Richard has been a major contributor to the Flows for APEX project since 2020, and has developed most of the workflow engine.<br>Richard has been working with Oracle database technology since Oracle V4,  including as a consultant in Oracle UK, as the Product Manager / Director responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia. Richard was a member of the Oracle APEX Development team in 2022 and 2023, working on APEX Human Tasks, APEX Workflow and Flows for APEX.
+      Richard is the main developer of the Flows for APEX Enterprise Edition, through his company Flowquest Ltd. Richard has been a major contributor to the Flows for APEX project since 2020, and has developed most of the workflow engine.<br>Richard has been working with Oracle database technology since Oracle V4,  including as a consultant in Oracle UK, as the Product Manager / Director responsible for security in Redwood Shores, and then as a Marketing Director for Oracle in Asia. After leaving Oracle in 1997, he has used APEX to solve business problems in several large business startups in Asia. Richard was a member of the Oracle APEX Development team in 2022 and 2023, working on APEX Human Tasks, APEX Workflow and Flows for APEX.  Richard is an Oracle ACE Pro
      image: "/assets/images/richardallen.jpg"
      links:
        - label: "Email"
@@ -37,12 +37,12 @@ members:
    - Dennis:
      name: "Dennis Amthor"
      bio: >
-      Dennis joined the team after he got his bachelor degree on media informatics in 2021. With his knowledge about JavaScript and other web technologies, and his experience from 1 year with APEX, he is mainly responsible for the BPMN plug-ins and participates on the front-end development of the engine app.
+      Dennis joined the team after graduating in media informatics in 2021. With his knowledge of JavaScript and other web technologies, and his experience from 5 years with APEX, he is mainly responsible for the BPMN plug-ins and participates on the front-end development of the engine app.
      image: "/assets/images/dennisamthor.jpg"
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:dennis.amthor@hyand.com"
+         url: "mailto:dennis.amthor@hyplus-group.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/dennisamthor"
@@ -59,7 +59,7 @@ members:
      links:
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:moritz.klein@hyand.com"
+         url: "mailto:moritz.klein@hyplus-group.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/commi235"
@@ -76,7 +76,7 @@ members:
      links: 
        - label: "Email"
          icon: "fas fa-envelope"
-         url: "mailto:lmoreaux@insum.ca"
+         url: "mailto:louis.moreaux@talan.com"
        - label: "Twitter"
          icon: "fab fa-fw fa-twitter-square"
          url: "https://twitter.com/moreaux_louis"
@@ -87,7 +87,7 @@ members:
      name: "Jörg Doppelreiter"
      bio: >
          Jörg began his APEX journey with version 3.1. After working on customer projects only, he starts to contribute actively in the community in the last years. At APEX Connect 2022 he stumbled upon a Flows for APEX presentation.<br>
-         As this has been a topic in many projects in the daily business at solicon IT he starts to use, support and also contributing to Flows for APEX.
+         As this has been a topic in many projects in the daily business at solicon IT he starts to use, support and also contributing to Flows for APEX.  Jörg is an Oracle ACE Pro.
      image: "/assets/images/jorgdoppelreiter.png"
      links: 
        - label: "Email"

@@ -124,7 +124,9 @@ The migration path in overview is:
 
       To use a service with different name, you will have to open the Flows for APEX application in the APEX Application Builder, navigate to the P7 AI Chatbot Initiation and select your chosen AI service.
 
-   4. To use **UC_AI** with Adhoc Subprocesses, download and install UC_AI from GitHub, configure your vendor and model in the supplied packages. 
+   4. UC_AI.  To use Adhoc SubProcesses with APEX 24.1 or 24.2., you should use the UC_AI package so that you can use a current LLM.  With APOEX 26..1 (as at August 2026) you have access to current models through the APEX_GEN_AI interfaces.  The BPMN diagrams used in the Lost Luggage demo , as shipped, use the UC_AI demo and run/ have been tested with with a current GPT or Claude model.
+   
+   To use **UC_AI** with Adhoc Subprocesses, download and install UC_AI from GitHub, configure your vendor and model in the supplied packages. 
 
    Note: In Flows for APEX v26.1, the Flows for APEX application can use AI in three places:
    - The CE AI Service Task
