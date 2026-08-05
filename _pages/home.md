@@ -86,7 +86,7 @@ row5:
       Sign up for this free event now!
     image_path: "/assets/images/OAPAUG-logo.jpeg"
     actions: 
-      - url: "https://lnkd.in/ebVr4Nw5"
+      - url: "https://us06web.zoom.us/meeting/register/iewe3_nmTaO4yM7IxUxJlw"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign up now'
@@ -154,7 +154,7 @@ row7:
         - Manage Flow Instance Variables: set and get process variables
     image_path: "/assets/images/process-plugins.png"
     actions:
-      - url: "/latest/plugins/"
+      - url: "/latest/apex-plugins/"
         class: "btn--info"
         label: 'Learn More'
 row8:
@@ -166,7 +166,7 @@ row8:
         - to restart steps in error after fixing the issue
     image_path: "/assets/images/dashboard.png"
     actions:
-      - url: "/latest/getting-started"
+      - url: "/monitoring-audit-operations/"
         class: "btn--info"
         label: 'Learn More'
 row9:
