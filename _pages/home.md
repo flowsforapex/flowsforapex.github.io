@@ -68,7 +68,7 @@ row2:
        - Task subjects for clearer, more informative task lists
   
       Whether you’re automating structured processes, managing dynamic cases or exploring agentic AI, discover how Flows for APEX 26.1 takes process automation in Oracle APEX to the next level.
-    image_path: "/assets/images/AOH-261-image-white.png"
+    image_path: "/assets/images/APEXOfficeHours-F4A-261.jpeg"
     actions: 
       - url: "/Flows4APEX261Features/"
         target: "_blank"
